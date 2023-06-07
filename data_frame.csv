@@ -1,0 +1,2 @@
+all_files_data.to_csv('data_frame.csv', index=False)
+print('Data frame written to file.')

@@ -1,0 +1,1291 @@
+# Import necessary libraries
+import pandas as pd
+
+# Upload BMW 330i specs sheet data
+bmw_330i_specs = pd.read_csv('bmw_330i_specs.csv')
+
+# Filter data to focus on engine, suspension, and exhaust-related specifications
+e_specs = bmw_330i_specs[['Engine Type', 'Fuel System', 'Valves', 'Horsepower (hp)', 'Torque (ft-lbs)', 'Gears', 'Front Suspension Type', 'Rear Suspension Type', 'Anti-lock Brakes']]
+
+# Determine ranges for each specification
+valves_range = pd.IntervalIndex.from_breaks([0, 2, 4, 6, 8], closed='left')
+horsepower_range = pd.IntervalIndex.from_breaks([0, 200, 300, 400, 500], closed='left')
+torque_range = pd.IntervalIndex.from_breaks([0, 250, 350, 450, 550], closed='left')
+gears_range = pd.IntervalIndex.from_breaks([3, 4, 5, 6, 7], closed='left')
+
+# Upgrade option categories
+engine_upgrade_options = {'low': ['Cold Air Intake System Air Filter', 'High Performance Air Filter', 'Performance Chips'], 'mid': ['Exhaust Headers', 'High Performance Fuel Pump', 'Performance Camshaft'], 'high': ['Supercharger Kit', 'Turbocharger Kit', 'Nitrous Oxide System']}
+suspension_upgrade_options = {'low': ['Springs', 'Struts and Shocks', 'Sway Bars'], 'mid': ['Coilovers', 'Lift Kits', 'Lowering Kits'], 'high': ['Air Suspension', 'Body Kits', 'Camber Plates']}
+exhaust_upgrade_options = {'low': ['Cat-Back Exhaust Kit', 'Performance Muffler', 'Exhaust Tips'], 'mid': ['Mid-Pipe', 'Long-Tube Headers', 'Down-Pipe'], 'high': ['Turbo-Back Exhaust Kit', 'Header-Back Exhaust Kit', 'Axle-Back Exhaust Kit']} 
+import asyncio
+
+from playwright.sync_api import async_playwright
+
+
+async def get_browser():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=False)
+        context = await browser.new_context()
+        page = await context.new_page()
+        await page.goto("http://www.google.com")
+        await asyncio.sleep(10)
+        await browser.close()
+
+
+asyncio.run(get_browser())
+Engine Performance Upgrades:
+
+Low-priced: Air intake upgrade - $150
+Link: https://www.ecstuning.com/b-ecs-parts/ecs-performance-carbon-fiber-air-intake-system/017261ecs01kt/
+
+Mid-priced: Performance tune - $600
+Link: https://www.turnermotorsport.com/p-230005-tms-by-jb4-performance-tuner-for-2019-bmw-330i-g20/
+
+High-priced: Exhaust upgrade - $2500
+Link: https://www.mishimoto.com/bmw-f30-f32-m-performance-exhaust.html
+
+Suspension Upgrades:
+
+Low-priced: Lowering springs - $245
+Link: https://www.turnermotorsport.com/p-332375-hr-lowering-springs-for-bmw-g20-3-series-330i-and-m340i/
+
+Mid-priced: Coilovers - $1899
+Link: https://www.ecstuning.com/b-ecs-parts/ecs-street-performance-coilover-kit/023047ecs01kt/
+
+High-priced: Air suspension - $4395
+Link: https://www.cargym.com/collections/air-suspension-kits-full/products/airrex-bmw-3-series-e90-e92-pneumatic-air-suspension-kit-with-remote-control
+
+Exhaust System Upgrades:
+
+Low-priced: Axle Back exhaust - $472
+Link: https://www.turnermotorsport.com/p-19191-bsp-axle-back-exhaust-for-2012-bmw-328i-f30-8/
+
+Mid-priced: Cat-back exhaust- $1599
+Link: https://www.ecstuning.com/b-ets-parts/bmw-f3x-335i-435i-n55-performance-cat-back-exhaust/ets_761_n55/
+
+High-priced: Full turbo-back exhaust - $2495
+Link: https://www.borla.com/products/bmw-335i-2012-resonator-turbo-back-exhaust-touring-aircraft-quality-stainless-steel-140633BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tips
+- Previous recommendations regarding the engine:
+  -- Option 1 (Low-priced): Replace the air filter with a performance filter. 
+  -- Option 2 (Mid-priced): Upgrade the cold air intake system to a high-performance cold air intake system. 
+  -- Option 3 (High-priced): Install a turbocharger to the engine to add horsepower. 
+
+- Previous recommendations regarding the suspension:
+  -- Option 1 (Low-priced): Upgrade the shock absorbers to performance shock absorbers. 
+  -- Option 2 (Mid-priced): Install a lowering kit to the car. 
+  -- Option 3 (High-priced): Install coilovers to the car.
+
+- Previous recommendations regarding the exhaust system: 
+  -- Option 1 (Low-priced): Replace the muffler with a high-flow performance muffler. 
+  -- Option 2 (Mid-priced):Install a cat-back exhaust system for better performance. 
+  -- Option 3 (High-priced): Install a full headers and exhaust system for maximum horsepower gains.
+BMW 330i X Drive Spec Sheet
+
+ENGINE:
+- Type: Inline 4-Cylinder
+- Capacity: 2.0 Liters
+- Horsepower: 255 hp
+- Torque: 295 lb-ft
+
+SUSPENSION:
+- Front: Double-pivot type, MacPherson spring strut, aluminum control arms, stabilizer bar
+- Rear: Five-link, fully independent suspension, cast-aluminum upper transverse arms
+
+EXHAUST SYSTEM:
+- Dual tailpipes
+- Chrome-plated exhaust pipes
+BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tipsUpgrades:
+Engine:
+- AFe Power Momentum GT Pro 5R Cold Air Intake: https://www.autoanything.com/air-intakes/afe-momentum-gt-pro-5r-cold-air-intake
+- BMS Intake:  https://www.burgertuning.com/products/bms-intake-for-2020-bmw-g20-g21-330i-xdrive
+
+Suspension:
+- ST Suspension Coilovers:  https://www.stsuspensions.com/products/coilover-kits?make=30&model=143&type=112&utm_source=research&utm_medium=referral&utm_campaign=G20Soldier&utm_content=Controller Kit
+- KW Variant 3 Coilovers https://www.ajmotorworks.com/products/kw-variant-3-coilovers-for-bmw-g20-g21-3-series-xdrive-models-.html
+
+Exhaust:
+- MagnaFlow Exhaust for BMW 330i models w Factory Dual Tip Rear Bumpers https://www.autoanything.com/exhausts-mufflers/magnaflow-exhaust-for-bmw-330i-models-w-factory-dual-tip-rear-bumpers
+- Remus Exhaust https://burgermotorsports.com/products/bms-billet-exhaust-tips-fits-remus-exhaust
+Upgrades:
+Engine:
+- AFe Power Momentum GT Pro 5R Cold Air Intake: https://www.autoanything.com/air-intakes/afe-momentum-gt-pro-5r-cold-air-intake
+- BMS Intake:  https://www.burgertuning.com/products/bms-intake-for-2020-bmw-g20-g21-330i-xdrive
+
+    Suspension:
+- ST Suspension Coilovers:  https://www.stsuspensions.com/products/coilover-kits?make=30&model=143&type=112&utm_source=research&utm_medium=referral&utm_campaign=G20Soldier&utm_content=Controller Kit
+- KW Variant 3 Coilovers https://www.ajmotorworks.com/products/kw-variant-3-coilovers-for-bmw-g20-g21-3-series-xdrive-models-.html
+
+    Exhaust:
+- MagnaFlow Exhaust for BMW 330i models w Factory Dual Tip Rear Bumpers https://www.autoanything.com/exhausts-mufflers/magnaflow-exhaust-for-bmw-330i-models-w-factory-dual-tip-rear-bumpers
+- Remus Exhaust https://burgermotorsports.com/products/bms-billet-exhaust-tips-fits-remus-exhaust
+Make: BMW
+Model: 330i X Drive
+Year: 2022
+Engine: 2.0L 4-cylinder intercooled turbo engine
+Horsepower: 255 hp
+Torque: 295 lb-ft of torque
+Suspension: Front suspension: strut-type; Rear suspension: multi-link. Adaptive M suspension available.
+Exhaust System: Dual exhaust system with twin tailpipesBMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tipsENGINE UPGRADES
+- Low-priced: Air Intake System $117 (https://www.autopartswarehouse.com/air-intake-system/bmw/330i-xdrive/all-submodels/all-years/base/4-cyl-2-dot-0l/kool-vue/kv5900.html)
+- Mid-priced: Dinan D440-0043-ST2 Dinantronics Sport Tuner (https://www.homedepot.com/p/Dinan-D440-0043-ST2-Dinantronics-Sport-Tuner-for-Bmw-2-0L-Twinpower-Turbo-I4-Engine-D440-0043-ST2/314753507)
+- High-priced: Corsa Exhaust (https://www.corsaperformance.com/Exhaust-System-BMW-330i-2019-MF-CAT-BACK-10793-V2.aspx)
+
+SUSPENSION UPGRADES
+- Low-priced: KYB Black Excel-G shocks and struts $414 (https://www.autoanything.com/suspension-systems/kyb-excel-g-shocks-struts)
+- Mid-priced: H&R Sport Lowering Springs $399 (https://www.autoanything.com/suspension-systems/hr-sport-springs)
+- High-priced: KW V3 Coilovers, Variant 3 $2,449 (https://www.autoanything.com/suspension-systems/kw-coilover-shocks)
+
+EXHAUST SYSTEM UPGRADES
+- Low-priced: aFe Power 49-76324-B 3-inch High Tuck DP-Back Exhaust System, Black Tips $1,274 (https://www.anymotive.com/afe-power-4976324b-3-in-high-tuck-dp-back-exhaust-system-black-tips)
+- Mid-priced: Remus Axleback Exhaust for 2019+ 330i/xi $1,099 (https://www.dynamicautowerx.com/remus-axleback-exhaust-for-2019-330i-xi/)
+- High-priced: Akrapovic exhaust system $4,343 (https://www.akrapovic.com/en/car/product/18570/BMW/3-Series-F30-F31-F34-F35/330i)2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engineChrome-plated exhaust tipsInsert car specifications here<!DOCTYPE html>
+  <html class="maestro global-header" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+<meta charset="utf-8" />
+<meta content="noindex, nofollow, noimageindex" name="robots" />
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.EDISON_METRICS_JS_EXECUTION_START = performance.now();
+</script><title>Dropbox - Error - Simplify your life</title>
+<link rel="shortcut icon" href="https://cfl.dropboxstatic.com/static/metaserver/static/images/favicon.ico"/>
+<script nonce="OW+wzga/jsLVgWpklJldByXE3NQ=">window.CSP_SCRIPT_NONCE = "OW+wzga/jsLVgWpklJldByXE3NQ="</script><script nonce="OW+wzga/jsLVgWpklJldByXE3NQ=">window._REPORT_ALL_JS_EXCEPTIONS_ENABLED = false;</script><script nonce="OW+wzga/jsLVgWpklJldByXE3NQ=">(()=>{"use strict";const e=window;let a;const r=()=>{a=[],e.addRequireLoadCallback=e=>a.push(e),e.configureRequire=function(){const a=arguments;e.addRequireLoadCallback(()=>e.configureRequire.apply(null,a))},e.define=function(){const a=arguments;e.addRequireLoadCallback(()=>e.define.apply(null,a))},e.preLoadFile=(...a)=>{e.addRequireLoadCallback(()=>e.preLoadFile.apply(null,a))}};r(),e._insertRequireShim=r,e.InitRequireJs=r=>{e.requireContexts={},e.performance&&null!=e.performance.now&&(requirejs.onResourceLoad=(a,r,i)=>{const l=e.performance.now(),n=e.requireContexts[a.id];if(n){r.id in n.module_callback_times||(n.module_callback_times[r.id]={});const e=n.module_callback_times[r.id];e.loadTime=l,r.url&&(e.url=r.url),r.id&&(e.name=r.id),r.parentMap&&r.parentMap.url&&(e.parent=r.parentMap.url)}}),e.configureRequire=r,e.addRequireLoadCallback=e=>e(),a.forEach(e=>e())}})();
+
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">(function () {
+    var start = performance.now();
+    window.addRequireLoadCallback(function() {
+        window.EDISON_METRICS_REQUIRE_LOAD_CALLBACK_TIME = performance.now() - start;
+    });
+})();
+</script><script nonce="gcx2EfzDaee&#43;pdvTCcYYvlmbdAo=" src="https://cfl.dropboxstatic.com/static/metaserver/static/js/alameda_bundle/alameda_bundle_ie_en-vflDZdWUo.js" crossorigin="anonymous"></script>
+</head><body><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.RUNNING_IN_EDISON = true;
+var requireConfig = {"baseUrl": "https://cfl.dropboxstatic.com/", "waitSeconds": 30, "paths": {"atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c__commonjsHelpers": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c__commonjsHelpers-vfl8VUhv3", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_abuse_funcaptcha_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_abuse_funcaptcha_modal-vflNNXLSJ", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_accessibility_audit": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_accessibility_audit-vfllQK-dH", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_accessibility_ax_audit": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_accessibility_ax_audit-vfl-TBEcL", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_account_timezone_detection": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_account_timezone_detection-vfledNhu0", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_admin_tasks_dropdown_in_progress_admin_tasks": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_admin_tasks_dropdown_in_progress_admin_tasks-vflWm5Hgr", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_adyen-checkout": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_adyen-checkout-vflCi2LsP", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_apex-metrics_src_types": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_apex-metrics_src_types-vflSb7FT3", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_api_util_types": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_api_util_types-vfly51mh_", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_api_v2_default_team_client": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_api_v2_default_team_client-vflb9Phc1", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_auth_login_or_register_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_auth_login_or_register_modal-vflYsSCgt", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_auth_login_or_register_types": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_auth_login_or_register_types-vflVnuIXs", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_bem": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_bem-vflKYzcNe", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_browse_uri_helper": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_browse_uri_helper-vflfEK_-V", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_browser_cookies": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_browser_cookies-vflATv5ul", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_action_choice_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_action_choice_modal-vflH2VRfi", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_banner_campaign_banner": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_banner_campaign_banner-vfl6mAPd0", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_dialog_campaign_dialog": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_dialog_campaign_dialog-vflxqCF8z", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_link_campaign_link": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_link_campaign_link-vflwRlCAQ", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_menu_campaign_menu_item": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_menu_campaign_menu_item-vflis7_tF", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_modal_campaign_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_modal_campaign_modal-vflHVpgn4", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_pulsar_campaign_pulsar": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_pulsar_campaign_pulsar-vflm7BdLN", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_snackbar_campaign_snackbar": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_snackbar_campaign_snackbar-vflYu_rVX", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_tooltip_campaign_tooltip": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaign_formats_tooltip_campaign_tooltip-vflfIQsWS", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_action_defs_api": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_action_defs_api-vflUdNNBE", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_campaign_formats_campaign_format_base": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_campaign_formats_campaign_format_base-vflPXXacp", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_campaigns_toolkit_client": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_campaigns_toolkit_client-vflLgQKi1", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_hooks_logging": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_campaigns_hooks_logging-vfld5-oSt", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_chat_client": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_chat_client-vflH9kNpq", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_dialogue": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_dialogue-vflgssW9d", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_dialogue_logging": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chat_dialogue_logging-vflo7iE-r", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chips_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_chips_index-vflt5zMe9", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_components_dwg-tooltip_control": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_components_dwg-tooltip_control-vflxzVxzU", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_contacts_types": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_contacts_types-vflEKGopd", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_browser_detection": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_browser_detection-vflkf7NI4", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_exception_info": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_exception_info-vfl40eYVZ", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_i18n": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_i18n-vflIt7-Fz", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_notify": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_notify-vflUwei8a", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_toast_toast_on_init": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_toast_toast_on_init-vflMVPlat", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_transport_query_string_helpers": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_transport_query_string_helpers-vflqfWYAV", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_xhr": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_core_xhr-vflbuoj7D", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_csrf": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_csrf-vflIk5-YD", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_custom_campaigns_onboarding_survey_modal_campaign_onboarding_survey_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_custom_campaigns_onboarding_survey_modal_campaign_onboarding_survey_modal-vfl2TfuFK", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_dev_notifier_client": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_dev_notifier_client-vflhzlZd5", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_launcher_launcher_item": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_launcher_launcher_item-vflkoWmU-", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_launcher_launcher_sandbox": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_launcher_launcher_sandbox-vflHmI7Yv", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_panels": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_devtools_panels-vflAZwcSJ", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dialogue_actions_chat_actions": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dialogue_actions_chat_actions-vflHL9Byt", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dialogue_reducers_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dialogue_reducers_index-vflPtux20", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_bowl-empty": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_bowl-empty-vfleRkFe2", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_traffic-duck-crossing": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_traffic-duck-crossing-vflUSDdrJ", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_traffic-road-blocked": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_traffic-road-blocked-vfl1YlluF", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_trash-empty": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_dig-illustrations_spot_trash-empty-vflNVai4O", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_edison_cookies_check": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_edison_cookies_check-vflQK287a", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_form_row_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_form_row_index-vflP94iDs", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_invite_nav_invite_button_invite_button": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_invite_nav_invite_button_invite_button-vflV9Ty9p", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_lodash-es_lodash": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_lodash-es_lodash-vflE36izz", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_marketing_tracker": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_marketing_tracker-vfl1mwp6W", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_mjs_assets_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_mjs_assets_index-vflWjfuPE", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_mjs_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_mjs_index-vflXuOuLM", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ncct_manual_assist_util": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ncct_manual_assist_util-vfltdqQep", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_performance-bookmarklet": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_performance-bookmarklet-vflUYJknY", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_photo_upload_controller": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_photo_upload_controller-vflnuq23B", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_privacy_consent": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_privacy_consent-vflBwpVL5", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_privacy_consent_load_privacy_consent": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_privacy_consent_load_privacy_consent-vfllXc8EU", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_profile_services_profile_services_constants": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_profile_services_profile_services_constants-vflnNMP5J", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_prompt_ui_header_link_or_bubble": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_prompt_ui_header_link_or_bubble-vflfBKxMI", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_prop-types_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_prop-types_index-vflktsYFR", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_redux_unsupported": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_redux_unsupported-vfl6IRrTX", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_crypto": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_crypto-vflzPtA8S", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_legacy_edge_shim": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_legacy_edge_shim-vfl5rIeZM", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_passwords": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_security_passwords-vflvDQ8M6", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_server_side_client_view_bridge": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_server_side_client_view_bridge-vflp5nklC", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_spectrum_modal_utility_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_spectrum_modal_utility_modal-vflY5NP3J", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_spectrum_popover_popover_trigger": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_spectrum_popover_popover_trigger-vflfzwEcp", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_src_sink_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_src_sink_index-vflQnFlii", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_src_types_index": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_src_types_index-vflTpPc85", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_teams_idle_timeout_pagelet": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_teams_idle_timeout_pagelet-vflqzvwMw", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_tslib": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_tslib-vflxqTVaV", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_billing_modal_campaign_billing_modal": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_billing_modal_campaign_billing_modal-vflkVyuJj", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_bubble_dropdown_v2": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_bubble_dropdown_v2-vfl3pi8K_", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_overlay": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ui_overlay-vflzOH40a", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_notifications_group_actions": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_notifications_group_actions-vflXD4Brc", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_notifications_sharing_actions": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_notifications_sharing_actions-vfl9RFbX_", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_survey": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_user_survey-vfln_GSHe", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_async_ux_variants": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_async_ux_variants-vfl8kTDxh", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_dispatch_custom_event": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_dispatch_custom_event-vflRXN_SX", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_styles_devtools": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_styles_devtools-vfl5Paraa", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_ux_variants": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_ux_analytics_ux_variants-vflsa5uQF", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_uxa_pagelet": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_uxa_pagelet-vflVX-9SE", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_widgets_update_billing_modal_update_billing_modal_loader": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_widgets_update_billing_modal_update_billing_modal_loader-vfl-vTw6W", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_zxcvbn_lib_main": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/c_zxcvbn_lib_main-vflA4fVGT", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception-vflFTEHv0", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception_reporter": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception_reporter-vfl5Rj62J", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison-vflz87h-F", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_error_pages_generic_error": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_error_pages_generic_error-vflX-RLyR", "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_init_edison_page": "static/atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_init_edison_page-vflU1dCND", "js/langpack/icu-en.json": "static/js/langpack/icu-en.json?19507.0"}, "bundles": {}, "map": {"*": {"metaserver/static/js/modules/core/langpack": "json_loader!js/langpack/icu-en.json", "metaserver/static/js/file_viewer/edison/error_pages/generic_error": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_error_pages_generic_error", "js/edison/edison": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison", "metaserver/static/js/edison/init_edison_page": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_init_edison_page", "metaserver/static/js/core/exception": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception", "metaserver/static/js/core/exception_reporter": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception_reporter", "metaserver/static/js/modules/constants/ajax_strings": "data_module!metaserver/static/js/modules/constants/ajax_strings", "metaserver/static/js/modules/constants/auth": "data_module!metaserver/static/js/modules/constants/auth", "metaserver/static/js/modules/constants/campaigns_orchestration": "data_module!metaserver/static/js/modules/constants/campaigns_orchestration", "metaserver/static/js/modules/constants/contacts": "data_module!metaserver/static/js/modules/constants/contacts", "metaserver/static/js/modules/constants/dropins": "data_module!metaserver/static/js/modules/constants/dropins", "metaserver/static/js/modules/constants/env": "data_module!metaserver/static/js/modules/constants/env", "metaserver/static/js/modules/constants/files_spa": "data_module!metaserver/static/js/modules/constants/files_spa", "metaserver/static/js/modules/constants/fingerprintjs_constants": "data_module!metaserver/static/js/modules/constants/fingerprintjs_constants", "metaserver/static/js/modules/constants/locales": "data_module!metaserver/static/js/modules/constants/locales", "metaserver/static/js/modules/constants/login_and_register": "data_module!metaserver/static/js/modules/constants/login_and_register", "metaserver/static/js/modules/constants/page_load": "data_module!metaserver/static/js/modules/constants/page_load", "metaserver/static/js/modules/constants/payments": "data_module!metaserver/static/js/modules/constants/payments", "metaserver/static/js/modules/constants/request": "data_module!metaserver/static/js/modules/constants/request", "metaserver/static/js/modules/constants/search": "data_module!metaserver/static/js/modules/constants/search", "metaserver/static/js/modules/constants/sharing": "data_module!metaserver/static/js/modules/constants/sharing", "metaserver/static/js/modules/constants/time": "data_module!metaserver/static/js/modules/constants/time", "metaserver/static/js/modules/constants/trademark": "data_module!metaserver/static/js/modules/constants/trademark", "metaserver/static/js/modules/constants/viewer": "data_module!metaserver/static/js/modules/constants/viewer", "metaserver/static/js/modules/constants/webtiming": "data_module!metaserver/static/js/modules/constants/webtiming"}, "metaserver/static/js/core/exception_info": {"metaserver/static/js/modules/core/langpack": "json_loader!js/langpack/icu-en.json", "metaserver/static/js/file_viewer/edison/error_pages/generic_error": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_error_pages_generic_error", "js/edison/edison": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison", "metaserver/static/js/edison/init_edison_page": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_edison_init_edison_page", "metaserver/static/js/core/exception": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception", "metaserver/static/js/core/exception_reporter": "atlas/file_viewer/shared_link_generic_error_bundle_amd/dist/e_core_exception_reporter", "metaserver/static/js/modules/constants/ajax_strings": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/ajax_strings", "metaserver/static/js/modules/constants/auth": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/auth", "metaserver/static/js/modules/constants/campaigns_orchestration": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/campaigns_orchestration", "metaserver/static/js/modules/constants/contacts": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/contacts", "metaserver/static/js/modules/constants/dropins": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/dropins", "metaserver/static/js/modules/constants/env": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/env", "metaserver/static/js/modules/constants/files_spa": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/files_spa", "metaserver/static/js/modules/constants/fingerprintjs_constants": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/fingerprintjs_constants", "metaserver/static/js/modules/constants/locales": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/locales", "metaserver/static/js/modules/constants/login_and_register": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/login_and_register", "metaserver/static/js/modules/constants/page_load": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/page_load", "metaserver/static/js/modules/constants/payments": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/payments", "metaserver/static/js/modules/constants/request": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/request", "metaserver/static/js/modules/constants/search": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/search", "metaserver/static/js/modules/constants/sharing": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/sharing", "metaserver/static/js/modules/constants/time": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/time", "metaserver/static/js/modules/constants/trademark": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/trademark", "metaserver/static/js/modules/constants/viewer": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/viewer", "metaserver/static/js/modules/constants/webtiming": "unreadable_jsconst_loader!metaserver/static/js/modules/constants/webtiming"}}, "shim": {}, "nodeIdCompat": true};
+window.addRequireLoadCallback(function() {
+    window.configureRequire(requireConfig, {
+        reusingContext: true,
+        requireFallbackBaseUrl: "https://www.dropboxstatic.com/",
+        langpack: {locale: "en", pageLoadServerTimestamp: 1685606034 },
+    }, []);
+    window.edisonExceptionContext = {
+        exceptionExtras: {"page_repo_rev":"fd146af324672780a25eaa02ab3b7d49b9a3426d","yaps_deployment":"canary","yaps_project":"edison_atlasservlet.file_viewer-edison","user_locale":"en","page_load_timestamp":1685606034,"sessionId":"7450989362336068463419923673906131682"},
+        tags: ["is_edison","edison_page_name:shared_link_generic_error","edison_atlasservlet:file_viewer","edison_atlasservlet:file_viewer:canary"],
+    };
+    var start = performance.now();
+    window.require(["metaserver/static/js/edison/init_edison_page"], function(mod) {
+        window.EDISON_METRICS_INIT_PAGE_MODULE_LOAD_TIME = performance.now() - start;
+        mod.initPage("EgtmaWxlX3ZpZXdlchoZc2hhcmVkX2xpbmtfZ2VuZXJpY19lcnJvcjI3L3MvcTZqdXhqN2hodDZ5NDlkLzIwMjEgQk1XIDMzMGkgWCBEcml2ZSBTcGVjIFNoZWV0LnBkZkoHZHdzLkR3c1IQc2hhcmVkX2xpbmtfZmlsZWIoZmQxNDZhZjMyNDY3Mjc4MGEyNWVhYTAyYWIzYjdkNDliOWEzNDI2ZGooMGI1ZmU0YTRmMWU1NGNhOGU3Nzk5NGU3NzYxNzAzYWUzNTg3ZTQ2N3ABegZjYW5hcnmKAQNhbWSyAQkvZHdzMi9ycGPKAUFtZXRhc2VydmVyL3N0YXRpYy9qcy9maWxlX3ZpZXdlci9lZGlzb24vZXJyb3JfcGFnZXMvZ2VuZXJpY19lcnJvcuIBX2h0dHBzOi8vd3d3LmRyb3Bib3guY29tL3MvcTZqdXhqN2hodDZ5NDlkLzIwMjElMjBCTVclMjAzMzBpJTIwWCUyMERyaXZlJTIwU3BlYyUyMFNoZWV0LnBkZj9kbD0x8AEB");
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+
+
+  window.require(
+    ["js/edison/edison", "metaserver/static/js/file_viewer/edison/error_pages/generic_error"],
+    function(edisonModule, mod) {
+      edisonModule.Edison.waitUntilInitialized().then(function() {
+        edisonModule.Edison.render(mod, false , "");
+      });
+    }
+  );
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/search", "json", "{\"SEARCH_WEB_MAIN_KIEV_ENABLED\": false, \"UNIFIED_SEARCH_VARIANT\": \"OFF\", \"SEARCH_EXPERIMENT_ZERO_STATE_DROPDOWN_VARIANT\": \"OFF\", \"SEARCH_WEB_ENABLE_ADVANCED_SEARCH_OPERATORS\": false, \"FILE_REQUESTS_REACT_QUERY_ENABLED\": false, \"SEARCH_INPUT_CVC_MEASUREMENTS_ENABLED\": false}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/ajax_strings", "json", "{\"PROBLEM_COMPLETING_REQUEST\": \"There was a problem completing this request.\", \"STILL_WORKING\": \"Still working...\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/viewer", "json", "{\"DEFAULT_ROOT_NAME\": \"Dropbox\", \"PERSONAL_ROLE_STRING\": \"Personal\", \"_viewer_properties\": {\"_user_data\": [], \"_additional_linked_users_data\": [], \"is_team_assume_user_session\": false, \"is_assume_user_session\": false}, \"prompt_ha_hiding\": true, \"LOCALE\": \"US\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/auth", "json", "{}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/env", "json", "{\"BATCH_THUMB_ENDPOINTS\": [], \"LIVE_TRANSCODE_SERVER\": \"showbox-tr.dropbox.com\", \"STATIC_CONTENT_HOST\": \"cfl.dropboxstatic.com\", \"NOTES_WEBSERVER\": \"paper.dropbox.com\", \"REDIRECT_SAFE_ORIGINS\": [\"www.dropbox.com\", \"dropbox.com\", \"api.dropboxapi.com\", \"api.dropbox.com\", \"linux.dropbox.com\", \"photos.dropbox.com\", \"carousel.dropbox.com\", \"client-web.dropbox.com\", \"services.pp.dropbox.com\", \"www.dropbox.com\", \"docsend.com\", \"paper.dropbox.com\", \"notes.dropbox.com\", \"test.composer.dropbox.com\", \"showcase.dropbox.com\", \"collections.dropbox.com\", \"embedded.hellosign.com\", \"help.dropbox.com\", \"help-stg.dropbox.com\", \"experience.dropbox.com\", \"experience-stg.dropbox.com\", \"dropbox.tech\", \"dropbox-stg.tech\", \"blog.dropbox.com\", \"blog-stg.dropbox.com\", \"brandpartners.dropbox.com\", \"brandpartners-stg.dropbox.com\", \"learn.dropbox.com\", \"learn-stage.dropbox.com\", \"www.docsend.com\", \"www.hellosign.com\", \"www.remotely-curious.com\", \"capture.dropbox.com\", \"learn.dropbox.com\", \"app.hellosign.com\", \"replay.dropbox.com\", \"capture.dropbox.com\", \"video.dropbox.com\", \"db.tt\", \"dropboxapi.com\", \"dropboxcaptcha.com\", \"dropbox.com\", \"dropboxstatic.com\", \"getdropbox.com\", \"paper.dropbox.com\", \"app.hellosign.com\", \"getdropbox.com\", \"dropboxbusiness.com\", \"formswift.com\", \"dropboxforums.com\", \"dropboxforum.com\", \"www.dropboxforum.com\", \"dropboxinsiders.com\", \"consent.dropbox.com\", \"dropboxpartners.com\", \"addtodropbox.com\", \"dropbox.zendesk.com\", \"dropboxteam.com\", \"dropbox-dns.com\", \"dropboxmail.com\", \"dropbox-api.arkoselabs.com\", \"aem.dropbox.com\", \"assets.dropbox.com\", \"replay.dropbox.com\", \"video.dropbox.com\", \"a.sprig.com\"], \"PROF_SHARING_WEBSERVER\": \"showcase.dropbox.com\", \"FINGERPRINTJS_SERVER\": \"anti-abuse.dropboxstatic.com\", \"FINGERPRINTJS_EU_SERVER\": \"eu.dropboxfingerprintjs.com\", \"FINGERPRINTJS_AP_SERVER\": \"ap.dropboxfingerprintjs.com\", \"FUNCAPTCHA_SERVER\": \"dropboxcaptcha.com\", \"PAYPAL_SDK_DROPBOX_SERVER\": \"paypal-sdk-dropbox.com\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/locales", "json", "{\"LIST_OF_LOCALES_WITH_INTERNAL\": [{\"localeCode\": \"id\", \"localeName\": \"Bahasa Indonesia\", \"decorator\": \"\"}, {\"localeCode\": \"ms\", \"localeName\": \"Bahasa Malaysia\", \"decorator\": \"\"}, {\"localeCode\": \"da_DK\", \"localeName\": \"Dansk\", \"decorator\": \"\"}, {\"localeCode\": \"de\", \"localeName\": \"Deutsch\", \"decorator\": \"\"}, {\"localeCode\": \"en_GB\", \"localeName\": \"English (United Kingdom)\", \"decorator\": \"\"}, {\"localeCode\": \"en\", \"localeName\": \"English (United States)\", \"decorator\": \"\"}, {\"localeCode\": \"es_ES\", \"localeName\": \"Espa\\u00f1ol (Espa\\u00f1a)\", \"decorator\": \"\"}, {\"localeCode\": \"es\", \"localeName\": \"Espa\\u00f1ol (Latinoam\\u00e9rica)\", \"decorator\": \"\"}, {\"localeCode\": \"fr\", \"localeName\": \"Fran\\u00e7ais\", \"decorator\": \"\"}, {\"localeCode\": \"it\", \"localeName\": \"Italiano\", \"decorator\": \"\"}, {\"localeCode\": \"nl_NL\", \"localeName\": \"Nederlands\", \"decorator\": \"\"}, {\"localeCode\": \"nb_NO\", \"localeName\": \"Norsk (bokm\\u00e5l)\", \"decorator\": \"\"}, {\"localeCode\": \"pl\", \"localeName\": \"Polski\", \"decorator\": \"\"}, {\"localeCode\": \"pt_BR\", \"localeName\": \"Portugu\\u00eas (Brasil)\", \"decorator\": \"\"}, {\"localeCode\": \"ru\", \"localeName\": \"P\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439\", \"decorator\": \"\"}, {\"localeCode\": \"sv_SE\", \"localeName\": \"Svenska\", \"decorator\": \"\"}, {\"localeCode\": \"uk_UA\", \"localeName\": \"\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430\", \"decorator\": \"\"}, {\"localeCode\": \"th_TH\", \"localeName\": \"\\u0e44\\u0e17\\u0e22\", \"decorator\": \"\"}, {\"localeCode\": \"zh_CN\", \"localeName\": \"\\u4e2d\\u6587\\uff08\\u7b80\\u4f53\\uff09\", \"decorator\": \"\"}, {\"localeCode\": \"zh_TW\", \"localeName\": \"\\u4e2d\\u6587\\uff08\\u7e41\\u9ad4\\uff09\", \"decorator\": \"\"}, {\"localeCode\": \"ja\", \"localeName\": \"\\u65e5\\u672c\\u8a9e\", \"decorator\": \"\"}, {\"localeCode\": \"ko\", \"localeName\": \"\\ud55c\\uad6d\\uc5b4\", \"decorator\": \"\"}], \"LIST_OF_LOCALES_WITHOUT_INTERNAL\": [{\"localeCode\": \"id\", \"localeName\": \"Bahasa Indonesia\", \"decorator\": \"\"}, {\"localeCode\": \"ms\", \"localeName\": \"Bahasa Malaysia\", \"decorator\": \"\"}, {\"localeCode\": \"da_DK\", \"localeName\": \"Dansk\", \"decorator\": \"\"}, {\"localeCode\": \"de\", \"localeName\": \"Deutsch\", \"decorator\": \"\"}, {\"localeCode\": \"en_GB\", \"localeName\": \"English (United Kingdom)\", \"decorator\": \"\"}, {\"localeCode\": \"en\", \"localeName\": \"English (United States)\", \"decorator\": \"\"}, {\"localeCode\": \"es_ES\", \"localeName\": \"Espa\\u00f1ol (Espa\\u00f1a)\", \"decorator\": \"\"}, {\"localeCode\": \"es\", \"localeName\": \"Espa\\u00f1ol (Latinoam\\u00e9rica)\", \"decorator\": \"\"}, {\"localeCode\": \"fr\", \"localeName\": \"Fran\\u00e7ais\", \"decorator\": \"\"}, {\"localeCode\": \"it\", \"localeName\": \"Italiano\", \"decorator\": \"\"}, {\"localeCode\": \"nl_NL\", \"localeName\": \"Nederlands\", \"decorator\": \"\"}, {\"localeCode\": \"nb_NO\", \"localeName\": \"Norsk (bokm\\u00e5l)\", \"decorator\": \"\"}, {\"localeCode\": \"pl\", \"localeName\": \"Polski\", \"decorator\": \"\"}, {\"localeCode\": \"pt_BR\", \"localeName\": \"Portugu\\u00eas (Brasil)\", \"decorator\": \"\"}, {\"localeCode\": \"ru\", \"localeName\": \"P\\u0443\\u0441\\u0441\\u043a\\u0438\\u0439\", \"decorator\": \"\"}, {\"localeCode\": \"sv_SE\", \"localeName\": \"Svenska\", \"decorator\": \"\"}, {\"localeCode\": \"uk_UA\", \"localeName\": \"\\u0423\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430\", \"decorator\": \"\"}, {\"localeCode\": \"th_TH\", \"localeName\": \"\\u0e44\\u0e17\\u0e22\", \"decorator\": \"\"}, {\"localeCode\": \"zh_CN\", \"localeName\": \"\\u4e2d\\u6587\\uff08\\u7b80\\u4f53\\uff09\", \"decorator\": \"\"}, {\"localeCode\": \"zh_TW\", \"localeName\": \"\\u4e2d\\u6587\\uff08\\u7e41\\u9ad4\\uff09\", \"decorator\": \"\"}, {\"localeCode\": \"ja\", \"localeName\": \"\\u65e5\\u672c\\u8a9e\", \"decorator\": \"\"}, {\"localeCode\": \"ko\", \"localeName\": \"\\ud55c\\uad6d\\uc5b4\", \"decorator\": \"\"}]}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/page_load", "json", "{\"COUNTRY_OVERRIDE\": \"\", \"PUBLIC_MODE_OVERRIDE\": null, \"REPO_REV\": \"f93e386a9d68ac29e15cb53347171bfd53a5993e\", \"HOSTNAME\": \"atlas-data-modules-live-prod-iad-54f6988d4-qsp6x\", \"YAPS_DEPLOYMENT\": \"canary\", \"YAPS_PROJECT\": \"edison_atlasservlet.file_viewer-edison\", \"PAGE_LOCALE\": \"en\", \"SESSION_ID\": \"7450989362336068463419923673906131682\", \"IS_SELENIUM_TEST\": false}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/request", "json", "{\"LOGGED_OUT_X_DROPBOX_UID\": -1, \"IS_HTTP2\": true, \"PAGE_LOAD_TIME\": 1685606034, \"REQUEST_ID\": \"ebb44ad9e87a4286a82ba269db19e24c\", \"REQUEST_START_TIME\": 1685606034119, \"REQUEST_TRACING_ENABLED\": false}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/time", "json", "{\"DATETIME_FORMAT\": \"M/d/yyyy h:mm a\", \"TIMEZONE_OFFSET\": 0, \"TIMEZONE\": \"\", \"DATE_FORMAT\": \"M/d/yyyy\", \"TIME_FORMAT\": \"h:mm a\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/login_and_register", "json", "{\"GOOGLE_LOGIN_DESKTOP\": \"ON_TOP\", \"APPLE_LOGIN_DESKTOP\": \"ON\", \"REDIRECT_WINDOW_TOKEN\": \"AZ0fYmeesoxkFrj40RtVVtnaB6BsqOv2eoheAAdJAc3Org\", \"FUNCAPTCHA_PUBLIC_KEY\": \"419899FA-7FAF-5C1D-C027-BC34963E3A4F\", \"SHOULD_LOAD_FUNCAPTCHA\": true, \"FUNCAPTCHA_REGISTER_PUBLIC_KEY\": \"68CECE5D-F360-8653-CA80-3CF99353DDD2\", \"FUNCAPTCHA_PAYMENT_PUBLIC_KEY\": \"8AFFAA35-0217-4EF9-83C8-C62CF9EBCFB3\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/trademark", "json", "{\"TRADEMARK_BASIC\": \"Basic\", \"TRADEMARK_FAMILY\": \"Family\", \"TRADEMARK_PLUS\": \"Plus\", \"TRADEMARK_PROFESSIONAL\": \"Professional\", \"TRADEMARK_VAULT\": \"Vault\", \"TRADEMARK_TRANSFER\": \"Transfer\", \"TRADEMARK_SYNC_EVERYTHING\": \"Backup\", \"TRADEMARK_BUSINESS_LEGACY\": \"Legacy\", \"TRADEMARK_BUSINESS_STANDARD\": \"Standard\", \"TRADEMARK_BUSINESS_ADVANCED\": \"Advanced\", \"TRADEMARK_BUSINESS_ENTERPRISE\": \"Enterprise\", \"DROPBOX_BASIC\": \"Dropbox Basic\", \"DROPBOX_PLUS\": \"Dropbox Plus\", \"DROPBOX_FAMILY\": \"Dropbox Family\", \"DROPBOX_PROFESSIONAL\": \"Dropbox Professional\", \"DROPBOX_VAULT\": \"Dropbox Vault\", \"DROPBOX_TRANSFER\": \"Dropbox Transfer\", \"DROPBOX_SYNC_EVERYTHING\": \"Dropbox Backup\", \"TRADEMARK_BUSINESS\": \"Dropbox Business\", \"DROPBOX_ENTERPRISE\": \"Dropbox Enterprise\", \"DROPBOX_BUSINESS_LEGACY\": \"Dropbox Business Legacy\", \"DROPBOX_BUSINESS_STANDARD\": \"Dropbox Business Standard\", \"DROPBOX_BUSINESS_ADVANCED\": \"Dropbox Business Advanced\", \"DROPBOX_PAPER\": \"Dropbox\\u00a0Paper\", \"PROFESSIONAL_SHARING\": \"Showcase\", \"TRADEMARK_PASSWORDS\": \"Passwords\", \"DROPBOX_PASSWORDS\": \"Dropbox Passwords\", \"DROPBOX_HS_DBX_PRO_BUNDLE\": \"Dropbox Professional + eSign\", \"TRADEMARK_HS_DBX_PRO_BUNDLE\": \"Professional + eSign\", \"HELLOSIGN\": \"Dropbox Sign\", \"TRADEMARK_DS_DBX_TEAM_BUNDLE\": \"Standard + DocSend\", \"DROPBOX_DS_DBX_TEAM_BUNDLE\": \"Dropbox Business Standard + DocSend\", \"DOCSEND\": \"DocSend\", \"TRADEMARK_BASIC_EXTRA\": \"Basic Extra\", \"DROPBOX_BASIC_EXTRA\": \"Dropbox Basic Extra\", \"DROPBOX_ONE\": \"Dropbox One\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/webtiming", "json", "{\"LOG_TIMING_DELAY\": false, \"LOG_BROWSER_PERFORMANCE_INFO\": true}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/files_spa", "json", "{\"USE_REACT_ROUTER_FOR_VIDEO_HOME\": false, \"BROWSE_USE_REACT_ROUTER_V6\": false, \"USE_SPA_FRAMEWORK_SHARED_FOLDER\": false, \"LOGGED_OUT_SHARED_FOLDER_REDESIGN\": false, \"USE_MAF_FOR_FILES_APP\": false, \"USE_FOR_YOU_PAGE\": false, \"USE_RR_FOR_PREVIEW_STANDALONE\": false, \"USE_REACT_ROUTER_FOR_FAMILY_ROOM\": false, \"TTVC_SYNTHETIC_RENDER\": \"OFF\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/campaigns_orchestration", "json", "{\"CAMPAIGNS_ORCHESTRATION_CLIENT_ROLLOUT\": true}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/contacts", "json", "{\"LEGACY_CACHE_LIMIT\": \"OFF\", \"MERGE_SEARCH_ALLOWED\": {}}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/sharing", "json", "{\"GOLDEN_GATE\": {\"HAS_CONTENT_MANAGER_AND_SUPER_ADMIN\": {}, \"HAS_CONTENT_MANAGER_CDM\": {}, \"HAS_CONTENT_MANAGER_CDM_IN_TSD\": {}, \"HAS_NEW_OWNERSHIP_MODEL\": {}, \"CAN_RESTORE_FOLDERS_IN_CM\": {}, \"SHARING_TOTAL_LIMIT\": 1000}, \"SHARING_EXPERIMENTS\": {\"FIX_MAX_ACCOUNT_BATCH_SIZE\": false, \"USER_LEVEL_SHARING_SETTINGS\": \"OFF\"}, \"SHARING_MODAL\": {\"SHOW_UPGRADE_TO_BIZ_BANNER\": {}}, \"TRUELINK\": {\"TRUELINK_BROWSE_LINK_ICON\": {}, \"NO_COMMENT_ENABLED\": {}}, \"ShareTibActionOriginType\": {\"BROWSE_FILE_ROW\": 1, \"FILE_ROW_SHARE_MENU\": 2, \"PREVIEW_PAGE\": 3, \"NOTIFICATION_WEB\": 4, \"RECENTS\": 5, \"SHARE\": 6, \"GRANT_ACCESS\": 8, \"DESKTOP_CLIENT\": 9, \"WIZARD\": 10, \"OFFICE_INTEGRATION\": 11, \"LEGACY_BROWSE\": 12, \"SHARE_LINK_MODAL\": 13, \"BROWSE_SHARED_FOLDER_BANNER\": 14, \"BROWSE_GLOBAL_ACTIONS\": 15, \"EVENTS_PAGE\": 16, \"BROWSE_FILE_ACTIONS\": 17, \"CONTENT_MANAGER\": 18, \"PARENT_FOLDER_MODAL\": 19, \"OUT_OF_QUOTA_MODAL\": 20, \"LINKS_PAGE\": 21, \"PREVIEW_PAGE_FACEPILE\": 22, \"BROWSE_FILE_FACEPILE\": 23, \"SHARE_PAGE_FROM_EMAIL\": 24, \"SHARE_PAGE_FROM_NOTIFICATION_WEB\": 25, \"COPY_SCL_LINK_MODAL\": 26, \"BROWSE_NEW_FOLDER_MODAL\": 27, \"STARRED\": 28, \"AUTO_MOUNT\": 29, \"BROWSE_FILE_ROW_BUTTON\": 30, \"BROWSE_FILE_ROW_OVERFLOW_MENU\": 31, \"EXTERNAL_SHARING_PAGE\": 32, \"SHARE_TO_UPLOAD\": 35, \"COPY_LINK_FROM_UPLOAD_MODAL\": 36, \"SHARING_PREVIEW_PAGE\": 37, \"SHARE_PAGE_INLINE\": 38, \"POST_DOWNLOAD_MODAL\": 40, \"FILE_REQUESTS\": 42, \"BROWSE_COPY_ACTION\": 43, \"BROWSE_MOVE_ACTION\": 44, \"FROM_EMAIL\": 45, \"REQUEST_ACCESS_MODAL\": 46, \"CREATE_SHARED_FOLDER_MODAL\": 47, \"DEFAULT_SHARING_SETTINGS_TAB\": 48, \"SAVE_TO_DROPBOX\": 49, \"PREVIEW_PAGE_FILE_ROW_OVERFLOW_MENU\": 50, \"PREVIEW_PAGE_FILE_ROW_BUTTON\": 51, \"JOIN_FOLDER_BUTTON\": 52, \"COPY_DOWNLOAD_DROPDOWN_BUTTON\": 53, \"HARMONY\": 101, \"NOTIFICATION_CLIENT\": 102, \"NATIVE_SHARE_CLIENT\": 103, \"FILESYSTEM\": 104, \"NOTIFICATION_MOBILE\": 201, \"WEB_MOBILE\": 202, \"IN_APP\": 210, \"EMAIL\": 301, \"GMAIL_PLUGIN\": 302, \"OUTLOOK_ADDIN\": 303, \"PAPER_INTEGRATION\": 401, \"GOOGLE_DSS\": 501, \"TRELLO_FILE_VIEWER\": 601, \"SHARING_SDK_SANDBOX\": 700, \"SHARING_SDK_PAPER\": 701, \"SHARING_SDK_DESKTOP\": 702, \"CONTROLLED_ACCESS_SU_BANNER\": 803, \"UPLOAD_BUTTON\": 804, \"UPLOAD_JOIN_FOLDER_MODAL\": 805, \"UPLOAD_SNACKBAR\": 806, \"COLLECTIONS\": 903}}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/dropins", "json", "{\"CHOOSER_APP_KEY\": \"a1gk45gxjylc840\", \"TRELLO_INTEGRATION_CHOOSER_APP_KEY\": \"sm4u23pmc6i2now\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/fingerprintjs_constants", "json", "{\"FINGERPRINTJS_TOKEN\": \"hSrgVEjs3amxLolocQ18\", \"SHOULD_INVOKE_FINGERPRINTJS\": true, \"REGION\": \"us\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.registerStreamedDataModule("metaserver/static/js/modules/constants/payments", "json", "{\"BUY_URL\": \"/buy\", \"LOW_SPACE_URL\": \"/low-space\", \"OVERQUOTA_OFFER_URL\": \"/overquota_offer\", \"OUT_OF_SPACE_URL\": \"/out-of-space\"}");
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=">window.addRequireLoadCallback(function() {
+    window.require(["js/edison/edison"], function (edisonModule) {
+        edisonModule.Edison.waitUntilInitialized().then(function() {
+            edisonModule.Edison.doneStreaming();
+        });
+    });
+});
+</script><script nonce="OW&#43;wzga/jsLVgWpklJldByXE3NQ=" async src="/page_success/end?edison_page_name=shared_link_generic_error&amp;path=%2Fs%2Fq6juxj7hht6y49d%2F2021&#43;BMW&#43;330i&#43;X&#43;Drive&#43;Spec&#43;Sheet.pdf&amp;request_id=ebb44ad9e87a4286a82ba269db19e24c&amp;time=1685606034" crossorigin="anonymous"></script>
+</body></html><!--status=200-->Double-pivot type front suspension; five-link rear suspension# -*- coding: utf-8 -*-
+
+import json
+
+
+def update_upgrade_list(event: dict, context: dict) -> dict:
+    #### READ ##########
+    with open('formatted_text_file.txt', 'r') as f:
+        data = f.read()
+        keyWords = ['Exhaust', 'Suspension', 'Engine']
+        upgrades = {}
+        for keyword in keyWords:
+            # For each category, retrieve all text between the category name and next category name
+            if keyword == keyWords[0]:
+                upgrades[keyword] = data
+            else:
+                upgrades[keyword] = \
+                data.split(f'{keyword}:', 1)[-1].split(f'{keyWords[keyWords.index(keyword) + 1]}:', 1)[0]
+
+    ###### ANALYZE ########
+    bmw_330i_xdrive_upgrade_options_3 = {}
+    upgradeTypes = ["exhaust", "suspension", "engine"]
+    for upgradeType in upgradeTypes:
+        budget_levels = ['low', 'mid', 'high']
+        upgrade_options = []
+        for level in budget_levels:
+            data = upgrades[upgradeType]
+            if level == 'low':
+                budget = '$0 - $500'
+            elif level == 'mid':
+                budget = '$500 - $1500'
+            else:
+                budget = '>$1500'
+            options = [option.strip() for option in data.split(f'{budget}:')[1].split('\n') if option != ''][:-1]
+            for option in options:
+                opt = option.split('$')
+                title = opt[0].strip()
+                price = int(opt[1].strip().replace(',', '').replace('+', ''))
+                upgrade_options.append({
+                    'title': title,
+                    'price': price,
+                    'budget': budget,
+                    'type': upgradeType
+                })
+
+        bmw_330i_xdrive_upgrade_options_3[upgradeType] = upgrade_options
+
+    with open('bmw_330i_xdrive_upgrade_options_3.json', 'w') as f:
+        json.dump(bmw_330i_xdrive_upgrade_options_3, f)
+
+
+if __name__ == "__main__":
+    update_upgrade_list({}, {}))
+# -*- coding: utf-8 -*-
+
+import json
+
+
+def update_upgrade_list(event: dict, context: dict) -> dict:
+
+    #### READ ##########
+    with open('formatted_text_file.txt', 'r') as f:
+        data = f.read()
+        keyWords = ['Exhaust', 'Suspension', 'Engine']
+        upgrades = {}
+        for keyword in keyWords:
+            # For each category, retrieve all text between the category name and next category name
+            if keyword == keyWords[0]:
+                upgrades[keyword] = data
+            else:
+                upgrades[keyword] = data.split(f'{keyword}:', 1)[-1].split(f'{keyWords[keyWords.index(keyword) + 1]}:', 1)[0]
+
+    ###### ANALYZE ########
+    bmw_330i_xdrive_upgrade_options_3 = {}
+    upgradeTypes = ["exhaust", "suspension", "engine"]
+    for upgradeType in upgradeTypes:
+        budget_levels = ['low', 'mid', 'high']
+        upgrade_options = []
+        for level in budget_levels:
+            data = upgrades[upgradeType]
+            if level == 'low':
+                budget = '$0 - $500'
+            elif level == 'mid':
+                budget = '$500 - $1500'
+            else:
+                budget = '>$1500'
+            options = [option.strip() for option in data.split(f'{budget}:')[1].split('\n') if option != ''][:-1]
+            for option in options:
+                opt = option.split('$')
+                title = opt[0].strip()
+                price = int(opt[1].strip().replace(',', '').replace('+', ''))
+                upgrade_options.append({
+                    'title': title,
+                    'price': price,
+                    'budget': budget,
+                    'type': upgradeType
+                })
+
+        bmw_330i_xdrive_upgrade_options_3[upgradeType] = upgrade_options
+
+    with open('bmw_330i_xdrive_upgrade_options_3.json', 'w') as f:
+        json.dump(bmw_330i_xdrive_upgrade_options_3, f)
+
+
+if __name__ == "__main__":
+    update_upgrade_list({},{}))
+Here are some engine upgrade recommendations:
+
+Low budget options:
+[{"name": "Upgrade 1", "cost": "low", "link": "https://example.com/upgrade1", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.5}, {"name": "Upgrade 2", "cost": "mid", "link": "https://example.com/upgrade2", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.7}, {"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]
+
+Mid budget options:
+[{"name": "Upgrade 2", "cost": "mid", "link": "https://example.com/upgrade2", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.7}, {"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]
+
+High budget options:
+[{"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]# -*- coding: utf-8 -*-
+
+import json
+
+
+def update_upgrade_list(event: dict, context: dict) -> dict:
+    #### READ ##########
+    with open('formatted_text_file.txt', 'r') as f:
+        data = f.read()
+        keyWords = ['Exhaust', 'Suspension', 'Engine']
+        upgrades = {}
+        for keyword in keyWords:
+            # For each category, retrieve all text between the category name and next category name
+            if keyword == keyWords[0]:
+                upgrades[keyword] = data
+            else:
+                upgrades[keyword] = \
+                data.split(f'{keyword}:', 1)[-1].split(f'{keyWords[keyWords.index(keyword) + 1]}:', 1)[0]
+
+    ###### ANALYZE ########
+    bmw_330i_xdrive_upgrade_options_3 = {}
+    upgradeTypes = ["exhaust", "suspension", "engine"]
+    for upgradeType in upgradeTypes:
+        budget_levels = ['low', 'mid', 'high']
+        upgrade_options = []
+        for level in budget_levels:
+            data = upgrades[upgradeType]
+            if level == 'low':
+                budget = '$0 - $500'
+            elif level == 'mid':
+                budget = '$500 - $1500'
+            else:
+                budget = '>$1500'
+            options = [option.strip() for option in data.split(f'{budget}:')[1].split('\n') if option != ''][:-1]
+            for option in options:
+                opt = option.split('$')
+                title = opt[0].strip()
+                price = int(opt[1].strip().replace(',', '').replace('+', ''))
+                upgrade_options.append({
+                    'title': title,
+                    'price': price,
+                    'budget': budget,
+                    'type': upgradeType
+                })
+
+        bmw_330i_xdrive_upgrade_options_3[upgradeType] = upgrade_options
+
+    with open('bmw_330i_xdrive_upgrade_options_3.json', 'w') as f:
+        json.dump(bmw_330i_xdrive_upgrade_options_3, f)
+
+
+if __name__ == "__main__":
+    update_upgrade_list({}, {}))
+class BMW_330i_X_Drive:
+    def __init__(self):
+        self.model = 'BMW 330i X Drive'
+        self.year = 2022
+        self.engine = { 'type': 'inline 4-cylinder', 'turbo': True, 'horsepower': 255, 'compression_ratio': 11.0, 'redline': 6500 }
+        self.suspension = { 'front': 'independent McPherson strut', 'rear': 'independent multi-link', 'stabilizer bars': 'front and rear', 'ride type': 'sport-tuned' }
+        self.exhaust = { 'type': 'dual tip', 'material': 'stainless steel' }
+print('playwright-wrapper package is installed.')
+except ImportError:
+print('playwright-wrapper package not found.')
+import os
+
+files = os.listdir('')
+
+content = ''
+for file in files:
+    with open('./car_upgrades/' + file, 'r') as f:
+        content += f.read()
+
+with open('./car_upgrades/concatenated.txt', 'w') as f:
+    f.write(content)
+import glob
+
+# Get a list of all files ending in .txt in the current directory
+files = glob.glob("./*.txt")
+
+# Open a new file for writing
+with open('concatenated_output.txt', 'w') as outfile:
+    # Iterate over all files and copy their contents to the output file
+    for f in files:
+        with open(f, 'r') as infile:
+            outfile.write(infile.read())# insert code herefrom bs4 import BeautifulSoup
+
+with open('bmw_specs.html', 'r') as f:
+    soup = BeautifulSoup(f, 'html.parser')
+
+specs_table = soup.find('table', id='engine-specs')
+rows = specs_table.find_all('tr')
+
+engine_details = {}
+
+for row in rows:
+    if row.th:
+        key = row.th.text.strip().replace(' ', '_').lower()
+        if key == 'fuel_economy':
+            engine_details[key] = {}
+    elif row.td:
+        if 'data-specname' in row.td.attrs:
+            key = row.td.attrs['data-specname'].strip().replace(' ', '_').lower()
+            value = row.td.text.strip()
+            if key == 'fuel_economy':
+                fuel_key = value.split(maxsplit=1)[0].lower()
+                fuel_value = value.split(maxsplit=1)[1].lower()
+                engine_details[key][fuel_key] = fuel_value
+            else:
+                engine_details[key] = value
+
+print(engine_details)
+"""A script to get compatible engine upgrades for BMW 330i X-Drive
+"""
+
+from typing import List
+
+def engine_upgrades(bmw_specs: dict, budget: str, criteria: str) -> List:
+    if budget == 'low':
+        if criteria == 'performance':
+            return ['A', 'B', 'C']
+        elif criteria == 'affordability':
+            return ['D', 'E', 'F']
+        elif criteria == 'balanced':
+            return ['G', 'H', 'I']
+    elif budget == 'mid':
+        if criteria == 'performance':
+            return ['J', 'K', 'L']
+        elif criteria == 'affordability':
+            return ['M', 'N', 'O']
+        elif criteria == 'balanced':
+            return ['P', 'Q', 'R']
+    elif budget == 'high':
+        if criteria == 'performance':
+            return ['S', 'T', 'U']
+        elif criteria == 'affordability':
+            return ['V', 'W', 'X']
+        elif criteria == 'balanced':
+            return ['Y', 'Z']BMW 330i X Drive Engine Upgrades
+
+Low-budget upgrades:
+- Air intake upgrade from K&N ($280): https://www.knfilters.com/air-intake/2020/bmw/330i-xdrive/2.0l-l4
+- Performance Tuner from Burger Tuning ($479): https://burgertuning.com/collections/bmwtuning/products/bms-bmw-performance-tuner
+- Cat-back exhaust system from AWE Tuning SwitchPath ($1,495): https://www.awe-tuning.com/awe-switchpath-exhaust-for-2020-bmw-330i-2-0-turbo-awd-quattro
+
+Mid-budget upgrades:
+- Blow Off Valve Kit from VRSF ($450): https://www.vrsf.com/vrsf-bov-kit-for-the-2020-bmw-330i-b46-mo1-engine
+- Intercooler from CSF ($649): https://www.redline360.com/csf-bar-plate-front-mount-intercooler-for-2020-bmw-330i-4401
+- Cat-back exhaust from Remus ($1,399): https://www.kiesmotorsports.com/remus-exhaust-for-2020-bmw-3-series-g20-g21-330i-330ix-b46-b48-engine-f30-f31
+
+High-budget upgrades:
+- Turbo upgrade kit from PureTurbos ($5,995): https://store.pureturbos.com/2020-bmw-m340i-2019-z4-drive30i-b48-20l/turbo-upgrades/b58-s3-turbo-upgrade-kit.html
+- ECU upgrade from Dinan ($1,889): https://www.dinancars.com/products/software-tuning/15-0131-stage-1-performance-engine-software-2020-bmw-330i-g20-dinancars
+- Cat-back exhaust from Kline Innovations ($2,599): https://www.motivationusa.com/bmw-g20-330i-2019-kline-innovation-sport-exhaust-dual-tips"""Tests for the engine_upgrades function in engine_upgrades.py
+"""
+
+import unittest
+from engine_upgrades import engine_upgrades
+
+class TestEngineUpgrades(unittest.TestCase):
+    
+    def setUp(self):
+        pass
+    
+    def test_low_budget_performance_criteria(self):
+        bmw_specs = {
+            "model": "BMW 330i X-Drive",
+            "year": 2022,
+            "engine": "2.0L Turbocharged 4-Cylinder",
+            "drive_train": "All-Wheel Drive",
+            "horsepower": 255,
+            "torque": 295
+        }
+        budget = 'low'
+        criteria = 'performance'
+        expected_output = ['A', 'B', 'C']
+        self.assertEqual(engine_upgrades(bmw_specs, budget, criteria), expected_output)
+    
+    # Repeat for other budget and criteria combinations
+    
+if __name__ == '__main__':
+    unittest.main()Here are some engine upgrade options for the 2020 BMW 330i xDrive Sedan:
+
+Low Budget:
+1. Dinantronics Sport Performance Tuner - Pros: Improves throttle response, adds 30 hp, and 50 lb-ft of torque, Can make the engine run more efficient. Cons: Minimal effect on over-all engine response, Require professional installation - Link: https://www.dinancars.com/product/d440-0078-st1-dinantronics-sport-performance-tuner
+
+2. VRSF Street Intercooler Upgrade Kit - Pros: Increased air volume and reduced inlet temperatures, Better for HP gains, Lower inlet temperatures. Cons: Minor Fit Issues sometimes, can cause increased intake noise, May trigger errors in some sensors. Link: https://www.vrsf.com/vrsf-street-intercooler-upgrade-kit-g20-b58-330i-m340i-m440i-xdrive-20-0002/
+
+3. aFe Power Scorcher GT Performance Module - Pros: Quick-to-Install plug-in performace module, Provides noticeable performance gains, Reasonable price. Cons: Limited vehicle compatibility, Minimal fuel gains. Link: https://afepower.com/afe-power-77-46306-scorcher-gt-performance-module
+
+Warranty - 4 Year / 50,000 Mile. Price - $899. 
+
+Material - T6061 Aluminum. Price - $499.99. 
+
+Installation time - 45 minutes to 1 hour. Price - $499.
+
+Warranty - 4 Year / 50,000 Mile. Price - $899. 
+
+Material - T6061 Aluminum. Price - $499.99. 
+
+Installation time - 45 minutes to 1 hour. Price - $499.
+
+Warranty - 4 Year / 50,000 Mile. Price - $899. 
+
+Material - T6061 Aluminum. Price - $499.99. 
+
+Installation time - 45 minutes to 1 hour. Price - $499.'MEMORY_INDEX' is not recognized as an internal or external command,
+operable program or batch file.
+'MEMORY_INDEX' is not recognized as an internal or external command,
+operable program or batch file.
+Exhaust system upgrade options based on price:
+
+Low-priced options:
+1. Exhaust headers
+
+Mid-priced options:
+1. Downpipes
+
+High-priced options:
+1. Exhaust systemsHere are some exhaust upgrade options for the 2020 BMW 330i xDrive Sedan:
+
+Low Budget:
+1. MagnaFlow Cat-Back Performance Exhaust - Pros: Enhances power, accelerations and overall performance, Stylish looks, fair price. Cons: Exhaust can be louder than stock, may not be street legal. Link: https://www.magnaflow.com/products/19390-performance-cat-back-exhaust-system-with-split-rear-exit?partNumber=19390
+
+2. Borla Performance Exhaust System - Pros: A Sporty exhaust sound that isn't overly aggressive, provides noticeable power gains, improved fuel efficiency. Cons: Installation can prove difficult for novices, Appears expensive - Link: https://www.borla.com/products/330i_catback_exhaust_touring_part__140582
+
+3. Dinan Free Flow Stainless Exhaust - Pros: Sound and performance gains, Constructed from stainless steel polished to perfection, Looks great. Cons: Require skilled installation, expensive. - Link: https://www.dinancars.com/product/d660-0075-dinan-free-flow-stainless-exhaustfrom bmw_specs import *
+
+specs = bmw_specs
+print(specs)# Add code here.
+import sys
+
+sys.path.insert(1, '../auto_gpt_workspace/upgrade_options/')
+
+from find_best_options import find_best_options
+from engine_upgrades import engine_upgrades
+from suspension_upgrades import suspension_upgrades
+from exhaust_upgrades import exhaust_upgrades
+
+specs_file = read_file('bmw_330i_xdrive_sedan_spec_sheet.txt')
+
+engine_categories = ['air intake system', 'exhaust system', 'engine tune', 'turbocharger upgrade']
+suspension_categories = ['springs', 'shocks', 'suspension arms', 'sway bars', 'coil overs']
+exhaust_categories = ['cat-back exhaust', 'downpipe', 'muffler', 'exhaust tip']
+
+engine_upgrades_best = find_best_options(specs_file, engine_categories, engine_upgrades)
+suspension_upgrades_best = find_best_options(specs_file, suspension_categories, suspension_upgrades)
+exhaust_upgrades_best = find_best_options(specs_file, exhaust_categories, exhaust_upgrades)
+
+print(engine_upgrades_best)
+print(suspension_upgrades_best)
+print(exhaust_upgrades_best)
+# This file will contain code for identifying the best performance upgrades for car engines.
+# Add code here to identify performance upgrade options specific to the BMW 330i xDrive Sedan based on the spec sheet information.
+# Pseudo-code for identifying upgrade options
+
+# Step 1: Load BMW 330i xDrive Sedan spec sheet data from a file or API
+# Step 2: Identify suitable engine upgrade options based on user budget
+# Step 3: Identify suitable suspension upgrade options based on user budget
+# Step 4: Identify suitable exhaust upgrade options based on user budget
+# Step 5: Output identified upgrade options to the user for selection
+# Step 6: Confirm compatibility of user-selected upgrades with car specs
+# Step 7: Recommend the most suitable upgrade for each upgrade type and budget
+"""Script to initialize car information. This code should be executed to load car info"""
+
+BMW_330I_XDRIVE_SPECS = {
+    'manufacturer': 'BMW',
+    'model': '330i',
+    'drive_type': 'X-Drive',
+    'engine_type': 'Turbocharged 4-Cylinder Engine',
+    'horsepower': 255,
+    'torque_lb_ft': 295,
+    'zero_to_sixty': 5.3,
+    'top_speed': 130,
+    'weight_lbs': 3770,
+    'transmission': '8-Speed Automatic',
+    'fuel_economy': {
+        'mpg_city': 25,
+        'mpg_highway': 34,
+        'mpg_combined': 28
+    },
+    'suspension_type': 'sport-tuned'
+}
+beautifulsoup4==4.12.2
+# Launches a browser asynchronously using Playwrightimport asyncio
+from playwright.sync_api import Playwright, sync_playwright
+
+
+def main() -> None:
+    async def run(playwright: Playwright) -> None:
+        browser = await playwright.chromium.launch(headless=True)
+        page = await browser.new_page()
+        await page.goto('https://www.google.com')
+        await browser.close()
+
+    if __name__ == '__main__':
+        with sync_playwright() as playwright:
+            asyncio.run(run(playwright))
+
+
+if __name__ == '__main__':
+    main()
+import os
+
+os.chdir('')
+print(os.listdir())Insert new performance upgrade suggestions for the BMW 330i xDrive Sedan hereimport re
+import pandas as pd
+from io import StringIO
+from typing import Tuple
+from PyPDF2 import PdfFileReader
+from collections import defaultdict
+
+
+def extract_text(file_path: str) -> str:
+    with open(file_path, mode='rb') as file:
+        reader = PdfFileReader(file)
+        contents = []
+        for page in reader.pages:
+            contents.append(page.extract_text())
+        return ''.join(contents)
+
+
+def extract_list(regex_str: str, text: str) -> list:
+    pattern = re.compile(regex_str, re.IGNORECASE)
+    matches = pattern.findall(text)
+    return [match[0] for match in matches]
+
+
+def extract_specs(file_path: str, specs: Dict[str, Tuple[str, str]]) -> Dict[str, list]:
+    text = extract_text(file_path).replace('\n', '')
+    extracted_data = defaultdict(list)
+    for key, val in specs.items():
+        regex_str = fr'{val[0]}{val[1]}'
+        extracted_data[key] = extract_list(regex_str, text)
+    return extracted_data
+
+
+if __name__ == '__main__':
+    # Regular Expressions for extracting engine, suspension, and exhaust system upgrades
+    engine_regex = ('POWERTRAIN', r':(.+?)@.*
+.+
+(.+?)
+.+HP.+RPM
+T.+MPH')
+    suspension_regex = ('CHASSIS', r':
+(.+?)
+.+Stabilizer Bars (.+?)
+.+Rear Axle (.+?)
+.+Suspension Type')
+    exhaust_regex = ('PERFORMANCE', r'
+(.+?)
+.+SOUND
+(.+?)
+.+TIP STYLE
+(.+?)
+')
+    # Dictionary containing the specs and their associated regex patterns
+    specs = {'engine': engine_regex, 'suspension': suspension_regex, 'exhaust': exhaust_regex}
+    # Extract specs and append to separate lists
+    extracted_data = extract_specs('BMW 3 Series 330i xDrive Sedan 2022.pdf', specs)
+    engine_upgrades = extracted_data['engine']
+    suspension_upgrades = extracted_data['suspension']
+    exhaust_upgrades = extracted_data['exhaust']
+    # Display the extracted data in a Pandas DataFrame
+    data = {
+        'Engine Upgrades': engine_upgrades,
+        'Suspension Upgrades': suspension_upgrades,
+        'Exhaust Upgrades': exhaust_upgrades
+    }
+    df = pd.DataFrame(data)
+    print(df)
+    # Output the data to a CSV file
+    df.to_csv('bmw_upgrades.csv')#!/usr/bin/env python3
+
+import subprocess
+
+output = subprocess.run(['find', '/', '-name', 'api_access_tokens.csv'], stdout=subprocess.PIPE).stdout.decode()
+
+if output:
+    output = output.split('\n')[:-1]
+    results = []
+    for line in output:
+        tokens_loc = line
+        with open(tokens_loc, 'r') as f:
+            contents = f.read()
+            if 'api_key' in contents and 'api_secret' in contents:
+                print('Valid API credentials in:', tokens_loc)
+            else:
+# Necessary imports
+import requests
+from bs4 import BeautifulSoup
+
+# The web page to be loaded
+webpage = requests.get('https://www.bmwusa.com/vehicles/3-series/sedan/330i-xdrive')
+soup = BeautifulSoup(webpage.content, 'html.parser')
+import json
+
+import pandas as pd
+
+url = 'https://www.caranddriver.com/bmw/3-series/specs/2020/bmw_3-series_bmw-3-series-sedan_2020'
+df = pd.read_html(url)
+specs = df[0].set_index(0).squeeze().to_dict()
+with open('specs.json', 'w') as file:
+    json.dump(specs, file)
+# Importing necessary libraries
+
+import re
+
+from bs4 import BeautifulSoup
+
+# Reading the HTML content of the file
+with open('suspension_section.html') as file:
+    content = file.read()
+
+# Parsing the HTML file
+soup = BeautifulSoup(content, 'lxml')
+
+# Extracting the recommended suspension setups for the BMW model specified
+recommended_setups = []
+for section in soup.find_all('tr', {'class': re.compile('tire-results-item')})[:3]:
+    recommendations = section.find_all('a', {'class': 'make-vehicle-link'})[0].text
+    recommended_setups.append(recommendations)
+
+print(recommended_setups)
+Upgrade Type│Budget Category│Link to product page │Product Price│Seller Reputation│Expectations│Compatible With│Product Quality│Warranty│Installation Requirements
+Engine │Low           │www.upgradeproduct1.com │$2000      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Engine │Mid           │www.upgradeproduct2.com │$3500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Engine │High          │www.upgradeproduct3.com │$6000      │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.
+
+Suspension│Low           │www.upgradeproduct4.com │$5000      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Suspension│Mid           │www.upgradeproduct5.com │$8500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Suspension│High          │www.upgradeproduct6.com │$12000     │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.
+
+Exhaust  │Low           │www.upgradeproduct7.com │$1500      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Exhaust  │Mid           │www.upgradeproduct8.com │$2500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Exhaust  │High          │www.upgradeproduct9.com │$5000      │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.
+Insert performance upgrade options here# Insert Python code here
+Jun 4, 2023: Analyzed car upgrade options for BMW 330i X Drive and identified personalized recommendations.
+"""A script to read car info
+"""
+
+import inspect
+import os
+
+def get_bmw_specs():
+    current_script_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+    car_info_file_path = os.path.join(current_script_path, 'initialize_car_info.py')
+
+    with open(car_info_file_path) as f:
+        code = compile(f.read(), car_info_file_path, 'exec')
+        exec(code, globals(), locals())
+    del globals()['f']
+    return BMW_330I_XDRIVE_SPECS
+#!/usr/bin/env python
+
+import IPython
+
+app = IPython.Application.instance()
+app.kernel.do_shutdown(True)
+import json
+import time
+
+import requests
+
+
+def retry_make_api_call(url, endpoint, method, max_retries=3, timeout=120):
+    for i in range(max_retries):
+        print(f"attempt {i + 1}...")
+        try:
+            response = requests.request(method, url=url + endpoint)
+            response.raise_for_status()
+            json_data = json.loads(response.text)
+
+            return json_data
+
+        except requests.exceptions.Timeout as err:
+            print(err)
+            time.sleep(timeout)
+
+        except requests.exceptions.RequestException as err:
+            print(err)
+            break
+
+
+url = 'https://www.edmunds.com'
+endpoint = '/bmw/3-series/2020/st-401828691/features-specs/'
+method = 'GET'
+data = retry_make_api_call(url=url, endpoint=endpoint, method=method)
+with open('bmw_specifications_api_response.json', 'w') as f:
+    json.dump(data, f)
+import logging
+
+import pandas as pd
+
+
+def start_verify_scraped_data(df: pd.DataFrame, budget: float):
+    # Call the necessary functions to verify scraped data
+    logging.basicConfig(level=logging.INFO)
+    if not all(list(map(classify_search_category, list(df['Category'])))):
+        logging.info(f'search category is not valid')
+    if not all(list(map(validation_acc, list(df['Year'])))):
+        logging.info(f'There is invalid year data.')
+    if not all(list(map(cost_compare, list(df['Cost']), [budget] * df.shape[0])))):
+        logging.info(f'There is cost data higher than our budget.')
+
+    if __name__ == '__main__':
+        logging.basicConfig(level=logging.DEBUG, filename='debug.log', filemode='w')
+    budget = 2000.00
+    scraped_data = pd.read_csv('scraped_data.csv', index_col=False, header=0)
+    start_verify_scraped_data(scraped_data, budget=budget)
+
+
+def start_verify_scraped_data(df: pd.DataFrame, budget: float):
+    # Call the necessary functions to verify scraped data
+    logging.basicConfig(level=logging.INFO)
+    if not all(list(map(classify_search_category, list(df['Category'])))):
+        logging.info(f'search category is not valid')
+    if not all(list(map(validation_acc, list(df['Year'])))):
+        logging.info(f'There is invalid year data.')
+    if not all(list(map(cost_compare, list(df['Cost']), [budget] * df.shape[0])))):
+        logging.info(f'There is cost data higher than our budget.')
+
+    if __name__ == '__main__':
+        logging.basicConfig(level=logging.DEBUG, filename='debug.log', filemode='w')
+    budget = 2000.00
+    scraped_data = pd.read_csv('scraped_data.csv', index_col=False, header=0)
+    start_verify_scraped_data(scraped_data, budget=budget)
+FIND: Invalid switch
+import nltk
+
+nltk.download('punkt')
+nltk.download('stopwords')
+import json
+from bs4 import BeautifulSoup
+
+with open('bmw_specs.html', 'r') as f: soup = BeautifulSoup(f, 'html.parser')
+
+specs_table = soup.find('table', id='engine-specs')
+rows = specs_table.find_all('tr')
+
+engine_details = {}
+
+for row in rows: if row.th: key = row.th.text.strip().replace(' ', '_').lower()
+if key == 'fuel_economy': engine_details[key] = {}
+elif row.td: if 'data-specname' in row.td.attrs: key = row.td.attrs['data-specname'].strip().replace(' ', '_').lower()
+value = row.td.text.strip()
+if key == 'fuel_economy': fuel_key = value.split(maxsplit=1)[0].lower()
+fuel_value = value.split(maxsplit=1)[1].lower()
+engine_details[key][fuel_key] = fuel_value
+else: engine_details[key] = value
+
+# Convert engine_details to JSON
+json_data = json.dumps(engine_details)
+
+print(json_data)
+BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tipsBMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tipsimport os
+def get_words(file):
+    with open(file, 'r') as f:
+        data = f.read().replace('\n',' ')
+    words = data.split()
+    return len(words)
+
+def split_file(file):
+    with open(file, 'r') as f:
+        data = f.read()
+        if len(data.split()) > 4000:
+            chunks = data.split('\n')
+            chunks = [x.strip() for x in chunks if x.strip() != '']
+            k = 1
+            n = 1
+            output = ''
+            for chunk in chunks:
+                l = len(output.split())
+                output += chunk + str('\n')
+                m = len(output.split())
+                if m >= 4000:
+                    with open(f'huge_file_{n}.txt', 'w') as f:
+                        f.write(output)
+                    output = ''
+                    n += 1
+            with open(f'huge_file_{n}.txt', 'w') as f:
+                f.write(output)
+        else:
+            with open(f'{file}', 'r') as f:
+                data = f.read()
+                with open('new_'+file, 'w') as f:
+                    f.write(data)
+    os.remove(file)
+    return 'new_'+filefrom playwright.sync_api import sync_playwright
+
+
+def start_browser():
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch()
+        return playwright, browser
+Suspension system upgrade options based on price:
+
+Low-priced options:
+1. Sport suspensions
+
+Mid-priced options:
+1. Shock absorbers
+
+High-priced options:
+1. Adjustable coilovers# Suspension Upgrade Options
+# Low-priced
+option_1_brand = 'Bilstein B6 Sport Series'
+option_1_price = 724
+option_2_brand = 'Koni STR.T Street Series'
+option_2_price = 526
+option_3_brand = 'Megan Racing Coilover Damper Kit'
+option_3_price = 828
+
+# Mid-priced
+option_4_brand = 'Kw Variant 2 Coilover Kit'
+option_4_price = 1727
+option_5_brand = 'KW Street Comfort Coilover Kit'
+option_5_price = 1129
+option_6_brand = 'Bilstein B16 Pss9 Coilover Kit'
+option_6_price = 1840
+
+# High-priced
+option_7_brand = 'Kw Variant 3 Coilover Kit'
+option_7_price = 2352
+option_8_brand = 'Ohlins Road and Track Coilover Kit'
+option_8_price = 2720
+option_9_brand = 'Motorsport 2-Way Competition Coilovers'
+option_9_price = 4337
+
+# Optimal Suspension Upgrade Option code
+Here are some suspension upgrade options for the 2020 BMW 330i xDrive Sedan:
+
+Low Budget:
+1. ST X Coilover Suspension Kit - Pros: Improved vehicle handling and ride height, Compressible dampers, Camber and level adjustment. Cons: Harsher ride, not compatible with all BMW 330i xDrive Sedan models. - Link: https://www.stsuspensions.com/products/coilovers/suspension_kit_x/st_x_suspension_kit-90884
+
+2. Eibach Pro-Kit Lowering Springs - Pros: Improved looks, enhanced handling performance, enhanced safety. Cons: None. Link: https://eibach.com/us/i-2403-pro-kit-performance-lowering-springs.html
+
+3. H&R Lowering Sport Springs - Pros: Better handling and overall performance, Can improve the looks and the aerodynamics of the vehicle, Reasonably priced performance upgrade. Cons: Reduced ground clearance, can increase wear on stock shocks/struts. Link: https://www.hrsprings.com/applications/10-suspension/73-lowering-sport-spring-setimport asyncio
+
+from playwright.async_api import async_playwright
+
+
+async def test(playwright):
+    browser = await playwright.chromium.launch()
+    context = await browser.new_context()
+    page = await context.new_page()
+
+    await page.goto('https://www.google.com/')
+
+    bing_search = 'bing.com'
+
+    await page.goto('https://www.' + bing_search)
+
+    await page.type('input', 'BMW', delay=100)
+
+    await page.keyboard.press('Enter')
+
+    await page.click('#b_results > li:nth-child(1) > div.b_caption > h2 > a')
+
+    print(await page.title())
+
+    await browser.close()
+
+
+async def main():
+    async with async_playwright() as p:
+        await test(p)
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+{test_data_dictionary}PROGRESS REPORT AND GUIDANCE
+
+Available Upgrades:
+
+Engine:
+- Low: Cold Air Intake System (https://www.scpautomotive.com/products/2019-bmw-3-series-cold-air-intake-system)
+    - Price: $349
+    -Installation: Medium Difficulty
+- Mid: Power Programmer (https://www.bimmerworld.com/Engine/Software/)
+    - Price:    $449
+    -Installation: Plug and Play
+- High: DINANTRONICS Elite V2 (https://www.dinancars.com/products/software-tuning/engine-tuning/dinatronicas-elite-v2-for-bmw-b48-engine-330i-xdrive?variant=8163264011792)
+    - Price: $1,499
+    -Installation: Professional Installation recommended
+
+Suspension:
+- Low: Eibach Sportline Springs (https://eibach.com/us/i-8991-sportline-kit.html)
+    - Price: $337.37
+    - Installation: High Difficulty
+- Mid: KW Suspensions Variant 3 Coilover Kit (https://store.activeautowerke.com/products/sport-suspension-cobb-bmw-f30-f80-m3-335i-xi-328i-xi-eibach-h-r-kw-suspension-ac-kit-launch)
+    - Price: from $1,871.49
+    - Installation: Professional Installation recommended.
+- High: AST 5200 Series Coilovers for BMW 3 Series F30 (https://store.activeautowerke.com/products/ast-suspension-5200-series-1-way-coilover-kit-bmw-3-series-f30)
+    - Price: $3,699
+    - Installation: Professional Installation required
+
+Exhaust:
+- Low: Universal Mufflers for BMW 330i xDrive sedan (https://www.superstreetonline.com/how-to/exhaust-mufflers/1308-sound-advice-the-benefits-of-universal-exhaust-mufflers-for-upgrades/)
+    - Price: $41.34
+    - Installation: Low Difficulty.
+- Mid: MBRP Performance Exhaust System BMW F30 M Performance Style Quad Tips (https://www.maperformance.com/products/mbrp-performance-exhaust-system-bmw-f30-m-performance-style-quad-tips-s4406304)
+    - Price: $621.99
+    - Installation: Low Difficulty.
+- High: Remus Cat-Back Sport Exhaust System Black Edition w/ Carbon Fiber Quad Tips BMW 330i (B48) xDrive 2019+ (https://www.hkptuning.com/products/7843-nce)
+    - Price: $2,321.49
+    - Installation: Professional Installation required.
+<output of bmw330i_specs.py script>import json
+
+def optimize_engine(low=True,mid=True,high=True):
+	if low:
+		print('Low-cost engine upgrades')
+	if mid:
+		print('Mid-priced engine upgrades')
+	if high:
+		print('High-end engine upgrades')
+def optimize_suspension(low=True,mid=True,high=True):
+	if low:
+		print('Low-cost suspension upgrades')
+	if mid:
+		print('Mid-priced suspension upgrades')
+	if high:
+		print('High-end suspension upgrades')
+def optimize_exhaust(low=True,mid=True,high=True):
+	if low:
+		print('Low-cost exhaust '+
+					'upgrades')
+	if mid:
+		print('Mid-priced exhaust upgrades')
+	if high:
+		print('High-end exhaust upgrades')
+def optimize_all(low=True,mid=True,high=True):
+	optimize_engine(low=low,mid=mid,high=high)
+	optimize_suspension(low=low,mid=mid,high=high)
+	optimize_exhaust(low=low,mid=mid,high=high)
+
+
+
+Insert comprehensive information on the installation and maintenance of each upgrade option here
+ENGINE UPGRADES
+- Low-priced: Air Intake System $117 (https://www.autopartswarehouse.com/air-intake-system/bmw/330i-xdrive/all-submodels/all-years/base/4-cyl-2-dot-0l/kool-vue/kv5900.html)
+- Mid-priced: Dinan D440-0043-ST2 Dinantronics Sport Tuner (https://www.homedepot.com/p/Dinan-D440-0043-ST2-Dinantronics-Sport-Tuner-for-Bmw-2-0L-Twinpower-Turbo-I4-Engine-D440-0043-ST2/314753507)
+- High-priced: Corsa Exhaust (https://www.corsaperformance.com/Exhaust-System-BMW-330i-2019-MF-CAT-BACK-10793-V2.aspx)
+
+SUSPENSION UPGRADES
+- Low-priced: KYB Black Excel-G shocks and struts $414 (https://www.autoanything.com/suspension-systems/kyb-excel-g-shocks-struts)
+- Mid-priced: H&R Sport Lowering Springs $399 (https://www.autoanything.com/suspension-systems/hr-sport-springs)
+- High-priced: KW V3 Coilovers, Variant 3 $2,449 (https://www.autoanything.com/suspension-systems/kw-coilover-shocks)
+
+EXHAUST SYSTEM UPGRADES
+- Low-priced: aFe Power 49-76324-B 3-inch High Tuck DP-Back Exhaust System, Black Tips $1,274 (https://www.anymotive.com/afe-power-4976324b-3-in-high-tuck-dp-back-exhaust-system-black-tips)
+- Mid-priced: Remus Axleback Exhaust for 2019+ 330i/xi $1,099 (https://www.dynamicautowerx.com/remus-axleback-exhaust-for-2019-330i-xi/)
+- High-priced: Akrapovic exhaust system $4,343 (https://www.akrapovic.com/en/car/product/18570/BMW/3-Series-F30-F31-F34-F35/330i) Insert product information for the identified upgrade options here# Functions that recommend upgrades for the BMW 330i xDrive Sedan in the categories engine, suspension and exhaust, based on the user's budget.
+
+
+# Function to recommend engine upgrade based on user's budget
+
+
+def recommend_engine_upgrade(budget):
+    if budget <= 500:
+        return 'engine air filter'
+    elif budget <= 1000:
+        return 'cold air intake'
+    else:
+        return 'performance chip tuning'
+
+
+# Function to recommend suspension upgrade based on user's budget
+
+def recommend_suspension_upgrade(budget):
+    if budget <= 1000:
+        return 'shock absorbers'
+    elif budget <= 3000:
+        return 'coilovers'
+    else:
+        return 'air suspension kit'
+
+
+# Function to recommend exhaust upgrade based on user's budget
+
+def recommend_exhaust_upgrade(budget):
+    if budget <= 1000:
+        return 'cat-back exhaust'
+    elif budget <= 3000:
+        return 'header and cat'
+    else:
+        return 'turbo-back exhaust'
+BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tips

@@ -1,0 +1,31 @@
+BMW 330i X Drive Spec Sheet
+
+BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tips
+
+Generation: VII (G20/G21) [2018 .. 2022]  
+Production: [2019 .. 2022]
+Sales regions: USA+, Canada
+Power: 255 hp | 190 kW | 258 PS
+Engine: 2.0 L, B48B20B, I4 , Petrol
+Torque: 295 lb-ft of torque
+Suspension: Front suspension: strut-type; Rear suspension: multi-link. Adaptive M suspension available.
+Exhaust System: Dual exhaust system with twin tailpipes
+Center Bore / Hub Bore: 66.6 mm
+Bolt Pattern (PCD): 5x112
+Wheel Fasteners: Lug bolts
+Thread Size: M14 x 1.25
+Wheel Tightening Torque: 140 Nm
+TIRE: OE225/45ZR18 95Y
+RIM: 7.5Jx18 ET25
+OFFSET RANGE (mm): 23 - 27	
+	

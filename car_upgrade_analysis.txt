@@ -1,0 +1,5 @@
+[
+    'Use consistent quotation marks, either single or double.',
+    'Consider using a more descriptive variable name instead of 'code'.',
+    'Add comments to explain the purpose of each section of the code.'
+]

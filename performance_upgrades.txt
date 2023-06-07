@@ -1,0 +1,12 @@
+Upgrade Type│Budget Category│Link to product page │Product Price│Seller Reputation│Expectations│Compatible With│Product Quality│Warranty│Installation Requirements
+Engine │Low           │www.upgradeproduct1.com │$2000      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Engine │Mid           │www.upgradeproduct2.com │$3500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Engine │High          │www.upgradeproduct3.com │$6000      │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.
+
+Suspension│Low           │www.upgradeproduct4.com │$5000      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Suspension│Mid           │www.upgradeproduct5.com │$8500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Suspension│High          │www.upgradeproduct6.com │$12000     │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.
+
+Exhaust  │Low           │www.upgradeproduct7.com │$1500      │89/100          │5 star      │BMW 330i xDrive Sedan│A grade  │2 years │Professional installation required.
+Exhaust  │Mid           │www.upgradeproduct8.com │$2500      │92/100          │5 star      │BMW 330i xDrive Sedan│A+ grade│5 years │Professional installation required.
+Exhaust  │High          │www.upgradeproduct9.com │$5000      │95/100          │5 star      │BMW 330i xDrive Sedan│A++ grade│10 years│Professional installation required.

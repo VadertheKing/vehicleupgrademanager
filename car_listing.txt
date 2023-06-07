@@ -1,0 +1,2871 @@
+ Volume in drive C has no label.
+ Volume Serial Number is FCCD-3650
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace
+
+06/05/2023  10:25 PM    <DIR>          .
+06/05/2023  10:25 PM    <DIR>          ..
+05/19/2023  06:34 PM    <DIR>          .benchmarks
+06/04/2023  09:12 PM                22 .env
+06/05/2023  04:43 PM             1,005 analysis_script.py
+06/05/2023  10:13 PM    <DIR>          car_upgrades
+06/05/2023  10:25 PM                 0 car_upgrade_listing.txt
+06/05/2023  03:54 PM                90 data_frame.csv
+06/05/2023  10:16 PM             1,119 file_list.txt
+06/05/2023  10:25 PM            23,754 file_logger.txt
+06/05/2023  07:21 PM                33 keys.json
+06/05/2023  03:56 PM               546 manipulate_dataframe.py
+06/05/2023  08:44 PM               359 retrieve_search_page.py
+06/05/2023  08:43 PM                 0 search_results.txt
+06/05/2023  12:01 PM                 0 __init__.py
+              11 File(s)         26,928 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\.benchmarks
+
+05/19/2023  06:34 PM    <DIR>          .
+05/19/2023  06:34 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades
+
+06/05/2023  10:25 PM    <DIR>          .
+06/05/2023  10:25 PM    <DIR>          ..
+06/05/2023  04:54 PM    <DIR>          analysis
+06/01/2023  01:59 AM             1,532 analyze_bmw_specs.py
+06/05/2023  03:59 PM               349 analyze_car_upgrades.py
+06/01/2023  01:27 AM               432 asyncio_browser.py
+06/05/2023  04:11 PM               505 Automobile_Upgrades_Report.txt
+06/04/2023  08:27 PM             1,406 bmw-330i-performance-mods.txt
+06/01/2023  12:47 AM             1,135 BMW330iXDrive_spec_sheet.txt
+06/05/2023  12:19 PM               937 BMW_330iXDrive_Upgrades.txt
+06/04/2023  01:07 PM               395 bmw_330i_spec_sheet.txt
+06/05/2023  07:37 PM    <DIR>          bmw_330i_xdrive
+06/01/2023  12:16 AM             1,133 bmw_330i_xdrive_sedan_spec_sheet.txt
+06/01/2023  01:27 AM               883 bmw_330i_xdrive_upgrades.txt
+06/01/2023  01:27 AM               891 bmw_330i_xdrive_upgrade_options_2.txt
+06/05/2023  02:13 PM               303 BMW_330i_X_Drive_Specs.txt
+06/01/2023  12:16 AM             1,133 BMW_330i_X_Drive_Spec_Sheet.txt
+06/04/2023  09:08 PM             1,382 bmw_330i_x_drive_upgrade_options.txt
+06/01/2023  12:17 AM                71 bmw_engine_specs.txt
+06/01/2023  12:18 AM                26 bmw_exhaust_specs.txt
+06/01/2023  01:03 AM                30 bmw_specs.txt
+06/01/2023  01:53 AM            51,015 bmw_spec_sheet.pdf
+06/01/2023  12:17 AM                61 bmw_suspension_specs.txt
+06/01/2023  01:27 AM             1,939 bmw_upgrade_options.py
+06/01/2023  07:17 AM             1,921 bmw_upgrade_options.py.save
+06/04/2023  01:02 PM                 0 bmw_upgrade_options.txt
+06/04/2023  06:16 PM             1,156 bmw_upgrade_recommendations.txt
+06/01/2023  01:27 AM             1,939 buffer.py
+06/05/2023  10:25 PM                 0 car_listing.txt
+06/04/2023  01:19 PM               497 car_specifications.py
+06/05/2023  04:14 PM           103,785 car_upgrades_backup
+06/05/2023  08:19 PM               216 car_upgrade_analysis.txt
+06/05/2023  08:16 PM               373 car_upgrade_data.txt
+06/01/2023  01:27 AM               120 check_module.py
+06/05/2023  12:02 PM               235 concatenate.py
+06/04/2023  06:44 PM               372 concatenate_files.py
+06/04/2023  09:06 PM                18 create_upgrade_options.py
+05/31/2023  11:18 PM               903 engine_specs.py
+06/05/2023  11:42 AM               934 engine_upgrades.py
+06/04/2023  01:17 PM             1,338 engine_upgrades.txt
+06/05/2023  11:43 AM               853 engine_upgrades_test.py
+05/30/2023  10:38 PM             1,514 engine_upgrade_options.txt
+06/05/2023  10:11 PM    <DIR>          env
+06/04/2023  01:26 PM               103 error-CarUpGPT.txt
+06/04/2023  06:18 PM               103 error-customer_review_agent.txt
+05/31/2023  01:07 PM               170 exhaust_upgrades.txt
+05/30/2023  10:33 PM               990 exhaust_upgrade_options.txt
+06/04/2023  07:28 PM                58 extract_bmw_specs.py
+06/05/2023  10:13 PM             3,049 file_list.txt
+06/01/2023  01:27 AM                18 find_upgrade_options.py
+05/30/2023  11:35 PM                 0 formatted_text_file.txt
+06/01/2023  01:27 AM               995 identify_best_options.py
+06/01/2023  01:27 AM                94 identify_engine_upgrades.py
+05/30/2023  06:17 PM               132 identify_performance_upgrades.py
+05/30/2023  11:22 PM               571 identify_upgrade_options.py
+06/05/2023  11:40 AM               574 initialize_car_info.py
+06/01/2023  12:28 AM                24 installed_bundle.packages
+06/01/2023  01:27 AM               563 launch_browser.py
+06/05/2023  12:02 PM                46 navigate_to_carupgrades.py
+05/30/2023  11:27 PM                77 new_upgrades.txt
+05/31/2023  08:59 AM                 0 NoEcho
+06/04/2023  01:26 PM                 0 output-CarUpGPT.txt
+06/04/2023  06:18 PM                 0 output-customer_review_agent.txt
+06/01/2023  01:56 AM             2,167 parse_bmw_spec.py
+06/01/2023  01:27 AM               493 parse_find_output.py
+06/01/2023  01:27 AM               240 parse_html_content.py
+05/30/2023  11:22 PM               267 parse_spec_sheet.py
+06/01/2023  01:27 AM               611 parse_suspension_section.py
+05/31/2023  10:17 AM                 0 part_options.txt
+05/31/2023  01:23 AM             1,872 performance_upgrades.txt
+05/30/2023  11:25 PM                39 performance_upgrade_options.txt
+06/01/2023  01:27 AM                27 performance_upgrade_webscraper.py
+06/04/2023  07:08 PM               109 progress.log
+06/05/2023  11:41 AM               479 read_car_info.py
+06/01/2023  01:27 AM               105 restart_kernel.py
+06/01/2023  01:27 AM               894 retry_make_api_call.py
+05/31/2023  10:18 AM                 0 scrape_analysis.py
+06/01/2023  01:27 AM             1,749 scrape_verification.py
+05/31/2023  08:13 AM                22 search_output.txt
+05/31/2023  12:15 AM                63 setup_nltk.py
+06/01/2023  01:27 AM               819 spec_sheet.json
+06/01/2023  12:47 AM             1,133 spec_sheet.txt
+06/01/2023  12:47 AM             1,133 spec_sheet_data.txt
+06/04/2023  08:34 PM             1,117 split_files.py
+06/01/2023  01:27 AM               202 start_browser.py
+06/01/2023  12:23 AM                 0 suspension_section.html
+05/31/2023  01:06 PM               186 suspension_upgrades.txt
+06/01/2023  01:27 AM               776 suspension_upgrade_choices.py
+05/30/2023  10:32 PM               934 suspension_upgrade_options.txt
+06/01/2023  01:27 AM               746 test_browser.py
+06/05/2023  12:24 PM                22 test_data.py
+06/05/2023  04:10 PM               919 upgrades.txt
+06/05/2023  12:30 PM               824 upgrade_analysis.py
+05/30/2023  11:26 PM                96 upgrade_installation_guide.txt
+06/01/2023  01:16 AM             1,385 upgrade_options.txt
+05/30/2023  11:25 PM                66 upgrade_product_information.txt
+06/01/2023  01:27 AM               979 upgrade_recommendations.py
+06/01/2023  12:16 AM             1,133 vehicle_info.txt
+06/01/2023  07:09 AM                 0 web_interaction.py
+06/05/2023  12:01 PM                 0 __init__.py
+              95 File(s)        210,906 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\analysis
+
+06/05/2023  04:54 PM    <DIR>          .
+06/05/2023  04:54 PM    <DIR>          ..
+06/05/2023  04:54 PM                 0 [REPLACE_WITH_FILENAME_FROM_SHELL]
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\bmw_330i_xdrive
+
+06/05/2023  07:37 PM    <DIR>          .
+06/05/2023  07:37 PM    <DIR>          ..
+06/05/2023  07:37 PM    <DIR>          BMW
+06/04/2023  09:30 PM               746 engine_upgrades.txt
+06/05/2023  12:01 PM                 0 __init__.py
+               2 File(s)            746 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\bmw_330i_xdrive\BMW
+
+06/05/2023  07:37 PM    <DIR>          .
+06/05/2023  07:37 PM    <DIR>          ..
+06/05/2023  07:37 PM    <DIR>          330i
+06/05/2023  12:01 PM                 0 __init__.py
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\bmw_330i_xdrive\BMW\330i
+
+06/05/2023  07:37 PM    <DIR>          .
+06/05/2023  07:37 PM    <DIR>          ..
+06/04/2023  07:36 PM                32 bmw_engine_specs.txt
+06/01/2023  01:31 AM                 0 bmw_specs.py
+06/05/2023  12:01 PM                 0 __init__.py
+               3 File(s)             32 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          Include
+06/05/2023  10:11 PM    <DIR>          Lib
+06/05/2023  10:11 PM               226 pyvenv.cfg
+06/05/2023  10:11 PM    <DIR>          Scripts
+               1 File(s)            226 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Include
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          site-packages
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               151 distutils-precedence.pth
+06/05/2023  10:11 PM    <DIR>          pip
+06/05/2023  10:11 PM    <DIR>          pip-22.3.1.dist-info
+06/05/2023  10:11 PM    <DIR>          pkg_resources
+06/05/2023  10:11 PM    <DIR>          setuptools
+06/05/2023  10:11 PM    <DIR>          setuptools-65.5.0.dist-info
+06/05/2023  10:11 PM    <DIR>          _distutils_hack
+               1 File(s)            151 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               286 py.typed
+06/05/2023  10:11 PM    <DIR>          _internal
+06/05/2023  10:11 PM    <DIR>          _vendor
+06/05/2023  10:11 PM               357 __init__.py
+06/05/2023  10:11 PM             1,198 __main__.py
+06/05/2023  10:11 PM             1,444 __pip-runner__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)          3,285 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,234 build_env.py
+06/05/2023  10:11 PM            10,734 cache.py
+06/05/2023  10:11 PM    <DIR>          cli
+06/05/2023  10:11 PM    <DIR>          commands
+06/05/2023  10:11 PM            13,529 configuration.py
+06/05/2023  10:11 PM    <DIR>          distributions
+06/05/2023  10:11 PM            20,942 exceptions.py
+06/05/2023  10:11 PM    <DIR>          index
+06/05/2023  10:11 PM    <DIR>          locations
+06/05/2023  10:11 PM               340 main.py
+06/05/2023  10:11 PM    <DIR>          metadata
+06/05/2023  10:11 PM    <DIR>          models
+06/05/2023  10:11 PM    <DIR>          network
+06/05/2023  10:11 PM    <DIR>          operations
+06/05/2023  10:11 PM             7,074 pyproject.py
+06/05/2023  10:11 PM    <DIR>          req
+06/05/2023  10:11 PM    <DIR>          resolution
+06/05/2023  10:11 PM             8,020 self_outdated_check.py
+06/05/2023  10:11 PM    <DIR>          utils
+06/05/2023  10:11 PM    <DIR>          vcs
+06/05/2023  10:11 PM            13,079 wheel_builder.py
+06/05/2023  10:11 PM               573 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               9 File(s)         84,525 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\cli
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,676 autocompletion.py
+06/05/2023  10:11 PM             7,842 base_command.py
+06/05/2023  10:11 PM            29,381 cmdoptions.py
+06/05/2023  10:11 PM               774 command_context.py
+06/05/2023  10:11 PM             2,472 main.py
+06/05/2023  10:11 PM             4,338 main_parser.py
+06/05/2023  10:11 PM            10,817 parser.py
+06/05/2023  10:11 PM             1,968 progress_bars.py
+06/05/2023  10:11 PM            18,172 req_command.py
+06/05/2023  10:11 PM             5,118 spinners.py
+06/05/2023  10:11 PM               116 status_codes.py
+06/05/2023  10:11 PM               132 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              12 File(s)         87,806 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\cli\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,107 autocompletion.cpython-311.pyc
+06/05/2023  10:11 PM            11,105 base_command.cpython-311.pyc
+06/05/2023  10:11 PM            32,871 cmdoptions.cpython-311.pyc
+06/05/2023  10:11 PM             2,139 command_context.cpython-311.pyc
+06/05/2023  10:11 PM             2,394 main.cpython-311.pyc
+06/05/2023  10:11 PM             5,553 main_parser.cpython-311.pyc
+06/05/2023  10:11 PM            17,054 parser.cpython-311.pyc
+06/05/2023  10:11 PM             3,201 progress_bars.cpython-311.pyc
+06/05/2023  10:11 PM            20,166 req_command.cpython-311.pyc
+06/05/2023  10:11 PM             8,866 spinners.cpython-311.pyc
+06/05/2023  10:11 PM               405 status_codes.cpython-311.pyc
+06/05/2023  10:11 PM               317 __init__.cpython-311.pyc
+              12 File(s)        114,178 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\commands
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,582 cache.py
+06/05/2023  10:11 PM             1,685 check.py
+06/05/2023  10:11 PM             4,129 completion.py
+06/05/2023  10:11 PM             9,815 configuration.py
+06/05/2023  10:11 PM             6,573 debug.py
+06/05/2023  10:11 PM             5,289 download.py
+06/05/2023  10:11 PM             2,951 freeze.py
+06/05/2023  10:11 PM             1,703 hash.py
+06/05/2023  10:11 PM             1,132 help.py
+06/05/2023  10:11 PM             4,762 index.py
+06/05/2023  10:11 PM             3,374 inspect.py
+06/05/2023  10:11 PM            31,726 install.py
+06/05/2023  10:11 PM            12,343 list.py
+06/05/2023  10:11 PM             5,697 search.py
+06/05/2023  10:11 PM             6,129 show.py
+06/05/2023  10:11 PM             3,680 uninstall.py
+06/05/2023  10:11 PM             7,396 wheel.py
+06/05/2023  10:11 PM             3,882 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              18 File(s)        119,848 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\commands\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,584 cache.cpython-311.pyc
+06/05/2023  10:11 PM             2,335 check.cpython-311.pyc
+06/05/2023  10:11 PM             5,497 completion.cpython-311.pyc
+06/05/2023  10:11 PM            14,926 configuration.cpython-311.pyc
+06/05/2023  10:11 PM            11,961 debug.cpython-311.pyc
+06/05/2023  10:11 PM             7,841 download.cpython-311.pyc
+06/05/2023  10:11 PM             4,171 freeze.cpython-311.pyc
+06/05/2023  10:11 PM             3,387 hash.cpython-311.pyc
+06/05/2023  10:11 PM             1,999 help.cpython-311.pyc
+06/05/2023  10:11 PM             7,788 index.cpython-311.pyc
+06/05/2023  10:11 PM             4,694 inspect.cpython-311.pyc
+06/05/2023  10:11 PM            35,132 install.cpython-311.pyc
+06/05/2023  10:11 PM            17,179 list.cpython-311.pyc
+06/05/2023  10:11 PM             8,981 search.cpython-311.pyc
+06/05/2023  10:11 PM            11,088 show.cpython-311.pyc
+06/05/2023  10:11 PM             4,898 uninstall.cpython-311.pyc
+06/05/2023  10:11 PM             9,981 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             4,485 __init__.cpython-311.pyc
+              18 File(s)        166,927 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\distributions
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,221 base.py
+06/05/2023  10:11 PM               729 installed.py
+06/05/2023  10:11 PM             6,494 sdist.py
+06/05/2023  10:11 PM             1,164 wheel.py
+06/05/2023  10:11 PM               858 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               5 File(s)         10,466 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\distributions\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,439 base.cpython-311.pyc
+06/05/2023  10:11 PM             1,576 installed.cpython-311.pyc
+06/05/2023  10:11 PM             8,978 sdist.cpython-311.pyc
+06/05/2023  10:11 PM             2,170 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             1,067 __init__.cpython-311.pyc
+               5 File(s)         16,230 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\index
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,503 collector.py
+06/05/2023  10:11 PM            37,596 package_finder.py
+06/05/2023  10:11 PM             6,557 sources.py
+06/05/2023  10:11 PM                30 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         60,686 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\index\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            24,577 collector.cpython-311.pyc
+06/05/2023  10:11 PM            43,640 package_finder.cpython-311.pyc
+06/05/2023  10:11 PM            11,053 sources.cpython-311.pyc
+06/05/2023  10:11 PM               271 __init__.cpython-311.pyc
+               4 File(s)         79,541 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\locations
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,573 base.py
+06/05/2023  10:11 PM             6,302 _distutils.py
+06/05/2023  10:11 PM             7,867 _sysconfig.py
+06/05/2023  10:11 PM            17,552 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         34,294 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\locations\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,063 base.cpython-311.pyc
+06/05/2023  10:11 PM             7,937 _distutils.cpython-311.pyc
+06/05/2023  10:11 PM             9,269 _sysconfig.cpython-311.pyc
+06/05/2023  10:11 PM            20,696 __init__.cpython-311.pyc
+               4 File(s)         41,965 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\metadata
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            25,277 base.py
+06/05/2023  10:11 PM    <DIR>          importlib
+06/05/2023  10:11 PM             9,773 pkg_resources.py
+06/05/2023  10:11 PM             2,595 _json.py
+06/05/2023  10:11 PM             4,280 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         41,925 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\metadata\importlib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,882 _compat.py
+06/05/2023  10:11 PM             8,181 _dists.py
+06/05/2023  10:11 PM             7,457 _envs.py
+06/05/2023  10:11 PM               107 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         17,627 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\metadata\importlib\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,595 _compat.cpython-311.pyc
+06/05/2023  10:11 PM            14,611 _dists.cpython-311.pyc
+06/05/2023  10:11 PM            12,449 _envs.cpython-311.pyc
+06/05/2023  10:11 PM               388 __init__.cpython-311.pyc
+               4 File(s)         31,043 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\metadata\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            38,041 base.cpython-311.pyc
+06/05/2023  10:11 PM            16,889 pkg_resources.cpython-311.pyc
+06/05/2023  10:11 PM             3,596 _json.cpython-311.pyc
+06/05/2023  10:11 PM             6,442 __init__.cpython-311.pyc
+               4 File(s)         64,968 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\models
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               990 candidate.py
+06/05/2023  10:11 PM             5,877 direct_url.py
+06/05/2023  10:11 PM             2,520 format_control.py
+06/05/2023  10:11 PM             1,030 index.py
+06/05/2023  10:11 PM             2,617 installation_report.py
+06/05/2023  10:11 PM            18,083 link.py
+06/05/2023  10:11 PM               738 scheme.py
+06/05/2023  10:11 PM             4,644 search_scope.py
+06/05/2023  10:11 PM             1,907 selection_prefs.py
+06/05/2023  10:11 PM             3,858 target_python.py
+06/05/2023  10:11 PM             3,600 wheel.py
+06/05/2023  10:11 PM                63 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              12 File(s)         45,927 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\models\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,124 candidate.cpython-311.pyc
+06/05/2023  10:11 PM            11,629 direct_url.cpython-311.pyc
+06/05/2023  10:11 PM             4,688 format_control.cpython-311.pyc
+06/05/2023  10:11 PM             1,930 index.cpython-311.pyc
+06/05/2023  10:11 PM             2,644 installation_report.cpython-311.pyc
+06/05/2023  10:11 PM            25,040 link.cpython-311.pyc
+06/05/2023  10:11 PM             1,296 scheme.cpython-311.pyc
+06/05/2023  10:11 PM             5,859 search_scope.cpython-311.pyc
+06/05/2023  10:11 PM             2,027 selection_prefs.cpython-311.pyc
+06/05/2023  10:11 PM             4,789 target_python.cpython-311.pyc
+06/05/2023  10:11 PM             6,452 wheel.cpython-311.pyc
+06/05/2023  10:11 PM               305 __init__.cpython-311.pyc
+              12 File(s)         68,783 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\network
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            12,190 auth.py
+06/05/2023  10:11 PM             2,145 cache.py
+06/05/2023  10:11 PM             6,096 download.py
+06/05/2023  10:11 PM             7,638 lazy_wheel.py
+06/05/2023  10:11 PM            18,443 session.py
+06/05/2023  10:11 PM             4,073 utils.py
+06/05/2023  10:11 PM             1,791 xmlrpc.py
+06/05/2023  10:11 PM                50 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               8 File(s)         52,426 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\network\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            12,212 auth.cpython-311.pyc
+06/05/2023  10:11 PM             5,216 cache.cpython-311.pyc
+06/05/2023  10:11 PM             9,608 download.cpython-311.pyc
+06/05/2023  10:11 PM            13,054 lazy_wheel.cpython-311.pyc
+06/05/2023  10:11 PM            21,321 session.cpython-311.pyc
+06/05/2023  10:11 PM             2,442 utils.cpython-311.pyc
+06/05/2023  10:11 PM             3,221 xmlrpc.cpython-311.pyc
+06/05/2023  10:11 PM               293 __init__.cpython-311.pyc
+               8 File(s)         67,367 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          build
+06/05/2023  10:11 PM             5,109 check.py
+06/05/2023  10:11 PM             9,784 freeze.py
+06/05/2023  10:11 PM    <DIR>          install
+06/05/2023  10:11 PM            25,091 prepare.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         39,984 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations\build
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,133 build_tracker.py
+06/05/2023  10:11 PM             1,404 metadata.py
+06/05/2023  10:11 PM             1,456 metadata_editable.py
+06/05/2023  10:11 PM             2,198 metadata_legacy.py
+06/05/2023  10:11 PM             1,063 wheel.py
+06/05/2023  10:11 PM             1,405 wheel_editable.py
+06/05/2023  10:11 PM             3,064 wheel_legacy.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               8 File(s)         14,723 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations\build\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,160 build_tracker.cpython-311.pyc
+06/05/2023  10:11 PM             2,302 metadata.cpython-311.pyc
+06/05/2023  10:11 PM             2,338 metadata_editable.cpython-311.pyc
+06/05/2023  10:11 PM             3,744 metadata_legacy.cpython-311.pyc
+06/05/2023  10:11 PM             1,968 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             2,412 wheel_editable.cpython-311.pyc
+06/05/2023  10:11 PM             4,525 wheel_legacy.cpython-311.pyc
+06/05/2023  10:11 PM               237 __init__.cpython-311.pyc
+               8 File(s)         25,686 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations\install
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,354 editable_legacy.py
+06/05/2023  10:11 PM             4,105 legacy.py
+06/05/2023  10:11 PM            27,407 wheel.py
+06/05/2023  10:11 PM                51 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         32,917 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations\install\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,301 editable_legacy.cpython-311.pyc
+06/05/2023  10:11 PM             6,141 legacy.cpython-311.pyc
+06/05/2023  10:11 PM            40,027 wheel.cpython-311.pyc
+06/05/2023  10:11 PM               305 __init__.cpython-311.pyc
+               4 File(s)         48,774 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\operations\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,643 check.cpython-311.pyc
+06/05/2023  10:11 PM            11,627 freeze.cpython-311.pyc
+06/05/2023  10:11 PM            26,411 prepare.cpython-311.pyc
+06/05/2023  10:11 PM               231 __init__.cpython-311.pyc
+               4 File(s)         44,912 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\req
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,611 constructors.py
+06/05/2023  10:11 PM            17,646 req_file.py
+06/05/2023  10:11 PM            35,600 req_install.py
+06/05/2023  10:11 PM             2,858 req_set.py
+06/05/2023  10:11 PM            24,045 req_uninstall.py
+06/05/2023  10:11 PM             2,807 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               6 File(s)         99,567 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\req\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            20,736 constructors.cpython-311.pyc
+06/05/2023  10:11 PM            22,465 req_file.cpython-311.pyc
+06/05/2023  10:11 PM            40,315 req_install.cpython-311.pyc
+06/05/2023  10:11 PM             6,033 req_set.cpython-311.pyc
+06/05/2023  10:11 PM            37,031 req_uninstall.cpython-311.pyc
+06/05/2023  10:11 PM             4,477 __init__.cpython-311.pyc
+               6 File(s)        131,057 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               583 base.py
+06/05/2023  10:11 PM    <DIR>          legacy
+06/05/2023  10:11 PM    <DIR>          resolvelib
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)            583 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution\legacy
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            24,129 resolver.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)         24,129 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution\legacy\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            23,824 resolver.cpython-311.pyc
+06/05/2023  10:11 PM               238 __init__.cpython-311.pyc
+               2 File(s)         24,062 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution\resolvelib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,220 base.py
+06/05/2023  10:11 PM            18,963 candidates.py
+06/05/2023  10:11 PM            27,878 factory.py
+06/05/2023  10:11 PM             5,705 found_candidates.py
+06/05/2023  10:11 PM             9,914 provider.py
+06/05/2023  10:11 PM             2,526 reporter.py
+06/05/2023  10:11 PM             5,455 requirements.py
+06/05/2023  10:11 PM            11,533 resolver.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               9 File(s)         87,194 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution\resolvelib\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             9,655 base.cpython-311.pyc
+06/05/2023  10:11 PM            28,865 candidates.cpython-311.pyc
+06/05/2023  10:11 PM            32,009 factory.cpython-311.pyc
+06/05/2023  10:11 PM             6,790 found_candidates.cpython-311.pyc
+06/05/2023  10:11 PM            11,084 provider.cpython-311.pyc
+06/05/2023  10:11 PM             4,687 reporter.cpython-311.pyc
+06/05/2023  10:11 PM            11,152 requirements.cpython-311.pyc
+06/05/2023  10:11 PM            12,339 resolver.cpython-311.pyc
+06/05/2023  10:11 PM               242 __init__.cpython-311.pyc
+               9 File(s)        116,823 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\resolution\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,402 base.cpython-311.pyc
+06/05/2023  10:11 PM               231 __init__.cpython-311.pyc
+               2 File(s)          1,633 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\utils
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,665 appdirs.py
+06/05/2023  10:11 PM             1,884 compat.py
+06/05/2023  10:11 PM             5,377 compatibility_tags.py
+06/05/2023  10:11 PM               242 datetime.py
+06/05/2023  10:11 PM             5,764 deprecation.py
+06/05/2023  10:11 PM             3,206 direct_url_helpers.py
+06/05/2023  10:11 PM             1,115 distutils_args.py
+06/05/2023  10:11 PM             2,203 egg_link.py
+06/05/2023  10:11 PM             1,169 encoding.py
+06/05/2023  10:11 PM             3,064 entrypoints.py
+06/05/2023  10:11 PM             5,122 filesystem.py
+06/05/2023  10:11 PM               716 filetypes.py
+06/05/2023  10:11 PM             3,110 glibc.py
+06/05/2023  10:11 PM             4,831 hashes.py
+06/05/2023  10:11 PM               795 inject_securetransport.py
+06/05/2023  10:11 PM            11,632 logging.py
+06/05/2023  10:11 PM            21,617 misc.py
+06/05/2023  10:11 PM             1,193 models.py
+06/05/2023  10:11 PM             2,108 packaging.py
+06/05/2023  10:11 PM             5,662 setuptools_build.py
+06/05/2023  10:11 PM             9,197 subprocess.py
+06/05/2023  10:11 PM             7,702 temp_dir.py
+06/05/2023  10:11 PM             8,821 unpacking.py
+06/05/2023  10:11 PM             1,759 urls.py
+06/05/2023  10:11 PM             3,459 virtualenv.py
+06/05/2023  10:11 PM             4,549 wheel.py
+06/05/2023  10:11 PM             1,015 _log.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              28 File(s)        118,977 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\utils\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,585 appdirs.cpython-311.pyc
+06/05/2023  10:11 PM             2,293 compat.cpython-311.pyc
+06/05/2023  10:11 PM             6,785 compatibility_tags.cpython-311.pyc
+06/05/2023  10:11 PM               743 datetime.cpython-311.pyc
+06/05/2023  10:11 PM             7,116 deprecation.cpython-311.pyc
+06/05/2023  10:11 PM             3,749 direct_url_helpers.cpython-311.pyc
+06/05/2023  10:11 PM             1,493 distutils_args.cpython-311.pyc
+06/05/2023  10:11 PM             3,245 egg_link.cpython-311.pyc
+06/05/2023  10:11 PM             2,349 encoding.cpython-311.pyc
+06/05/2023  10:11 PM             4,271 entrypoints.cpython-311.pyc
+06/05/2023  10:11 PM             8,256 filesystem.cpython-311.pyc
+06/05/2023  10:11 PM             1,342 filetypes.cpython-311.pyc
+06/05/2023  10:11 PM             2,585 glibc.cpython-311.pyc
+06/05/2023  10:11 PM             8,363 hashes.cpython-311.pyc
+06/05/2023  10:11 PM             1,360 inject_securetransport.cpython-311.pyc
+06/05/2023  10:11 PM            15,485 logging.cpython-311.pyc
+06/05/2023  10:11 PM            35,799 misc.cpython-311.pyc
+06/05/2023  10:11 PM             2,966 models.cpython-311.pyc
+06/05/2023  10:11 PM             2,833 packaging.cpython-311.pyc
+06/05/2023  10:11 PM             6,130 setuptools_build.cpython-311.pyc
+06/05/2023  10:11 PM             9,917 subprocess.cpython-311.pyc
+06/05/2023  10:11 PM            11,447 temp_dir.cpython-311.pyc
+06/05/2023  10:11 PM            12,922 unpacking.cpython-311.pyc
+06/05/2023  10:11 PM             2,719 urls.cpython-311.pyc
+06/05/2023  10:11 PM             4,966 virtualenv.cpython-311.pyc
+06/05/2023  10:11 PM             7,136 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             2,047 _log.cpython-311.pyc
+06/05/2023  10:11 PM               226 __init__.cpython-311.pyc
+              28 File(s)        171,128 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\vcs
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,518 bazaar.py
+06/05/2023  10:11 PM            18,116 git.py
+06/05/2023  10:11 PM             5,238 mercurial.py
+06/05/2023  10:11 PM            11,728 subversion.py
+06/05/2023  10:11 PM            22,811 versioncontrol.py
+06/05/2023  10:11 PM               596 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               6 File(s)         62,007 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\vcs\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,886 bazaar.cpython-311.pyc
+06/05/2023  10:11 PM            21,550 git.cpython-311.pyc
+06/05/2023  10:11 PM             8,732 mercurial.cpython-311.pyc
+06/05/2023  10:11 PM            14,629 subversion.cpython-311.pyc
+06/05/2023  10:11 PM            31,898 versioncontrol.cpython-311.pyc
+06/05/2023  10:11 PM               661 __init__.cpython-311.pyc
+               6 File(s)         83,356 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_internal\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            15,929 build_env.cpython-311.pyc
+06/05/2023  10:11 PM            14,727 cache.cpython-311.pyc
+06/05/2023  10:11 PM            19,258 configuration.cpython-311.pyc
+06/05/2023  10:11 PM            33,962 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM               782 main.cpython-311.pyc
+06/05/2023  10:11 PM             5,554 pyproject.cpython-311.pyc
+06/05/2023  10:11 PM            11,196 self_outdated_check.cpython-311.pyc
+06/05/2023  10:11 PM            16,022 wheel_builder.cpython-311.pyc
+06/05/2023  10:11 PM               982 __init__.cpython-311.pyc
+               9 File(s)        118,412 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          cachecontrol
+06/05/2023  10:11 PM    <DIR>          certifi
+06/05/2023  10:11 PM    <DIR>          chardet
+06/05/2023  10:11 PM    <DIR>          colorama
+06/05/2023  10:11 PM    <DIR>          distlib
+06/05/2023  10:11 PM    <DIR>          distro
+06/05/2023  10:11 PM    <DIR>          idna
+06/05/2023  10:11 PM    <DIR>          msgpack
+06/05/2023  10:11 PM    <DIR>          packaging
+06/05/2023  10:11 PM    <DIR>          pep517
+06/05/2023  10:11 PM    <DIR>          pkg_resources
+06/05/2023  10:11 PM    <DIR>          platformdirs
+06/05/2023  10:11 PM    <DIR>          pygments
+06/05/2023  10:11 PM    <DIR>          pyparsing
+06/05/2023  10:11 PM    <DIR>          requests
+06/05/2023  10:11 PM    <DIR>          resolvelib
+06/05/2023  10:11 PM    <DIR>          rich
+06/05/2023  10:11 PM            34,549 six.py
+06/05/2023  10:11 PM    <DIR>          tenacity
+06/05/2023  10:11 PM    <DIR>          tomli
+06/05/2023  10:11 PM            80,114 typing_extensions.py
+06/05/2023  10:11 PM    <DIR>          urllib3
+06/05/2023  10:11 PM               469 vendor.txt
+06/05/2023  10:11 PM    <DIR>          webencodings
+06/05/2023  10:11 PM             4,966 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)        120,098 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\cachecontrol
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,033 adapter.py
+06/05/2023  10:11 PM             1,535 cache.py
+06/05/2023  10:11 PM    <DIR>          caches
+06/05/2023  10:11 PM               778 compat.py
+06/05/2023  10:11 PM            16,416 controller.py
+06/05/2023  10:11 PM             3,946 filewrapper.py
+06/05/2023  10:11 PM             4,154 heuristics.py
+06/05/2023  10:11 PM             7,105 serialize.py
+06/05/2023  10:11 PM               774 wrapper.py
+06/05/2023  10:11 PM             1,379 _cmd.py
+06/05/2023  10:11 PM               465 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              10 File(s)         41,585 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\cachecontrol\caches
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,271 file_cache.py
+06/05/2023  10:11 PM             1,033 redis_cache.py
+06/05/2023  10:11 PM               242 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)          6,546 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\cachecontrol\caches\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,426 file_cache.cpython-311.pyc
+06/05/2023  10:11 PM             2,523 redis_cache.cpython-311.pyc
+06/05/2023  10:11 PM               443 __init__.cpython-311.pyc
+               3 File(s)         11,392 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\cachecontrol\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,530 adapter.cpython-311.pyc
+06/05/2023  10:11 PM             3,804 cache.cpython-311.pyc
+06/05/2023  10:11 PM             1,161 compat.cpython-311.pyc
+06/05/2023  10:11 PM            16,476 controller.cpython-311.pyc
+06/05/2023  10:11 PM             4,263 filewrapper.cpython-311.pyc
+06/05/2023  10:11 PM             6,708 heuristics.cpython-311.pyc
+06/05/2023  10:11 PM             8,423 serialize.cpython-311.pyc
+06/05/2023  10:11 PM               989 wrapper.cpython-311.pyc
+06/05/2023  10:11 PM             2,723 _cmd.cpython-311.pyc
+06/05/2023  10:11 PM               868 __init__.cpython-311.pyc
+              10 File(s)         50,945 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\certifi
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           286,370 cacert.pem
+06/05/2023  10:11 PM             4,279 core.py
+06/05/2023  10:11 PM                94 __init__.py
+06/05/2023  10:11 PM               255 __main__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)        290,998 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\certifi\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,391 core.cpython-311.pyc
+06/05/2023  10:11 PM               368 __init__.cpython-311.pyc
+06/05/2023  10:11 PM               769 __main__.cpython-311.pyc
+               3 File(s)          4,528 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            31,274 big5freq.py
+06/05/2023  10:11 PM             1,741 big5prober.py
+06/05/2023  10:11 PM             9,608 chardistribution.py
+06/05/2023  10:11 PM             3,817 charsetgroupprober.py
+06/05/2023  10:11 PM             4,801 charsetprober.py
+06/05/2023  10:11 PM    <DIR>          cli
+06/05/2023  10:11 PM             3,559 codingstatemachine.py
+06/05/2023  10:11 PM             1,838 cp949prober.py
+06/05/2023  10:11 PM             1,619 enums.py
+06/05/2023  10:11 PM             3,864 escprober.py
+06/05/2023  10:11 PM            12,021 escsm.py
+06/05/2023  10:11 PM             3,676 eucjpprober.py
+06/05/2023  10:11 PM            13,566 euckrfreq.py
+06/05/2023  10:11 PM             1,731 euckrprober.py
+06/05/2023  10:11 PM            36,913 euctwfreq.py
+06/05/2023  10:11 PM             1,731 euctwprober.py
+06/05/2023  10:11 PM            20,735 gb2312freq.py
+06/05/2023  10:11 PM             1,737 gb2312prober.py
+06/05/2023  10:11 PM            13,919 hebrewprober.py
+06/05/2023  10:11 PM            25,796 jisfreq.py
+06/05/2023  10:11 PM            42,498 johabfreq.py
+06/05/2023  10:11 PM             1,730 johabprober.py
+06/05/2023  10:11 PM            26,797 jpcntx.py
+06/05/2023  10:11 PM           104,562 langbulgarianmodel.py
+06/05/2023  10:11 PM            98,484 langgreekmodel.py
+06/05/2023  10:11 PM            98,196 langhebrewmodel.py
+06/05/2023  10:11 PM           101,363 langhungarianmodel.py
+06/05/2023  10:11 PM           128,035 langrussianmodel.py
+06/05/2023  10:11 PM           102,774 langthaimodel.py
+06/05/2023  10:11 PM            95,372 langturkishmodel.py
+06/05/2023  10:11 PM             5,260 latin1prober.py
+06/05/2023  10:11 PM             3,367 mbcharsetprober.py
+06/05/2023  10:11 PM             2,056 mbcsgroupprober.py
+06/05/2023  10:11 PM            30,068 mbcssm.py
+06/05/2023  10:11 PM    <DIR>          metadata
+06/05/2023  10:11 PM             6,199 sbcharsetprober.py
+06/05/2023  10:11 PM             4,129 sbcsgroupprober.py
+06/05/2023  10:11 PM             3,749 sjisprober.py
+06/05/2023  10:11 PM            13,288 universaldetector.py
+06/05/2023  10:11 PM             8,289 utf1632prober.py
+06/05/2023  10:11 PM             2,709 utf8prober.py
+06/05/2023  10:11 PM               242 version.py
+06/05/2023  10:11 PM             3,705 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              41 File(s)      1,076,818 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet\cli
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,406 chardetect.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)          2,406 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet\cli\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,415 chardetect.cpython-311.pyc
+06/05/2023  10:11 PM               230 __init__.cpython-311.pyc
+               2 File(s)          3,645 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet\metadata
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            13,280 languages.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)         13,280 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet\metadata\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,442 languages.cpython-311.pyc
+06/05/2023  10:11 PM               235 __init__.cpython-311.pyc
+               2 File(s)         10,677 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\chardet\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            27,230 big5freq.cpython-311.pyc
+06/05/2023  10:11 PM             1,640 big5prober.cpython-311.pyc
+06/05/2023  10:11 PM            10,422 chardistribution.cpython-311.pyc
+06/05/2023  10:11 PM             3,956 charsetgroupprober.cpython-311.pyc
+06/05/2023  10:11 PM             4,770 charsetprober.cpython-311.pyc
+06/05/2023  10:11 PM             3,715 codingstatemachine.cpython-311.pyc
+06/05/2023  10:11 PM             1,649 cp949prober.cpython-311.pyc
+06/05/2023  10:11 PM             3,279 enums.cpython-311.pyc
+06/05/2023  10:11 PM             4,558 escprober.cpython-311.pyc
+06/05/2023  10:11 PM            12,427 escsm.cpython-311.pyc
+06/05/2023  10:11 PM             4,407 eucjpprober.cpython-311.pyc
+06/05/2023  10:11 PM            12,113 euckrfreq.cpython-311.pyc
+06/05/2023  10:11 PM             1,641 euckrprober.cpython-311.pyc
+06/05/2023  10:11 PM            27,235 euctwfreq.cpython-311.pyc
+06/05/2023  10:11 PM             1,641 euctwprober.cpython-311.pyc
+06/05/2023  10:11 PM            19,157 gb2312freq.cpython-311.pyc
+06/05/2023  10:11 PM             1,656 gb2312prober.cpython-311.pyc
+06/05/2023  10:11 PM             4,970 hebrewprober.cpython-311.pyc
+06/05/2023  10:11 PM            22,186 jisfreq.cpython-311.pyc
+06/05/2023  10:11 PM            84,690 johabfreq.cpython-311.pyc
+06/05/2023  10:11 PM             1,647 johabprober.cpython-311.pyc
+06/05/2023  10:11 PM            39,556 jpcntx.cpython-311.pyc
+06/05/2023  10:11 PM            85,864 langbulgarianmodel.cpython-311.pyc
+06/05/2023  10:11 PM            79,286 langgreekmodel.cpython-311.pyc
+06/05/2023  10:11 PM            80,048 langhebrewmodel.cpython-311.pyc
+06/05/2023  10:11 PM            85,818 langhungarianmodel.cpython-311.pyc
+06/05/2023  10:11 PM           108,765 langrussianmodel.cpython-311.pyc
+06/05/2023  10:11 PM            80,226 langthaimodel.cpython-311.pyc
+06/05/2023  10:11 PM            80,065 langturkishmodel.cpython-311.pyc
+06/05/2023  10:11 PM             7,088 latin1prober.cpython-311.pyc
+06/05/2023  10:11 PM             3,907 mbcharsetprober.cpython-311.pyc
+06/05/2023  10:11 PM             1,891 mbcsgroupprober.cpython-311.pyc
+06/05/2023  10:11 PM            31,283 mbcssm.cpython-311.pyc
+06/05/2023  10:11 PM             5,613 sbcharsetprober.cpython-311.pyc
+06/05/2023  10:11 PM             2,945 sbcsgroupprober.cpython-311.pyc
+06/05/2023  10:11 PM             4,512 sjisprober.cpython-311.pyc
+06/05/2023  10:11 PM            11,335 universaldetector.cpython-311.pyc
+06/05/2023  10:11 PM            10,105 utf1632prober.cpython-311.pyc
+06/05/2023  10:11 PM             3,253 utf8prober.cpython-311.pyc
+06/05/2023  10:11 PM               531 version.cpython-311.pyc
+06/05/2023  10:11 PM             3,994 __init__.cpython-311.pyc
+              41 File(s)        981,074 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\colorama
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,522 ansi.py
+06/05/2023  10:11 PM            10,830 ansitowin32.py
+06/05/2023  10:11 PM             1,915 initialise.py
+06/05/2023  10:11 PM             5,404 win32.py
+06/05/2023  10:11 PM             6,438 winterm.py
+06/05/2023  10:11 PM               239 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               6 File(s)         27,348 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\colorama\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,600 ansi.cpython-311.pyc
+06/05/2023  10:11 PM            15,767 ansitowin32.cpython-311.pyc
+06/05/2023  10:11 PM             2,922 initialise.cpython-311.pyc
+06/05/2023  10:11 PM             6,941 win32.cpython-311.pyc
+06/05/2023  10:11 PM             8,060 winterm.cpython-311.pyc
+06/05/2023  10:11 PM               561 __init__.cpython-311.pyc
+               6 File(s)         38,851 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\distlib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            41,259 compat.py
+06/05/2023  10:11 PM            51,697 database.py
+06/05/2023  10:11 PM            20,834 index.py
+06/05/2023  10:11 PM            51,991 locators.py
+06/05/2023  10:11 PM            14,811 manifest.py
+06/05/2023  10:11 PM             5,058 markers.py
+06/05/2023  10:11 PM            39,801 metadata.py
+06/05/2023  10:11 PM            10,820 resources.py
+06/05/2023  10:11 PM            18,102 scripts.py
+06/05/2023  10:11 PM            97,792 t32.exe
+06/05/2023  10:11 PM           182,784 t64-arm.exe
+06/05/2023  10:11 PM           108,032 t64.exe
+06/05/2023  10:11 PM            66,262 util.py
+06/05/2023  10:11 PM            23,513 version.py
+06/05/2023  10:11 PM            91,648 w32.exe
+06/05/2023  10:11 PM           168,448 w64-arm.exe
+06/05/2023  10:11 PM           101,888 w64.exe
+06/05/2023  10:11 PM            43,898 wheel.py
+06/05/2023  10:11 PM               581 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              19 File(s)      1,139,219 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\distlib\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            52,337 compat.cpython-311.pyc
+06/05/2023  10:11 PM            72,125 database.cpython-311.pyc
+06/05/2023  10:11 PM            26,714 index.cpython-311.pyc
+06/05/2023  10:11 PM            65,890 locators.cpython-311.pyc
+06/05/2023  10:11 PM            17,057 manifest.cpython-311.pyc
+06/05/2023  10:11 PM             8,193 markers.cpython-311.pyc
+06/05/2023  10:11 PM            47,141 metadata.cpython-311.pyc
+06/05/2023  10:11 PM            19,020 resources.cpython-311.pyc
+06/05/2023  10:11 PM            21,296 scripts.cpython-311.pyc
+06/05/2023  10:11 PM            97,475 util.cpython-311.pyc
+06/05/2023  10:11 PM            34,602 version.cpython-311.pyc
+06/05/2023  10:11 PM            60,406 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             1,471 __init__.cpython-311.pyc
+              13 File(s)        523,727 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\distro
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            48,841 distro.py
+06/05/2023  10:11 PM               981 __init__.py
+06/05/2023  10:11 PM                64 __main__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)         49,886 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\distro\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            56,244 distro.cpython-311.pyc
+06/05/2023  10:11 PM             1,224 __init__.cpython-311.pyc
+06/05/2023  10:11 PM               358 __main__.cpython-311.pyc
+               3 File(s)         57,826 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\idna
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,374 codec.py
+06/05/2023  10:11 PM               321 compat.py
+06/05/2023  10:11 PM            12,950 core.py
+06/05/2023  10:11 PM            44,375 idnadata.py
+06/05/2023  10:11 PM             1,881 intranges.py
+06/05/2023  10:11 PM                21 package_data.py
+06/05/2023  10:11 PM           206,539 uts46data.py
+06/05/2023  10:11 PM               849 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               8 File(s)        270,310 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\idna\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,416 codec.cpython-311.pyc
+06/05/2023  10:11 PM             1,042 compat.cpython-311.pyc
+06/05/2023  10:11 PM            19,477 core.cpython-311.pyc
+06/05/2023  10:11 PM            39,001 idnadata.cpython-311.pyc
+06/05/2023  10:11 PM             3,010 intranges.cpython-311.pyc
+06/05/2023  10:11 PM               245 package_data.cpython-311.pyc
+06/05/2023  10:11 PM           163,225 uts46data.cpython-311.pyc
+06/05/2023  10:11 PM             1,125 __init__.cpython-311.pyc
+               8 File(s)        232,541 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\msgpack
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,081 exceptions.py
+06/05/2023  10:11 PM             6,080 ext.py
+06/05/2023  10:11 PM            34,557 fallback.py
+06/05/2023  10:11 PM             1,132 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         42,850 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\msgpack\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,405 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM             9,191 ext.cpython-311.pyc
+06/05/2023  10:11 PM            47,218 fallback.cpython-311.pyc
+06/05/2023  10:11 PM             2,104 __init__.cpython-311.pyc
+               4 File(s)         60,918 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\packaging
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,487 markers.py
+06/05/2023  10:11 PM             4,676 requirements.py
+06/05/2023  10:11 PM            30,110 specifiers.py
+06/05/2023  10:11 PM            15,699 tags.py
+06/05/2023  10:11 PM             4,200 utils.py
+06/05/2023  10:11 PM            14,665 version.py
+06/05/2023  10:11 PM            11,488 _manylinux.py
+06/05/2023  10:11 PM             4,378 _musllinux.py
+06/05/2023  10:11 PM             1,431 _structures.py
+06/05/2023  10:11 PM               661 __about__.py
+06/05/2023  10:11 PM               497 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              11 File(s)         96,292 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\packaging\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,552 markers.cpython-311.pyc
+06/05/2023  10:11 PM             7,667 requirements.cpython-311.pyc
+06/05/2023  10:11 PM            34,390 specifiers.cpython-311.pyc
+06/05/2023  10:11 PM            21,375 tags.cpython-311.pyc
+06/05/2023  10:11 PM             6,710 utils.cpython-311.pyc
+06/05/2023  10:11 PM            21,902 version.cpython-311.pyc
+06/05/2023  10:11 PM            13,256 _manylinux.cpython-311.pyc
+06/05/2023  10:11 PM             8,024 _musllinux.cpython-311.pyc
+06/05/2023  10:11 PM             3,712 _structures.cpython-311.pyc
+06/05/2023  10:11 PM               669 __about__.cpython-311.pyc
+06/05/2023  10:11 PM               590 __init__.cpython-311.pyc
+              11 File(s)        134,847 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pep517
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,443 build.py
+06/05/2023  10:11 PM             6,083 check.py
+06/05/2023  10:11 PM             3,994 colorlog.py
+06/05/2023  10:11 PM               607 dirtools.py
+06/05/2023  10:11 PM             6,081 envbuild.py
+06/05/2023  10:11 PM    <DIR>          in_process
+06/05/2023  10:11 PM             2,520 meta.py
+06/05/2023  10:11 PM            12,721 wrappers.py
+06/05/2023  10:11 PM               138 _compat.py
+06/05/2023  10:11 PM               130 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               9 File(s)         35,717 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pep517\in_process
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,801 _in_process.py
+06/05/2023  10:11 PM               872 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)         11,673 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pep517\in_process\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,505 _in_process.cpython-311.pyc
+06/05/2023  10:11 PM             1,816 __init__.cpython-311.pyc
+               2 File(s)         18,321 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pep517\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,665 build.cpython-311.pyc
+06/05/2023  10:11 PM            11,827 check.cpython-311.pyc
+06/05/2023  10:11 PM             4,872 colorlog.cpython-311.pyc
+06/05/2023  10:11 PM             1,350 dirtools.cpython-311.pyc
+06/05/2023  10:11 PM             7,509 envbuild.cpython-311.pyc
+06/05/2023  10:11 PM             5,776 meta.cpython-311.pyc
+06/05/2023  10:11 PM            18,324 wrappers.cpython-311.pyc
+06/05/2023  10:11 PM               422 _compat.cpython-311.pyc
+06/05/2023  10:11 PM               369 __init__.cpython-311.pyc
+               9 File(s)         57,114 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pkg_resources
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               562 py31compat.py
+06/05/2023  10:11 PM           108,287 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)        108,849 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pkg_resources\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,011 py31compat.cpython-311.pyc
+06/05/2023  10:11 PM           158,258 __init__.cpython-311.pyc
+               2 File(s)        159,269 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\platformdirs
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,068 android.py
+06/05/2023  10:11 PM             4,910 api.py
+06/05/2023  10:11 PM             2,655 macos.py
+06/05/2023  10:11 PM             6,910 unix.py
+06/05/2023  10:11 PM                78 version.py
+06/05/2023  10:11 PM             6,439 windows.py
+06/05/2023  10:11 PM            12,831 __init__.py
+06/05/2023  10:11 PM             1,176 __main__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               8 File(s)         39,067 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\platformdirs\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,384 android.cpython-311.pyc
+06/05/2023  10:11 PM             7,211 api.cpython-311.pyc
+06/05/2023  10:11 PM             4,621 macos.cpython-311.pyc
+06/05/2023  10:11 PM            11,052 unix.cpython-311.pyc
+06/05/2023  10:11 PM               337 version.cpython-311.pyc
+06/05/2023  10:11 PM             9,859 windows.cpython-311.pyc
+06/05/2023  10:11 PM            12,816 __init__.cpython-311.pyc
+06/05/2023  10:11 PM             2,154 __main__.cpython-311.pyc
+               8 File(s)         54,434 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            23,685 cmdline.py
+06/05/2023  10:11 PM             1,697 console.py
+06/05/2023  10:11 PM             1,938 filter.py
+06/05/2023  10:11 PM    <DIR>          filters
+06/05/2023  10:11 PM             2,917 formatter.py
+06/05/2023  10:11 PM    <DIR>          formatters
+06/05/2023  10:11 PM            32,005 lexer.py
+06/05/2023  10:11 PM    <DIR>          lexers
+06/05/2023  10:11 PM               986 modeline.py
+06/05/2023  10:11 PM             2,591 plugin.py
+06/05/2023  10:11 PM             3,072 regexopt.py
+06/05/2023  10:11 PM             3,092 scanner.py
+06/05/2023  10:11 PM             4,630 sphinxext.py
+06/05/2023  10:11 PM             6,257 style.py
+06/05/2023  10:11 PM    <DIR>          styles
+06/05/2023  10:11 PM             6,184 token.py
+06/05/2023  10:11 PM            63,187 unistring.py
+06/05/2023  10:11 PM             9,110 util.py
+06/05/2023  10:11 PM             2,999 __init__.py
+06/05/2023  10:11 PM               353 __main__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              16 File(s)        164,703 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\filters
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            40,386 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         40,386 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\filters\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            40,132 __init__.cpython-311.pyc
+               1 File(s)         40,132 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\formatters
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,314 bbcode.py
+06/05/2023  10:11 PM             5,086 groff.py
+06/05/2023  10:11 PM            35,441 html.py
+06/05/2023  10:11 PM            21,938 img.py
+06/05/2023  10:11 PM             5,871 irc.py
+06/05/2023  10:11 PM            19,351 latex.py
+06/05/2023  10:11 PM             5,073 other.py
+06/05/2023  10:11 PM             2,212 pangomarkup.py
+06/05/2023  10:11 PM             5,014 rtf.py
+06/05/2023  10:11 PM             7,335 svg.py
+06/05/2023  10:11 PM             4,674 terminal.py
+06/05/2023  10:11 PM            11,753 terminal256.py
+06/05/2023  10:11 PM             4,104 _mapping.py
+06/05/2023  10:11 PM             4,810 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              14 File(s)        135,976 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\formatters\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,506 bbcode.cpython-311.pyc
+06/05/2023  10:11 PM             7,839 groff.cpython-311.pyc
+06/05/2023  10:11 PM            42,624 html.cpython-311.pyc
+06/05/2023  10:11 PM            28,596 img.cpython-311.pyc
+06/05/2023  10:11 PM             7,699 irc.cpython-311.pyc
+06/05/2023  10:11 PM            21,832 latex.cpython-311.pyc
+06/05/2023  10:11 PM             7,660 other.cpython-311.pyc
+06/05/2023  10:11 PM             3,204 pangomarkup.cpython-311.pyc
+06/05/2023  10:11 PM             6,871 rtf.cpython-311.pyc
+06/05/2023  10:11 PM             9,691 svg.cpython-311.pyc
+06/05/2023  10:11 PM             6,070 terminal.cpython-311.pyc
+06/05/2023  10:11 PM            16,436 terminal256.cpython-311.pyc
+06/05/2023  10:11 PM             4,180 _mapping.cpython-311.pyc
+06/05/2023  10:11 PM             6,898 __init__.cpython-311.pyc
+              14 File(s)        174,106 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\lexers
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            53,376 python.py
+06/05/2023  10:11 PM            70,232 _mapping.py
+06/05/2023  10:11 PM            11,174 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)        134,782 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\lexers\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            44,007 python.cpython-311.pyc
+06/05/2023  10:11 PM            62,806 _mapping.cpython-311.pyc
+06/05/2023  10:11 PM            15,175 __init__.cpython-311.pyc
+               3 File(s)        121,988 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\styles
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,419 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)          3,419 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\styles\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,485 __init__.cpython-311.pyc
+               1 File(s)          4,485 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pygments\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            30,319 cmdline.cpython-311.pyc
+06/05/2023  10:11 PM             3,071 console.cpython-311.pyc
+06/05/2023  10:11 PM             3,532 filter.cpython-311.pyc
+06/05/2023  10:11 PM             3,898 formatter.cpython-311.pyc
+06/05/2023  10:11 PM            40,426 lexer.cpython-311.pyc
+06/05/2023  10:11 PM             1,751 modeline.cpython-311.pyc
+06/05/2023  10:11 PM             3,764 plugin.cpython-311.pyc
+06/05/2023  10:11 PM             5,058 regexopt.cpython-311.pyc
+06/05/2023  10:11 PM             4,913 scanner.cpython-311.pyc
+06/05/2023  10:11 PM             8,344 sphinxext.cpython-311.pyc
+06/05/2023  10:11 PM             7,452 style.cpython-311.pyc
+06/05/2023  10:11 PM             7,492 token.cpython-311.pyc
+06/05/2023  10:11 PM            33,826 unistring.cpython-311.pyc
+06/05/2023  10:11 PM            14,619 util.cpython-311.pyc
+06/05/2023  10:11 PM             3,872 __init__.cpython-311.pyc
+06/05/2023  10:11 PM               808 __main__.cpython-311.pyc
+              16 File(s)        173,145 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pyparsing
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,426 actions.py
+06/05/2023  10:11 PM            12,936 common.py
+06/05/2023  10:11 PM           213,344 core.py
+06/05/2023  10:11 PM    <DIR>          diagram
+06/05/2023  10:11 PM             9,023 exceptions.py
+06/05/2023  10:11 PM            39,129 helpers.py
+06/05/2023  10:11 PM            25,341 results.py
+06/05/2023  10:11 PM            13,402 testing.py
+06/05/2023  10:11 PM            10,787 unicode.py
+06/05/2023  10:11 PM             6,805 util.py
+06/05/2023  10:11 PM             9,171 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              10 File(s)        346,364 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pyparsing\diagram
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            23,685 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         23,685 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pyparsing\diagram\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            28,056 __init__.cpython-311.pyc
+               1 File(s)         28,056 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\pyparsing\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,489 actions.cpython-311.pyc
+06/05/2023  10:11 PM            14,811 common.cpython-311.pyc
+06/05/2023  10:11 PM           277,697 core.cpython-311.pyc
+06/05/2023  10:11 PM            12,953 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM            53,654 helpers.cpython-311.pyc
+06/05/2023  10:11 PM            36,337 results.cpython-311.pyc
+06/05/2023  10:11 PM            19,533 testing.cpython-311.pyc
+06/05/2023  10:11 PM            15,391 unicode.cpython-311.pyc
+06/05/2023  10:11 PM            14,290 util.cpython-311.pyc
+06/05/2023  10:11 PM             8,375 __init__.cpython-311.pyc
+              10 File(s)        461,530 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\requests
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            21,443 adapters.py
+06/05/2023  10:11 PM             6,377 api.py
+06/05/2023  10:11 PM            10,187 auth.py
+06/05/2023  10:11 PM               575 certs.py
+06/05/2023  10:11 PM             1,286 compat.py
+06/05/2023  10:11 PM            18,560 cookies.py
+06/05/2023  10:11 PM             3,823 exceptions.py
+06/05/2023  10:11 PM             3,879 help.py
+06/05/2023  10:11 PM               733 hooks.py
+06/05/2023  10:11 PM            35,287 models.py
+06/05/2023  10:11 PM               695 packages.py
+06/05/2023  10:11 PM            30,180 sessions.py
+06/05/2023  10:11 PM             4,235 status_codes.py
+06/05/2023  10:11 PM             2,912 structures.py
+06/05/2023  10:11 PM            33,240 utils.py
+06/05/2023  10:11 PM             1,397 _internal_utils.py
+06/05/2023  10:11 PM             5,178 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+06/05/2023  10:11 PM               440 __version__.py
+              18 File(s)        180,427 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\requests\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            24,914 adapters.cpython-311.pyc
+06/05/2023  10:11 PM             7,459 api.cpython-311.pyc
+06/05/2023  10:11 PM            14,658 auth.cpython-311.pyc
+06/05/2023  10:11 PM             1,010 certs.cpython-311.pyc
+06/05/2023  10:11 PM             1,836 compat.cpython-311.pyc
+06/05/2023  10:11 PM            27,138 cookies.cpython-311.pyc
+06/05/2023  10:11 PM             8,553 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM             4,548 help.cpython-311.pyc
+06/05/2023  10:11 PM             1,278 hooks.cpython-311.pyc
+06/05/2023  10:11 PM            38,808 models.cpython-311.pyc
+06/05/2023  10:11 PM               858 packages.cpython-311.pyc
+06/05/2023  10:11 PM            29,647 sessions.cpython-311.pyc
+06/05/2023  10:11 PM             6,265 status_codes.cpython-311.pyc
+06/05/2023  10:11 PM             6,250 structures.cpython-311.pyc
+06/05/2023  10:11 PM            40,164 utils.cpython-311.pyc
+06/05/2023  10:11 PM             2,111 _internal_utils.cpython-311.pyc
+06/05/2023  10:11 PM             6,477 __init__.cpython-311.pyc
+06/05/2023  10:11 PM               619 __version__.cpython-311.pyc
+              18 File(s)        222,593 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\resolvelib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          compat
+06/05/2023  10:11 PM             5,872 providers.py
+06/05/2023  10:11 PM             1,583 reporters.py
+06/05/2023  10:11 PM            17,592 resolvers.py
+06/05/2023  10:11 PM             4,794 structs.py
+06/05/2023  10:11 PM               537 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               5 File(s)         30,378 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\resolvelib\compat
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               156 collections_abc.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)            156 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\resolvelib\compat\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               511 collections_abc.cpython-311.pyc
+06/05/2023  10:11 PM               236 __init__.cpython-311.pyc
+               2 File(s)            747 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\resolvelib\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,100 providers.cpython-311.pyc
+06/05/2023  10:11 PM             2,830 reporters.cpython-311.pyc
+06/05/2023  10:11 PM            25,276 resolvers.cpython-311.pyc
+06/05/2023  10:11 PM            11,358 structs.cpython-311.pyc
+06/05/2023  10:11 PM               781 __init__.cpython-311.pyc
+               5 File(s)         47,345 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\rich
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               890 abc.py
+06/05/2023  10:11 PM            10,368 align.py
+06/05/2023  10:11 PM             6,820 ansi.py
+06/05/2023  10:11 PM             3,264 bar.py
+06/05/2023  10:11 PM             9,864 box.py
+06/05/2023  10:11 PM             4,503 cells.py
+06/05/2023  10:11 PM            17,957 color.py
+06/05/2023  10:11 PM             1,054 color_triplet.py
+06/05/2023  10:11 PM             7,131 columns.py
+06/05/2023  10:11 PM            95,885 console.py
+06/05/2023  10:11 PM             1,288 constrain.py
+06/05/2023  10:11 PM             5,497 containers.py
+06/05/2023  10:11 PM             6,630 control.py
+06/05/2023  10:11 PM             7,954 default_styles.py
+06/05/2023  10:11 PM               972 diagnose.py
+06/05/2023  10:11 PM             2,501 emoji.py
+06/05/2023  10:11 PM               642 errors.py
+06/05/2023  10:11 PM             2,507 filesize.py
+06/05/2023  10:11 PM             1,616 file_proxy.py
+06/05/2023  10:11 PM             9,585 highlighter.py
+06/05/2023  10:11 PM             5,051 json.py
+06/05/2023  10:11 PM             3,252 jupyter.py
+06/05/2023  10:11 PM            14,074 layout.py
+06/05/2023  10:11 PM            14,172 live.py
+06/05/2023  10:11 PM             3,667 live_render.py
+06/05/2023  10:11 PM            11,471 logging.py
+06/05/2023  10:11 PM             8,198 markup.py
+06/05/2023  10:11 PM             5,305 measure.py
+06/05/2023  10:11 PM             4,970 padding.py
+06/05/2023  10:11 PM               828 pager.py
+06/05/2023  10:11 PM             3,396 palette.py
+06/05/2023  10:11 PM             8,744 panel.py
+06/05/2023  10:11 PM            36,576 pretty.py
+06/05/2023  10:11 PM            59,746 progress.py
+06/05/2023  10:11 PM             8,161 progress_bar.py
+06/05/2023  10:11 PM            11,303 prompt.py
+06/05/2023  10:11 PM             1,391 protocol.py
+06/05/2023  10:11 PM               166 region.py
+06/05/2023  10:11 PM             4,449 repr.py
+06/05/2023  10:11 PM             4,773 rule.py
+06/05/2023  10:11 PM             2,842 scope.py
+06/05/2023  10:11 PM             1,591 screen.py
+06/05/2023  10:11 PM            24,224 segment.py
+06/05/2023  10:11 PM             4,374 spinner.py
+06/05/2023  10:11 PM             4,425 status.py
+06/05/2023  10:11 PM            26,240 style.py
+06/05/2023  10:11 PM             1,258 styled.py
+06/05/2023  10:11 PM            34,697 syntax.py
+06/05/2023  10:11 PM            39,515 table.py
+06/05/2023  10:11 PM             3,370 terminal_theme.py
+06/05/2023  10:11 PM            44,666 text.py
+06/05/2023  10:11 PM             3,627 theme.py
+06/05/2023  10:11 PM               102 themes.py
+06/05/2023  10:11 PM            26,060 traceback.py
+06/05/2023  10:11 PM             9,169 tree.py
+06/05/2023  10:11 PM            10,096 _cell_widths.py
+06/05/2023  10:11 PM           140,235 _emoji_codes.py
+06/05/2023  10:11 PM             1,064 _emoji_replace.py
+06/05/2023  10:11 PM             2,114 _export_format.py
+06/05/2023  10:11 PM               265 _extension.py
+06/05/2023  10:11 PM             9,695 _inspect.py
+06/05/2023  10:11 PM             3,225 _log_render.py
+06/05/2023  10:11 PM             1,236 _loop.py
+06/05/2023  10:11 PM             7,063 _palettes.py
+06/05/2023  10:11 PM               423 _pick.py
+06/05/2023  10:11 PM             5,472 _ratio.py
+06/05/2023  10:11 PM            19,919 _spinners.py
+06/05/2023  10:11 PM               351 _stack.py
+06/05/2023  10:11 PM               417 _timer.py
+06/05/2023  10:11 PM            22,820 _win32_console.py
+06/05/2023  10:11 PM             1,926 _windows.py
+06/05/2023  10:11 PM             2,783 _windows_renderer.py
+06/05/2023  10:11 PM             1,840 _wrap.py
+06/05/2023  10:11 PM             5,944 __init__.py
+06/05/2023  10:11 PM             8,808 __main__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              75 File(s)        878,477 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\rich\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,955 abc.cpython-311.pyc
+06/05/2023  10:11 PM            13,504 align.cpython-311.pyc
+06/05/2023  10:11 PM            10,481 ansi.cpython-311.pyc
+06/05/2023  10:11 PM             4,577 bar.cpython-311.pyc
+06/05/2023  10:11 PM            13,019 box.cpython-311.pyc
+06/05/2023  10:11 PM             6,469 cells.cpython-311.pyc
+06/05/2023  10:11 PM            27,411 color.cpython-311.pyc
+06/05/2023  10:11 PM             1,903 color_triplet.cpython-311.pyc
+06/05/2023  10:11 PM            10,674 columns.cpython-311.pyc
+06/05/2023  10:11 PM           121,293 console.cpython-311.pyc
+06/05/2023  10:11 PM             2,495 constrain.cpython-311.pyc
+06/05/2023  10:11 PM            10,836 containers.cpython-311.pyc
+06/05/2023  10:11 PM            11,927 control.cpython-311.pyc
+06/05/2023  10:11 PM            12,527 default_styles.cpython-311.pyc
+06/05/2023  10:11 PM             1,850 diagnose.cpython-311.pyc
+06/05/2023  10:11 PM             4,828 emoji.cpython-311.pyc
+06/05/2023  10:11 PM             2,359 errors.cpython-311.pyc
+06/05/2023  10:11 PM             3,330 filesize.cpython-311.pyc
+06/05/2023  10:11 PM             3,807 file_proxy.cpython-311.pyc
+06/05/2023  10:11 PM            11,018 highlighter.cpython-311.pyc
+06/05/2023  10:11 PM             6,711 json.cpython-311.pyc
+06/05/2023  10:11 PM             6,434 jupyter.cpython-311.pyc
+06/05/2023  10:11 PM            23,413 layout.cpython-311.pyc
+06/05/2023  10:11 PM            21,162 live.cpython-311.pyc
+06/05/2023  10:11 PM             5,175 live_render.cpython-311.pyc
+06/05/2023  10:11 PM            14,264 logging.cpython-311.pyc
+06/05/2023  10:11 PM            10,468 markup.cpython-311.pyc
+06/05/2023  10:11 PM             7,301 measure.cpython-311.pyc
+06/05/2023  10:11 PM             7,517 padding.cpython-311.pyc
+06/05/2023  10:11 PM             2,275 pager.cpython-311.pyc
+06/05/2023  10:11 PM             6,008 palette.cpython-311.pyc
+06/05/2023  10:11 PM            11,189 panel.cpython-311.pyc
+06/05/2023  10:11 PM            43,867 pretty.cpython-311.pyc
+06/05/2023  10:11 PM            82,530 progress.cpython-311.pyc
+06/05/2023  10:11 PM            11,038 progress_bar.cpython-311.pyc
+06/05/2023  10:11 PM            16,408 prompt.cpython-311.pyc
+06/05/2023  10:11 PM             2,126 protocol.cpython-311.pyc
+06/05/2023  10:11 PM               689 region.cpython-311.pyc
+06/05/2023  10:11 PM             7,710 repr.cpython-311.pyc
+06/05/2023  10:11 PM             7,727 rule.cpython-311.pyc
+06/05/2023  10:11 PM             4,380 scope.cpython-311.pyc
+06/05/2023  10:11 PM             2,804 screen.cpython-311.pyc
+06/05/2023  10:11 PM            31,571 segment.cpython-311.pyc
+06/05/2023  10:11 PM             6,920 spinner.cpython-311.pyc
+06/05/2023  10:11 PM             6,788 status.cpython-311.pyc
+06/05/2023  10:11 PM            34,169 style.cpython-311.pyc
+06/05/2023  10:11 PM             2,469 styled.cpython-311.pyc
+06/05/2023  10:11 PM            41,997 syntax.cpython-311.pyc
+06/05/2023  10:11 PM            48,524 table.cpython-311.pyc
+06/05/2023  10:11 PM             3,735 terminal_theme.cpython-311.pyc
+06/05/2023  10:11 PM            64,121 text.cpython-311.pyc
+06/05/2023  10:11 PM             7,173 theme.cpython-311.pyc
+06/05/2023  10:11 PM               385 themes.cpython-311.pyc
+06/05/2023  10:11 PM            31,752 traceback.cpython-311.pyc
+06/05/2023  10:11 PM            12,556 tree.cpython-311.pyc
+06/05/2023  10:11 PM             7,863 _cell_widths.cpython-311.pyc
+06/05/2023  10:11 PM           208,550 _emoji_codes.cpython-311.pyc
+06/05/2023  10:11 PM             1,962 _emoji_replace.cpython-311.pyc
+06/05/2023  10:11 PM             2,367 _export_format.cpython-311.pyc
+06/05/2023  10:11 PM               663 _extension.cpython-311.pyc
+06/05/2023  10:11 PM            14,215 _inspect.cpython-311.pyc
+06/05/2023  10:11 PM             4,797 _log_render.cpython-311.pyc
+06/05/2023  10:11 PM             2,143 _loop.cpython-311.pyc
+06/05/2023  10:11 PM             5,279 _palettes.cpython-311.pyc
+06/05/2023  10:11 PM               824 _pick.cpython-311.pyc
+06/05/2023  10:11 PM             7,962 _ratio.cpython-311.pyc
+06/05/2023  10:11 PM            13,712 _spinners.cpython-311.pyc
+06/05/2023  10:11 PM             1,158 _stack.cpython-311.pyc
+06/05/2023  10:11 PM             1,011 _timer.cpython-311.pyc
+06/05/2023  10:11 PM            30,199 _win32_console.cpython-311.pyc
+06/05/2023  10:11 PM             2,858 _windows.cpython-311.pyc
+06/05/2023  10:11 PM             4,049 _windows_renderer.cpython-311.pyc
+06/05/2023  10:11 PM             2,814 _wrap.cpython-311.pyc
+06/05/2023  10:11 PM             7,385 __init__.cpython-311.pyc
+06/05/2023  10:11 PM            11,773 __main__.cpython-311.pyc
+              75 File(s)      1,201,203 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\tenacity
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,496 after.py
+06/05/2023  10:11 PM             1,376 before.py
+06/05/2023  10:11 PM             1,908 before_sleep.py
+06/05/2023  10:11 PM             1,383 nap.py
+06/05/2023  10:11 PM             7,550 retry.py
+06/05/2023  10:11 PM             2,790 stop.py
+06/05/2023  10:11 PM             2,145 tornadoweb.py
+06/05/2023  10:11 PM             8,011 wait.py
+06/05/2023  10:11 PM             3,314 _asyncio.py
+06/05/2023  10:11 PM             1,944 _utils.py
+06/05/2023  10:11 PM            18,364 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              11 File(s)         50,281 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\tenacity\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,722 after.cpython-311.pyc
+06/05/2023  10:11 PM             1,556 before.cpython-311.pyc
+06/05/2023  10:11 PM             2,133 before_sleep.cpython-311.pyc
+06/05/2023  10:11 PM             1,595 nap.cpython-311.pyc
+06/05/2023  10:11 PM            15,069 retry.cpython-311.pyc
+06/05/2023  10:11 PM             5,923 stop.cpython-311.pyc
+06/05/2023  10:11 PM             2,941 tornadoweb.cpython-311.pyc
+06/05/2023  10:11 PM            13,395 wait.cpython-311.pyc
+06/05/2023  10:11 PM             4,830 _asyncio.cpython-311.pyc
+06/05/2023  10:11 PM             2,095 _utils.cpython-311.pyc
+06/05/2023  10:11 PM            27,823 __init__.cpython-311.pyc
+              11 File(s)         79,082 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\tomli
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            22,633 _parser.py
+06/05/2023  10:11 PM             2,943 _re.py
+06/05/2023  10:11 PM               254 _types.py
+06/05/2023  10:11 PM               396 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         26,226 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\tomli\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            30,879 _parser.cpython-311.pyc
+06/05/2023  10:11 PM             4,519 _re.cpython-311.pyc
+06/05/2023  10:11 PM               432 _types.cpython-311.pyc
+06/05/2023  10:11 PM               440 __init__.cpython-311.pyc
+               4 File(s)         36,270 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            20,070 connection.py
+06/05/2023  10:11 PM            39,093 connectionpool.py
+06/05/2023  10:11 PM    <DIR>          contrib
+06/05/2023  10:11 PM             8,217 exceptions.py
+06/05/2023  10:11 PM             8,579 fields.py
+06/05/2023  10:11 PM             2,440 filepost.py
+06/05/2023  10:11 PM    <DIR>          packages
+06/05/2023  10:11 PM            19,786 poolmanager.py
+06/05/2023  10:11 PM             5,985 request.py
+06/05/2023  10:11 PM            30,109 response.py
+06/05/2023  10:11 PM    <DIR>          util
+06/05/2023  10:11 PM            10,811 _collections.py
+06/05/2023  10:11 PM                64 _version.py
+06/05/2023  10:11 PM             3,333 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              11 File(s)        148,487 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\contrib
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            11,034 appengine.py
+06/05/2023  10:11 PM             4,538 ntlmpool.py
+06/05/2023  10:11 PM            17,182 pyopenssl.py
+06/05/2023  10:11 PM            34,448 securetransport.py
+06/05/2023  10:11 PM             7,097 socks.py
+06/05/2023  10:11 PM               957 _appengine_environ.py
+06/05/2023  10:11 PM    <DIR>          _securetransport
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               7 File(s)         75,256 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            17,632 bindings.py
+06/05/2023  10:11 PM            13,922 low_level.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)         31,554 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\contrib\_securetransport\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,998 bindings.cpython-311.pyc
+06/05/2023  10:11 PM            15,635 low_level.cpython-311.pyc
+06/05/2023  10:11 PM               251 __init__.cpython-311.pyc
+               3 File(s)         32,884 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\contrib\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            12,168 appengine.cpython-311.pyc
+06/05/2023  10:11 PM             6,332 ntlmpool.cpython-311.pyc
+06/05/2023  10:11 PM            25,670 pyopenssl.cpython-311.pyc
+06/05/2023  10:11 PM            36,873 securetransport.cpython-311.pyc
+06/05/2023  10:11 PM             8,118 socks.cpython-311.pyc
+06/05/2023  10:11 PM             1,973 _appengine_environ.cpython-311.pyc
+06/05/2023  10:11 PM               234 __init__.cpython-311.pyc
+               7 File(s)         91,368 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\packages
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          backports
+06/05/2023  10:11 PM            34,665 six.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)         34,665 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,417 makefile.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)          1,417 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\packages\backports\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,992 makefile.cpython-311.pyc
+06/05/2023  10:11 PM               245 __init__.cpython-311.pyc
+               2 File(s)          2,237 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\packages\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            46,477 six.cpython-311.pyc
+06/05/2023  10:11 PM               235 __init__.cpython-311.pyc
+               2 File(s)         46,712 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\util
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,901 connection.py
+06/05/2023  10:11 PM             1,605 proxy.py
+06/05/2023  10:11 PM               498 queue.py
+06/05/2023  10:11 PM             3,997 request.py
+06/05/2023  10:11 PM             3,510 response.py
+06/05/2023  10:11 PM            22,001 retry.py
+06/05/2023  10:11 PM             6,895 ssltransport.py
+06/05/2023  10:11 PM            17,177 ssl_.py
+06/05/2023  10:11 PM             5,758 ssl_match_hostname.py
+06/05/2023  10:11 PM            10,003 timeout.py
+06/05/2023  10:11 PM            14,287 url.py
+06/05/2023  10:11 PM             5,403 wait.py
+06/05/2023  10:11 PM             1,155 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              13 File(s)         97,190 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\util\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,164 connection.cpython-311.pyc
+06/05/2023  10:11 PM             1,746 proxy.cpython-311.pyc
+06/05/2023  10:11 PM             1,529 queue.cpython-311.pyc
+06/05/2023  10:11 PM             4,649 request.cpython-311.pyc
+06/05/2023  10:11 PM             3,518 response.cpython-311.pyc
+06/05/2023  10:11 PM            22,770 retry.cpython-311.pyc
+06/05/2023  10:11 PM            11,657 ssltransport.cpython-311.pyc
+06/05/2023  10:11 PM            16,849 ssl_.cpython-311.pyc
+06/05/2023  10:11 PM             5,828 ssl_match_hostname.cpython-311.pyc
+06/05/2023  10:11 PM            11,065 timeout.cpython-311.pyc
+06/05/2023  10:11 PM            17,578 url.cpython-311.pyc
+06/05/2023  10:11 PM             5,031 wait.cpython-311.pyc
+06/05/2023  10:11 PM             1,437 __init__.cpython-311.pyc
+              13 File(s)        108,821 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\urllib3\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            21,922 connection.cpython-311.pyc
+06/05/2023  10:11 PM            37,663 connectionpool.cpython-311.pyc
+06/05/2023  10:11 PM            16,152 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM            11,445 fields.cpython-311.pyc
+06/05/2023  10:11 PM             4,526 filepost.cpython-311.pyc
+06/05/2023  10:11 PM            21,849 poolmanager.cpython-311.pyc
+06/05/2023  10:11 PM             6,689 request.cpython-311.pyc
+06/05/2023  10:11 PM            36,004 response.cpython-311.pyc
+06/05/2023  10:11 PM            18,326 _collections.cpython-311.pyc
+06/05/2023  10:11 PM               248 _version.cpython-311.pyc
+06/05/2023  10:11 PM             3,738 __init__.cpython-311.pyc
+              11 File(s)        178,562 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\webencodings
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,979 labels.py
+06/05/2023  10:11 PM             1,305 mklabels.py
+06/05/2023  10:11 PM             6,563 tests.py
+06/05/2023  10:11 PM             4,307 x_user_defined.py
+06/05/2023  10:11 PM            10,579 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               5 File(s)         31,733 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\webencodings\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,311 labels.cpython-311.pyc
+06/05/2023  10:11 PM             3,239 mklabels.cpython-311.pyc
+06/05/2023  10:11 PM            11,217 tests.cpython-311.pyc
+06/05/2023  10:11 PM             3,591 x_user_defined.cpython-311.pyc
+06/05/2023  10:11 PM            12,911 __init__.cpython-311.pyc
+               5 File(s)         38,269 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\_vendor\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            46,441 six.cpython-311.pyc
+06/05/2023  10:11 PM            97,471 typing_extensions.cpython-311.pyc
+06/05/2023  10:11 PM             5,639 __init__.cpython-311.pyc
+               3 File(s)        149,551 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               799 __init__.cpython-311.pyc
+06/05/2023  10:11 PM             1,108 __main__.cpython-311.pyc
+06/05/2023  10:11 PM             2,536 __pip-runner__.cpython-311.pyc
+               3 File(s)          4,443 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pip-22.3.1.dist-info
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               125 entry_points.txt
+06/05/2023  10:11 PM                 4 INSTALLER
+06/05/2023  10:11 PM             1,093 LICENSE.txt
+06/05/2023  10:11 PM             4,072 METADATA
+06/05/2023  10:11 PM            76,141 RECORD
+06/05/2023  10:11 PM                 0 REQUESTED
+06/05/2023  10:11 PM                 4 top_level.txt
+06/05/2023  10:11 PM                92 WHEEL
+               8 File(s)         81,531 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          extern
+06/05/2023  10:11 PM    <DIR>          _vendor
+06/05/2023  10:11 PM           108,568 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)        108,568 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\extern
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,426 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)          2,426 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\extern\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,347 __init__.cpython-311.pyc
+               1 File(s)          4,347 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            24,701 appdirs.py
+06/05/2023  10:11 PM    <DIR>          importlib_resources
+06/05/2023  10:11 PM    <DIR>          jaraco
+06/05/2023  10:11 PM    <DIR>          more_itertools
+06/05/2023  10:11 PM    <DIR>          packaging
+06/05/2023  10:11 PM    <DIR>          pyparsing
+06/05/2023  10:11 PM             8,425 zipp.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)         33,126 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\importlib_resources
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,886 abc.py
+06/05/2023  10:11 PM             3,566 readers.py
+06/05/2023  10:11 PM             2,836 simple.py
+06/05/2023  10:11 PM             4,504 _adapters.py
+06/05/2023  10:11 PM             2,741 _common.py
+06/05/2023  10:11 PM             2,706 _compat.py
+06/05/2023  10:11 PM               884 _itertools.py
+06/05/2023  10:11 PM             3,494 _legacy.py
+06/05/2023  10:11 PM               506 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               9 File(s)         25,123 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\importlib_resources\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,523 abc.cpython-311.pyc
+06/05/2023  10:11 PM             8,397 readers.cpython-311.pyc
+06/05/2023  10:11 PM             6,419 simple.cpython-311.pyc
+06/05/2023  10:11 PM            10,779 _adapters.cpython-311.pyc
+06/05/2023  10:11 PM             4,306 _common.cpython-311.pyc
+06/05/2023  10:11 PM             5,591 _compat.cpython-311.pyc
+06/05/2023  10:11 PM             1,424 _itertools.cpython-311.pyc
+06/05/2023  10:11 PM             6,522 _legacy.cpython-311.pyc
+06/05/2023  10:11 PM               862 __init__.cpython-311.pyc
+               9 File(s)         51,823 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\jaraco
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,420 context.py
+06/05/2023  10:11 PM            13,515 functools.py
+06/05/2023  10:11 PM    <DIR>          text
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)         18,935 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\jaraco\text
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            15,526 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         15,526 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            26,638 __init__.cpython-311.pyc
+               1 File(s)         26,638 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\jaraco\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             9,458 context.cpython-311.pyc
+06/05/2023  10:11 PM            20,321 functools.cpython-311.pyc
+06/05/2023  10:11 PM               235 __init__.cpython-311.pyc
+               3 File(s)         30,014 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\more_itertools
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           132,569 more.py
+06/05/2023  10:11 PM            18,410 recipes.py
+06/05/2023  10:11 PM                83 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)        151,062 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\more_itertools\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           167,990 more.cpython-311.pyc
+06/05/2023  10:11 PM            26,981 recipes.cpython-311.pyc
+06/05/2023  10:11 PM               329 __init__.cpython-311.pyc
+               3 File(s)        195,300 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\packaging
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,496 markers.py
+06/05/2023  10:11 PM             4,706 requirements.py
+06/05/2023  10:11 PM            30,110 specifiers.py
+06/05/2023  10:11 PM            15,699 tags.py
+06/05/2023  10:11 PM             4,200 utils.py
+06/05/2023  10:11 PM            14,665 version.py
+06/05/2023  10:11 PM            11,488 _manylinux.py
+06/05/2023  10:11 PM             4,378 _musllinux.py
+06/05/2023  10:11 PM             1,431 _structures.py
+06/05/2023  10:11 PM               661 __about__.py
+06/05/2023  10:11 PM               497 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              11 File(s)         96,331 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\packaging\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,571 markers.cpython-311.pyc
+06/05/2023  10:11 PM             7,686 requirements.cpython-311.pyc
+06/05/2023  10:11 PM            34,400 specifiers.cpython-311.pyc
+06/05/2023  10:11 PM            21,385 tags.cpython-311.pyc
+06/05/2023  10:11 PM             6,720 utils.cpython-311.pyc
+06/05/2023  10:11 PM            21,912 version.cpython-311.pyc
+06/05/2023  10:11 PM            13,266 _manylinux.cpython-311.pyc
+06/05/2023  10:11 PM             8,034 _musllinux.cpython-311.pyc
+06/05/2023  10:11 PM             3,722 _structures.cpython-311.pyc
+06/05/2023  10:11 PM               679 __about__.cpython-311.pyc
+06/05/2023  10:11 PM               600 __init__.cpython-311.pyc
+              11 File(s)        134,975 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\pyparsing
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,426 actions.py
+06/05/2023  10:11 PM            12,936 common.py
+06/05/2023  10:11 PM           213,310 core.py
+06/05/2023  10:11 PM    <DIR>          diagram
+06/05/2023  10:11 PM             9,023 exceptions.py
+06/05/2023  10:11 PM            39,129 helpers.py
+06/05/2023  10:11 PM            25,341 results.py
+06/05/2023  10:11 PM            13,402 testing.py
+06/05/2023  10:11 PM            10,787 unicode.py
+06/05/2023  10:11 PM             6,805 util.py
+06/05/2023  10:11 PM             9,159 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              10 File(s)        346,318 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            23,668 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         23,668 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\pyparsing\diagram\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            28,036 __init__.cpython-311.pyc
+               1 File(s)         28,036 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\pyparsing\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,499 actions.cpython-311.pyc
+06/05/2023  10:11 PM            14,821 common.cpython-311.pyc
+06/05/2023  10:11 PM           277,673 core.cpython-311.pyc
+06/05/2023  10:11 PM            12,963 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM            53,664 helpers.cpython-311.pyc
+06/05/2023  10:11 PM            36,347 results.cpython-311.pyc
+06/05/2023  10:11 PM            19,543 testing.cpython-311.pyc
+06/05/2023  10:11 PM            15,401 unicode.cpython-311.pyc
+06/05/2023  10:11 PM            14,300 util.cpython-311.pyc
+06/05/2023  10:11 PM             8,373 __init__.cpython-311.pyc
+              10 File(s)        461,584 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\_vendor\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            29,476 appdirs.cpython-311.pyc
+06/05/2023  10:11 PM            16,021 zipp.cpython-311.pyc
+06/05/2023  10:11 PM               228 __init__.cpython-311.pyc
+               3 File(s)         45,725 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\pkg_resources\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           159,600 __init__.cpython-311.pyc
+               1 File(s)        159,600 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,346 archive_util.py
+06/05/2023  10:11 PM            19,539 build_meta.py
+06/05/2023  10:11 PM            65,536 cli-32.exe
+06/05/2023  10:11 PM            74,752 cli-64.exe
+06/05/2023  10:11 PM           137,216 cli-arm64.exe
+06/05/2023  10:11 PM            65,536 cli.exe
+06/05/2023  10:11 PM    <DIR>          command
+06/05/2023  10:11 PM    <DIR>          config
+06/05/2023  10:11 PM             5,499 depends.py
+06/05/2023  10:11 PM               949 dep_util.py
+06/05/2023  10:11 PM            20,799 discovery.py
+06/05/2023  10:11 PM            45,578 dist.py
+06/05/2023  10:11 PM             2,464 errors.py
+06/05/2023  10:11 PM             5,591 extension.py
+06/05/2023  10:11 PM    <DIR>          extern
+06/05/2023  10:11 PM             4,873 glob.py
+06/05/2023  10:11 PM            65,536 gui-32.exe
+06/05/2023  10:11 PM            75,264 gui-64.exe
+06/05/2023  10:11 PM           137,728 gui-arm64.exe
+06/05/2023  10:11 PM            65,536 gui.exe
+06/05/2023  10:11 PM             3,824 installer.py
+06/05/2023  10:11 PM               812 launch.py
+06/05/2023  10:11 PM             1,210 logging.py
+06/05/2023  10:11 PM             4,857 monkey.py
+06/05/2023  10:11 PM            47,724 msvc.py
+06/05/2023  10:11 PM             3,093 namespaces.py
+06/05/2023  10:11 PM            40,020 package_index.py
+06/05/2023  10:11 PM               245 py34compat.py
+06/05/2023  10:11 PM            14,348 sandbox.py
+06/05/2023  10:11 PM               218 script (dev).tmpl
+06/05/2023  10:11 PM               138 script.tmpl
+06/05/2023  10:11 PM               941 unicode_utils.py
+06/05/2023  10:11 PM               144 version.py
+06/05/2023  10:11 PM             8,376 wheel.py
+06/05/2023  10:11 PM               718 windows_support.py
+06/05/2023  10:11 PM               218 _deprecation_warning.py
+06/05/2023  10:11 PM    <DIR>          _distutils
+06/05/2023  10:11 PM             1,972 _entry_points.py
+06/05/2023  10:11 PM             2,392 _imp.py
+06/05/2023  10:11 PM             1,311 _importlib.py
+06/05/2023  10:11 PM               675 _itertools.py
+06/05/2023  10:11 PM               749 _path.py
+06/05/2023  10:11 PM               501 _reqs.py
+06/05/2023  10:11 PM    <DIR>          _vendor
+06/05/2023  10:11 PM             8,429 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              40 File(s)        942,657 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\command
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,381 alias.py
+06/05/2023  10:11 PM            16,623 bdist_egg.py
+06/05/2023  10:11 PM             1,182 bdist_rpm.py
+06/05/2023  10:11 PM             6,595 build.py
+06/05/2023  10:11 PM             4,415 build_clib.py
+06/05/2023  10:11 PM            15,821 build_ext.py
+06/05/2023  10:11 PM            14,115 build_py.py
+06/05/2023  10:11 PM             7,012 develop.py
+06/05/2023  10:11 PM             4,800 dist_info.py
+06/05/2023  10:11 PM            85,662 easy_install.py
+06/05/2023  10:11 PM            31,188 editable_wheel.py
+06/05/2023  10:11 PM            26,795 egg_info.py
+06/05/2023  10:11 PM             5,163 install.py
+06/05/2023  10:11 PM             2,226 install_egg_info.py
+06/05/2023  10:11 PM             3,875 install_lib.py
+06/05/2023  10:11 PM             2,612 install_scripts.py
+06/05/2023  10:11 PM               628 launcher manifest.xml
+06/05/2023  10:11 PM             4,946 py36compat.py
+06/05/2023  10:11 PM               468 register.py
+06/05/2023  10:11 PM             2,128 rotate.py
+06/05/2023  10:11 PM               658 saveopts.py
+06/05/2023  10:11 PM             7,071 sdist.py
+06/05/2023  10:11 PM             5,086 setopt.py
+06/05/2023  10:11 PM             8,102 test.py
+06/05/2023  10:11 PM               462 upload.py
+06/05/2023  10:11 PM             7,494 upload_docs.py
+06/05/2023  10:11 PM               396 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              27 File(s)        267,904 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\command\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,933 alias.cpython-311.pyc
+06/05/2023  10:11 PM            25,615 bdist_egg.cpython-311.pyc
+06/05/2023  10:11 PM             2,221 bdist_rpm.cpython-311.pyc
+06/05/2023  10:11 PM             7,027 build.cpython-311.pyc
+06/05/2023  10:11 PM             4,154 build_clib.cpython-311.pyc
+06/05/2023  10:11 PM            22,041 build_ext.cpython-311.pyc
+06/05/2023  10:11 PM            23,207 build_py.cpython-311.pyc
+06/05/2023  10:11 PM            10,949 develop.cpython-311.pyc
+06/05/2023  10:11 PM             8,011 dist_info.cpython-311.pyc
+06/05/2023  10:11 PM           119,366 easy_install.cpython-311.pyc
+06/05/2023  10:11 PM            51,444 editable_wheel.cpython-311.pyc
+06/05/2023  10:11 PM            39,864 egg_info.cpython-311.pyc
+06/05/2023  10:11 PM             6,846 install.cpython-311.pyc
+06/05/2023  10:11 PM             4,159 install_egg_info.cpython-311.pyc
+06/05/2023  10:11 PM             6,441 install_lib.cpython-311.pyc
+06/05/2023  10:11 PM             4,310 install_scripts.cpython-311.pyc
+06/05/2023  10:11 PM             8,067 py36compat.cpython-311.pyc
+06/05/2023  10:11 PM             1,157 register.cpython-311.pyc
+06/05/2023  10:11 PM             4,217 rotate.cpython-311.pyc
+06/05/2023  10:11 PM             1,397 saveopts.cpython-311.pyc
+06/05/2023  10:11 PM            13,469 sdist.cpython-311.pyc
+06/05/2023  10:11 PM             7,709 setopt.cpython-311.pyc
+06/05/2023  10:11 PM            14,650 test.cpython-311.pyc
+06/05/2023  10:11 PM             1,121 upload.cpython-311.pyc
+06/05/2023  10:11 PM            11,972 upload_docs.cpython-311.pyc
+06/05/2023  10:11 PM               666 __init__.cpython-311.pyc
+              26 File(s)        404,013 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\config
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,319 expand.py
+06/05/2023  10:11 PM            19,304 pyprojecttoml.py
+06/05/2023  10:11 PM            25,198 setupcfg.py
+06/05/2023  10:11 PM            13,398 _apply_pyprojecttoml.py
+06/05/2023  10:11 PM    <DIR>          _validate_pyproject
+06/05/2023  10:11 PM             1,121 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               5 File(s)         75,340 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\config\_validate_pyproject
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            11,266 error_reporting.py
+06/05/2023  10:11 PM             1,153 extra_validations.py
+06/05/2023  10:11 PM             1,612 fastjsonschema_exceptions.py
+06/05/2023  10:11 PM           269,900 fastjsonschema_validations.py
+06/05/2023  10:11 PM             8,736 formats.py
+06/05/2023  10:11 PM             1,038 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               6 File(s)        293,705 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\config\_validate_pyproject\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            20,240 error_reporting.cpython-311.pyc
+06/05/2023  10:11 PM             1,898 extra_validations.cpython-311.pyc
+06/05/2023  10:11 PM             3,273 fastjsonschema_exceptions.cpython-311.pyc
+06/05/2023  10:11 PM           192,671 fastjsonschema_validations.cpython-311.pyc
+06/05/2023  10:11 PM            14,388 formats.cpython-311.pyc
+06/05/2023  10:11 PM             2,349 __init__.cpython-311.pyc
+               6 File(s)        234,819 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\config\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            28,275 expand.cpython-311.pyc
+06/05/2023  10:11 PM            27,473 pyprojecttoml.cpython-311.pyc
+06/05/2023  10:11 PM            33,057 setupcfg.cpython-311.pyc
+06/05/2023  10:11 PM            22,564 _apply_pyprojecttoml.cpython-311.pyc
+06/05/2023  10:11 PM             2,061 __init__.cpython-311.pyc
+               5 File(s)        113,430 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\extern
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,512 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)          2,512 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\extern\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             4,425 __init__.cpython-311.pyc
+               1 File(s)          4,425 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_distutils
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,603 archive_util.py
+06/05/2023  10:11 PM            14,789 bcppcompiler.py
+06/05/2023  10:11 PM            47,369 ccompiler.py
+06/05/2023  10:11 PM            17,973 cmd.py
+06/05/2023  10:11 PM    <DIR>          command
+06/05/2023  10:11 PM             4,920 config.py
+06/05/2023  10:11 PM             9,451 core.py
+06/05/2023  10:11 PM            12,537 cygwinccompiler.py
+06/05/2023  10:11 PM               139 debug.py
+06/05/2023  10:11 PM             3,423 dep_util.py
+06/05/2023  10:11 PM             8,082 dir_util.py
+06/05/2023  10:11 PM            50,186 dist.py
+06/05/2023  10:11 PM             3,589 errors.py
+06/05/2023  10:11 PM            10,270 extension.py
+06/05/2023  10:11 PM            17,910 fancy_getopt.py
+06/05/2023  10:11 PM            13,713 filelist.py
+06/05/2023  10:11 PM             8,226 file_util.py
+06/05/2023  10:11 PM             1,972 log.py
+06/05/2023  10:11 PM            30,235 msvc9compiler.py
+06/05/2023  10:11 PM            23,602 msvccompiler.py
+06/05/2023  10:11 PM               217 py38compat.py
+06/05/2023  10:11 PM               639 py39compat.py
+06/05/2023  10:11 PM             3,517 spawn.py
+06/05/2023  10:11 PM            18,858 sysconfig.py
+06/05/2023  10:11 PM            12,096 text_file.py
+06/05/2023  10:11 PM            15,641 unixccompiler.py
+06/05/2023  10:11 PM            18,128 util.py
+06/05/2023  10:11 PM            12,952 version.py
+06/05/2023  10:11 PM             5,248 versionpredicate.py
+06/05/2023  10:11 PM             1,330 _collections.py
+06/05/2023  10:11 PM               411 _functools.py
+06/05/2023  10:11 PM               239 _macos_compat.py
+06/05/2023  10:11 PM            19,672 _msvccompiler.py
+06/05/2023  10:11 PM               537 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              33 File(s)        396,474 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_distutils\command
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,441 bdist.py
+06/05/2023  10:11 PM             4,701 bdist_dumb.py
+06/05/2023  10:11 PM            22,051 bdist_rpm.py
+06/05/2023  10:11 PM             5,617 build.py
+06/05/2023  10:11 PM             7,728 build_clib.py
+06/05/2023  10:11 PM            31,558 build_ext.py
+06/05/2023  10:11 PM            16,568 build_py.py
+06/05/2023  10:11 PM             5,624 build_scripts.py
+06/05/2023  10:11 PM             4,888 check.py
+06/05/2023  10:11 PM             2,603 clean.py
+06/05/2023  10:11 PM            13,137 config.py
+06/05/2023  10:11 PM            30,221 install.py
+06/05/2023  10:11 PM             2,779 install_data.py
+06/05/2023  10:11 PM             2,785 install_egg_info.py
+06/05/2023  10:11 PM             1,189 install_headers.py
+06/05/2023  10:11 PM             8,434 install_lib.py
+06/05/2023  10:11 PM             1,936 install_scripts.py
+06/05/2023  10:11 PM               672 py37compat.py
+06/05/2023  10:11 PM            11,765 register.py
+06/05/2023  10:11 PM            19,241 sdist.py
+06/05/2023  10:11 PM             7,477 upload.py
+06/05/2023  10:11 PM             1,614 _framework_compat.py
+06/05/2023  10:11 PM               430 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              23 File(s)        208,459 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_distutils\command\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,068 bdist.cpython-311.pyc
+06/05/2023  10:11 PM             5,793 bdist_dumb.cpython-311.pyc
+06/05/2023  10:11 PM            23,327 bdist_rpm.cpython-311.pyc
+06/05/2023  10:11 PM             6,123 build.cpython-311.pyc
+06/05/2023  10:11 PM             7,826 build_clib.cpython-311.pyc
+06/05/2023  10:11 PM            30,368 build_ext.cpython-311.pyc
+06/05/2023  10:11 PM            17,644 build_py.cpython-311.pyc
+06/05/2023  10:11 PM             7,895 build_scripts.cpython-311.pyc
+06/05/2023  10:11 PM             7,557 check.cpython-311.pyc
+06/05/2023  10:11 PM             3,225 clean.cpython-311.pyc
+06/05/2023  10:11 PM            16,288 config.cpython-311.pyc
+06/05/2023  10:11 PM            29,476 install.cpython-311.pyc
+06/05/2023  10:11 PM             3,810 install_data.cpython-311.pyc
+06/05/2023  10:11 PM             5,236 install_egg_info.cpython-311.pyc
+06/05/2023  10:11 PM             2,393 install_headers.cpython-311.pyc
+06/05/2023  10:11 PM             8,725 install_lib.cpython-311.pyc
+06/05/2023  10:11 PM             3,190 install_scripts.cpython-311.pyc
+06/05/2023  10:11 PM             1,571 py37compat.cpython-311.pyc
+06/05/2023  10:11 PM            15,557 register.cpython-311.pyc
+06/05/2023  10:11 PM            23,865 sdist.cpython-311.pyc
+06/05/2023  10:11 PM            10,506 upload.cpython-311.pyc
+06/05/2023  10:11 PM             2,815 _framework_compat.cpython-311.pyc
+06/05/2023  10:11 PM               574 __init__.cpython-311.pyc
+              23 File(s)        239,832 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_distutils\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,689 archive_util.cpython-311.pyc
+06/05/2023  10:11 PM            13,515 bcppcompiler.cpython-311.pyc
+06/05/2023  10:11 PM            46,414 ccompiler.cpython-311.pyc
+06/05/2023  10:11 PM            18,928 cmd.cpython-311.pyc
+06/05/2023  10:11 PM             6,077 config.cpython-311.pyc
+06/05/2023  10:11 PM            10,021 core.cpython-311.pyc
+06/05/2023  10:11 PM            13,645 cygwinccompiler.cpython-311.pyc
+06/05/2023  10:11 PM               354 debug.cpython-311.pyc
+06/05/2023  10:11 PM             4,021 dep_util.cpython-311.pyc
+06/05/2023  10:11 PM            10,396 dir_util.cpython-311.pyc
+06/05/2023  10:11 PM            55,443 dist.cpython-311.pyc
+06/05/2023  10:11 PM             6,827 errors.cpython-311.pyc
+06/05/2023  10:11 PM            10,208 extension.cpython-311.pyc
+06/05/2023  10:11 PM            17,272 fancy_getopt.cpython-311.pyc
+06/05/2023  10:11 PM            17,662 filelist.cpython-311.pyc
+06/05/2023  10:11 PM            10,716 file_util.cpython-311.pyc
+06/05/2023  10:11 PM             3,962 log.cpython-311.pyc
+06/05/2023  10:11 PM            33,620 msvc9compiler.cpython-311.pyc
+06/05/2023  10:11 PM            27,022 msvccompiler.cpython-311.pyc
+06/05/2023  10:11 PM               654 py38compat.cpython-311.pyc
+06/05/2023  10:11 PM             1,022 py39compat.cpython-311.pyc
+06/05/2023  10:11 PM             4,491 spawn.cpython-311.pyc
+06/05/2023  10:11 PM            22,018 sysconfig.cpython-311.pyc
+06/05/2023  10:11 PM            11,303 text_file.cpython-311.pyc
+06/05/2023  10:11 PM            16,559 unixccompiler.cpython-311.pyc
+06/05/2023  10:11 PM            20,913 util.cpython-311.pyc
+06/05/2023  10:11 PM            11,379 version.cpython-311.pyc
+06/05/2023  10:11 PM             7,779 versionpredicate.cpython-311.pyc
+06/05/2023  10:11 PM             2,952 _collections.cpython-311.pyc
+06/05/2023  10:11 PM               893 _functools.cpython-311.pyc
+06/05/2023  10:11 PM               602 _macos_compat.cpython-311.pyc
+06/05/2023  10:11 PM            25,137 _msvccompiler.cpython-311.pyc
+06/05/2023  10:11 PM               802 __init__.cpython-311.pyc
+              33 File(s)        443,296 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM    <DIR>          importlib_metadata
+06/05/2023  10:11 PM    <DIR>          importlib_resources
+06/05/2023  10:11 PM    <DIR>          jaraco
+06/05/2023  10:11 PM    <DIR>          more_itertools
+06/05/2023  10:11 PM            15,130 ordered_set.py
+06/05/2023  10:11 PM    <DIR>          packaging
+06/05/2023  10:11 PM    <DIR>          pyparsing
+06/05/2023  10:11 PM    <DIR>          tomli
+06/05/2023  10:11 PM            87,149 typing_extensions.py
+06/05/2023  10:11 PM             8,425 zipp.py
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)        110,704 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\importlib_metadata
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             1,862 _adapters.py
+06/05/2023  10:11 PM               743 _collections.py
+06/05/2023  10:11 PM             1,828 _compat.py
+06/05/2023  10:11 PM             2,895 _functools.py
+06/05/2023  10:11 PM             2,068 _itertools.py
+06/05/2023  10:11 PM             1,154 _meta.py
+06/05/2023  10:11 PM             2,166 _text.py
+06/05/2023  10:11 PM            30,130 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               8 File(s)         42,846 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\importlib_metadata\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,877 _adapters.cpython-311.pyc
+06/05/2023  10:11 PM             2,224 _collections.cpython-311.pyc
+06/05/2023  10:11 PM             2,746 _compat.cpython-311.pyc
+06/05/2023  10:11 PM             3,664 _functools.cpython-311.pyc
+06/05/2023  10:11 PM             2,627 _itertools.cpython-311.pyc
+06/05/2023  10:11 PM             3,031 _meta.cpython-311.pyc
+06/05/2023  10:11 PM             4,422 _text.cpython-311.pyc
+06/05/2023  10:11 PM            58,264 __init__.cpython-311.pyc
+               8 File(s)         80,855 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\importlib_resources
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             3,886 abc.py
+06/05/2023  10:11 PM             3,566 readers.py
+06/05/2023  10:11 PM             2,836 simple.py
+06/05/2023  10:11 PM             4,504 _adapters.py
+06/05/2023  10:11 PM             2,741 _common.py
+06/05/2023  10:11 PM             2,706 _compat.py
+06/05/2023  10:11 PM               884 _itertools.py
+06/05/2023  10:11 PM             3,494 _legacy.py
+06/05/2023  10:11 PM               506 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               9 File(s)         25,123 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\importlib_resources\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             7,520 abc.cpython-311.pyc
+06/05/2023  10:11 PM             8,394 readers.cpython-311.pyc
+06/05/2023  10:11 PM             6,416 simple.cpython-311.pyc
+06/05/2023  10:11 PM            10,776 _adapters.cpython-311.pyc
+06/05/2023  10:11 PM             4,303 _common.cpython-311.pyc
+06/05/2023  10:11 PM             5,588 _compat.cpython-311.pyc
+06/05/2023  10:11 PM             1,421 _itertools.cpython-311.pyc
+06/05/2023  10:11 PM             6,519 _legacy.cpython-311.pyc
+06/05/2023  10:11 PM               859 __init__.cpython-311.pyc
+               9 File(s)         51,796 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\jaraco
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             5,420 context.py
+06/05/2023  10:11 PM            13,512 functools.py
+06/05/2023  10:11 PM    <DIR>          text
+06/05/2023  10:11 PM                 0 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)         18,932 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\jaraco\text
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            15,517 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         15,517 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\jaraco\text\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            26,626 __init__.cpython-311.pyc
+               1 File(s)         26,626 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\jaraco\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             9,455 context.cpython-311.pyc
+06/05/2023  10:11 PM            20,312 functools.cpython-311.pyc
+06/05/2023  10:11 PM               232 __init__.cpython-311.pyc
+               3 File(s)         29,999 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\more_itertools
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           117,959 more.py
+06/05/2023  10:11 PM            16,256 recipes.py
+06/05/2023  10:11 PM                82 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               3 File(s)        134,297 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\more_itertools\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM           149,212 more.cpython-311.pyc
+06/05/2023  10:11 PM            23,794 recipes.cpython-311.pyc
+06/05/2023  10:11 PM               325 __init__.cpython-311.pyc
+               3 File(s)        173,331 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\packaging
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,493 markers.py
+06/05/2023  10:11 PM             4,700 requirements.py
+06/05/2023  10:11 PM            30,110 specifiers.py
+06/05/2023  10:11 PM            15,699 tags.py
+06/05/2023  10:11 PM             4,200 utils.py
+06/05/2023  10:11 PM            14,665 version.py
+06/05/2023  10:11 PM            11,488 _manylinux.py
+06/05/2023  10:11 PM             4,378 _musllinux.py
+06/05/2023  10:11 PM             1,431 _structures.py
+06/05/2023  10:11 PM               661 __about__.py
+06/05/2023  10:11 PM               497 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              11 File(s)         96,322 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\packaging\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            16,565 markers.cpython-311.pyc
+06/05/2023  10:11 PM             7,680 requirements.cpython-311.pyc
+06/05/2023  10:11 PM            34,397 specifiers.cpython-311.pyc
+06/05/2023  10:11 PM            21,382 tags.cpython-311.pyc
+06/05/2023  10:11 PM             6,717 utils.cpython-311.pyc
+06/05/2023  10:11 PM            21,909 version.cpython-311.pyc
+06/05/2023  10:11 PM            13,263 _manylinux.cpython-311.pyc
+06/05/2023  10:11 PM             8,031 _musllinux.cpython-311.pyc
+06/05/2023  10:11 PM             3,719 _structures.cpython-311.pyc
+06/05/2023  10:11 PM               676 __about__.cpython-311.pyc
+06/05/2023  10:11 PM               597 __init__.cpython-311.pyc
+              11 File(s)        134,936 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\pyparsing
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             6,426 actions.py
+06/05/2023  10:11 PM            12,936 common.py
+06/05/2023  10:11 PM           213,310 core.py
+06/05/2023  10:11 PM    <DIR>          diagram
+06/05/2023  10:11 PM             9,023 exceptions.py
+06/05/2023  10:11 PM            39,129 helpers.py
+06/05/2023  10:11 PM            25,341 results.py
+06/05/2023  10:11 PM            13,402 testing.py
+06/05/2023  10:11 PM            10,787 unicode.py
+06/05/2023  10:11 PM             6,805 util.py
+06/05/2023  10:11 PM             9,159 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+              10 File(s)        346,318 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\pyparsing\diagram
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            23,668 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               1 File(s)         23,668 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\pyparsing\diagram\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            28,033 __init__.cpython-311.pyc
+               1 File(s)         28,033 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\pyparsing\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             8,496 actions.cpython-311.pyc
+06/05/2023  10:11 PM            14,818 common.cpython-311.pyc
+06/05/2023  10:11 PM           277,670 core.cpython-311.pyc
+06/05/2023  10:11 PM            12,960 exceptions.cpython-311.pyc
+06/05/2023  10:11 PM            53,661 helpers.cpython-311.pyc
+06/05/2023  10:11 PM            36,344 results.cpython-311.pyc
+06/05/2023  10:11 PM            19,540 testing.cpython-311.pyc
+06/05/2023  10:11 PM            15,398 unicode.cpython-311.pyc
+06/05/2023  10:11 PM            14,297 util.cpython-311.pyc
+06/05/2023  10:11 PM             8,370 __init__.cpython-311.pyc
+              10 File(s)        461,554 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\tomli
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            22,633 _parser.py
+06/05/2023  10:11 PM             2,943 _re.py
+06/05/2023  10:11 PM               254 _types.py
+06/05/2023  10:11 PM               396 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               4 File(s)         26,226 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\tomli\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            30,886 _parser.cpython-311.pyc
+06/05/2023  10:11 PM             4,526 _re.cpython-311.pyc
+06/05/2023  10:11 PM               439 _types.cpython-311.pyc
+06/05/2023  10:11 PM               447 __init__.cpython-311.pyc
+               4 File(s)         36,298 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\_vendor\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            21,811 ordered_set.cpython-311.pyc
+06/05/2023  10:11 PM           107,642 typing_extensions.cpython-311.pyc
+06/05/2023  10:11 PM            16,018 zipp.cpython-311.pyc
+06/05/2023  10:11 PM               225 __init__.cpython-311.pyc
+               4 File(s)        145,696 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM            10,194 archive_util.cpython-311.pyc
+06/05/2023  10:11 PM            28,127 build_meta.cpython-311.pyc
+06/05/2023  10:11 PM             8,005 depends.cpython-311.pyc
+06/05/2023  10:11 PM             1,320 dep_util.cpython-311.pyc
+06/05/2023  10:11 PM            31,149 discovery.cpython-311.pyc
+06/05/2023  10:11 PM            64,087 dist.cpython-311.pyc
+06/05/2023  10:11 PM             2,981 errors.cpython-311.pyc
+06/05/2023  10:11 PM             6,837 extension.cpython-311.pyc
+06/05/2023  10:11 PM             6,594 glob.cpython-311.pyc
+06/05/2023  10:11 PM             5,644 installer.cpython-311.pyc
+06/05/2023  10:11 PM             1,560 launch.cpython-311.pyc
+06/05/2023  10:11 PM             2,078 logging.cpython-311.pyc
+06/05/2023  10:11 PM             7,037 monkey.cpython-311.pyc
+06/05/2023  10:11 PM            64,210 msvc.cpython-311.pyc
+06/05/2023  10:11 PM             5,692 namespaces.cpython-311.pyc
+06/05/2023  10:11 PM            60,787 package_index.cpython-311.pyc
+06/05/2023  10:11 PM               747 py34compat.cpython-311.pyc
+06/05/2023  10:11 PM            27,363 sandbox.cpython-311.pyc
+06/05/2023  10:11 PM             1,849 unicode_utils.cpython-311.pyc
+06/05/2023  10:11 PM               467 version.cpython-311.pyc
+06/05/2023  10:11 PM            15,523 wheel.cpython-311.pyc
+06/05/2023  10:11 PM             1,464 windows_support.cpython-311.pyc
+06/05/2023  10:11 PM               672 _deprecation_warning.cpython-311.pyc
+06/05/2023  10:11 PM             4,821 _entry_points.cpython-311.pyc
+06/05/2023  10:11 PM             3,685 _imp.cpython-311.pyc
+06/05/2023  10:11 PM             1,985 _importlib.cpython-311.pyc
+06/05/2023  10:11 PM             1,184 _itertools.cpython-311.pyc
+06/05/2023  10:11 PM             1,505 _path.cpython-311.pyc
+06/05/2023  10:11 PM             1,166 _reqs.cpython-311.pyc
+06/05/2023  10:11 PM            12,937 __init__.cpython-311.pyc
+              30 File(s)        381,670 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\setuptools-65.5.0.dist-info
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,740 entry_points.txt
+06/05/2023  10:11 PM                 4 INSTALLER
+06/05/2023  10:11 PM             1,050 LICENSE
+06/05/2023  10:11 PM             6,301 METADATA
+06/05/2023  10:11 PM            37,694 RECORD
+06/05/2023  10:11 PM                 0 REQUESTED
+06/05/2023  10:11 PM                41 top_level.txt
+06/05/2023  10:11 PM                92 WHEEL
+               8 File(s)         47,922 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\_distutils_hack
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM                44 override.py
+06/05/2023  10:11 PM             6,128 __init__.py
+06/05/2023  10:11 PM    <DIR>          __pycache__
+               2 File(s)          6,172 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Lib\site-packages\_distutils_hack\__pycache__
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM               344 override.cpython-311.pyc
+06/05/2023  10:11 PM            11,187 __init__.cpython-311.pyc
+               2 File(s)         11,531 bytes
+
+ Directory of C:\Users\Owner\Auto-GPT\autogpt\auto_gpt_workspace\car_upgrades\env\Scripts
+
+06/05/2023  10:11 PM    <DIR>          .
+06/05/2023  10:11 PM    <DIR>          ..
+06/05/2023  10:11 PM             2,105 activate
+06/05/2023  10:11 PM             1,034 activate.bat
+06/05/2023  10:11 PM            26,195 Activate.ps1
+06/05/2023  10:11 PM               393 deactivate.bat
+06/05/2023  10:11 PM           108,445 pip.exe
+06/05/2023  10:11 PM           108,445 pip3.11.exe
+06/05/2023  10:11 PM           108,445 pip3.exe
+06/05/2023  10:11 PM           270,616 python.exe
+06/05/2023  10:11 PM           259,344 pythonw.exe
+               9 File(s)        885,022 bytes
+
+     Total Files Listed:
+            1578 File(s)     23,155,788 bytes
+             551 Dir(s)  223,747,284,992 bytes free

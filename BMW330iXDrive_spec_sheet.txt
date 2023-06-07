@@ -1,0 +1,11 @@
+BMW 3 Series: 330i xDrive
+{"Make":"BMW","Model":"330i","Year":"2020","Transmission":"Automatic","Drive Type":" RWD\/Rear-Wheel Drive","Engine Type":"Intercooled Turbo Premium Unleaded I-4","Engine Size":"2.0 L\/122","Horsepower":"255 @ 5000","Torque":"295 @ 1550","Optional Engines":"None","Cylinders":"4","Base Price":"40250.00","Invoice Price":"37845.00","Body Type":"Sedan","Combined MPG":"27","Fuel Tank Capacity":"15.6 gal","Forward Collision Warning":"Standard","Lane Departure Warning":"Standard","Adaptive Cruise Control":"Optional","Navigation System":"Optional","Rearview Camera":"Standard","Parking Sensors":"Optional","Blind Spot Monitoring":"Standard","Audiophile Sound System":"Optional","Sunroof\/Moonroof":"Optional","Bluetooth":"Standard","USB Ports":"Standard","Apple CarPlay\/Android Auto":"Standard"}
+ENGINE AND TRANSMISSION
+- 2.0-liter BMW TwinPower Turbo inline 4-cylinder, 16-valve 255-hp engine
+- 8-speed STEPTRONIC Sport Automatic transmission with Sport and Manual shift modes
+
+SUSPENSION
+- Double-pivot type front suspension; five-link rear suspension
+
+EXHAUST SYSTEM
+- Chrome-plated exhaust tips

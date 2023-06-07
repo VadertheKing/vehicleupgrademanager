@@ -1,0 +1,10 @@
+Here are some engine upgrade recommendations:
+
+Low budget options:
+[{"name": "Upgrade 1", "cost": "low", "link": "https://example.com/upgrade1", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.5}, {"name": "Upgrade 2", "cost": "mid", "link": "https://example.com/upgrade2", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.7}, {"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]
+
+Mid budget options:
+[{"name": "Upgrade 2", "cost": "mid", "link": "https://example.com/upgrade2", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.7}, {"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]
+
+High budget options:
+[{"name": "Upgrade 3", "cost": "high", "link": "https://example.com/upgrade3", "availability": "in stock", "delivery_options": "standard, express", "customer_reviews": 4.9}]
